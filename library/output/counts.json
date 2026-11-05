@@ -1,0 +1,17 @@
+{
+  "baseline": 451,
+  "upstream_families": 446,
+  "relationships": 145,
+  "master": 479,
+  "additional": 28,
+  "source_reviewed": 49,
+  "evidence": 682,
+  "unique_pubmed_hits": 274,
+  "searches": 139,
+  "overall_tiers": {
+    "Tier 3": 193,
+    "Excluded": 244,
+    "Tier 1": 23,
+    "Tier 2": 19
+  }
+}

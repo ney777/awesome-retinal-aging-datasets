@@ -1,0 +1,8 @@
+﻿source_id,relation,target_id,status,evidence_url,note
+ext-eyepacs-eyeage,same_program_as,eyepacs,Confirmed program; exact person overlap Unknown,https://elifesciences.org/articles/82364,竞赛子集来自完整项目；眼龄研究抽样与竞赛重合分母未知。
+ext-areds2,cohort_overlap,ext-areds,Confirmed,https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002015.v3.p1,AREDS2 WGS 1363 人中的 488 人也参加过 AREDS；勿视为外部独立人群。
+retina_age_analysis,possible_overlap,brset,Uncertain,https://huggingface.co/datasets/ramankamran/retina-age-analysis,字段、文件名模式提示应查来源；未确认重用或许可，不合并人数。
+fairvlmed,possible_overlap,harvard_fairvision,Uncertain,https://huggingface.co/datasets/harvardairobotics/FairVision,相关团队与临床来源，患者独立性未验证。
+trend2_fundus,extension_of,trend_fundus,Confirmed extension; people overlap Unknown,https://zenodo.org/records/7678656,TREND 扩展，不推断同人。
+ext-seed-edis,distinct_recruitment_comparison,ext-singapore-memory-clinics,Distinct sampling frames; participant overlap Unknown,https://pubmed.ncbi.nlm.nih.gov/36043139/,SEED/EDIS 人群筛查，另一研究在记忆门诊招募；不能按城市或作者合并。
+ext-nhanes-iii-retina,different_survey_wave,ext-nhanes-2005-2008-retina,Confirmed survey distinction,https://www.cdc.gov/nchs/nhanes/about/,不同抽样波次，不是同一批人随访。

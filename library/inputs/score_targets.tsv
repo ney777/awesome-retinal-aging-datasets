@@ -1,0 +1,84 @@
+id	track	topics	relevance	n_supported	n_basis	endpoint	n_scope
+ext-uk-biobank	Age	A	4	64367	可分级 CFP 基线人数（不是 repeat × outcome 全部交集）	年龄、死亡与重复评估	Study-linked participants
+ext-uk-biobank	Stroke	BC	4	35304	既往无卒中、论文可评估者；MRI 交集另计	新发卒中；另有脑 MRI 指标	Study-linked participants
+ext-uk-biobank	Neuro	DE	4	30573	OCT 与痴呆队列，PD 分析另外计	新发 AD、痴呆及 PD	Study-linked participants
+ext-aric	Age	A	4	10358	卒中研究成像样本	年龄、人群结局	Study-linked participants
+ext-aric	Stroke	BC	4	10358	事件论文队列；另有 1684 影像 × MRI	新发卒中、WMH 与腔隙	Study-linked participants
+ext-aric	Neuro	D	4	0	神经分析独立分母未用于打分	随访认知及痴呆	Unknown
+ext-mesa	Age	A	4	4849	眼底卒中分析队列	年龄及事件	Study-linked participants
+ext-mesa	Stroke	BC	4	4849	卒中队列；MRI 子集另计	新发卒中、MRI 子集	Study-linked participants
+ext-mesa	Neuro	D	3	0	认知数依分析子集	认知评分	Unknown
+ext-chs	Age	A	4	1717	眼底和脑影像的历史人群子集	年龄、后续风险	Study-linked participants
+ext-chs	Stroke	BC	4	1717	眼底和脑 MRI	脑 MRI 微血管表型及卒中	Study-linked participants
+ext-chs	Neuro	D	3	2211	发表横断面认知分析；未证实该终点的前瞻随访	横断面认知及痴呆	Study-linked participants
+ext-ages-reykjavik	Age	A	4	3906	眼底、认知和 MRI 分析	年龄及随访	Study-linked participants
+ext-ages-reykjavik	Stroke	BC	4	2502	基线眼底与两期 MRI	脑微出血进展	Study-linked participants
+ext-ages-reykjavik	Neuro	D	3	3906	横断面眼底和认知分析；痴呆子集另计	横断面认知、痴呆及 AD	Study-linked participants
+ext-rotterdam-study	Age	A	4	5540	卒中眼底分析队列	年龄与随访风险	Study-linked participants
+ext-rotterdam-study	Stroke	BC	4	5540	卒中队列；CSVD 配对 490 另计	首次卒中与 CSVD 子集	Study-linked participants
+ext-rotterdam-study	Neuro	D	4	0	另一个痴呆分析样本；不沿用卒中人数	随访 AD 或血管性痴呆	Unknown
+ext-maastricht-study	Age	A	3	3436	OCT与认知分母	年龄	Study-linked participants
+ext-maastricht-study	Stroke	C	3	0	MRI 子集与可分级双眼分母待重算	白质脑影像关联	Unknown
+ext-maastricht-study	Neuro	D	3	3436	OCT与认知分母	域认知评分	Study-linked participants
+ext-rhineland-study	Age	A	3	2872	质控后 OCT 与 MRI 样本	年龄	Study-linked participants
+ext-rhineland-study	Stroke	C	3	2872	协议和质控后 MRI 交集	结构与扩散 MRI；特定 CSVD 病灶未确立	Study-linked participants
+ext-shanghai-sdpp	Age	A	4	29160	非 MRI 卒中队列	年龄与未来卒中	Study-linked participants
+ext-shanghai-sdpp	Stroke	BC	4	29160	卒中子集；静默梗死 MRI 子集782，分开	新发卒中与 MRI 静默梗死	Study-linked participants
+ext-alzeye	Age	A	4	0	不能使用整个 NHS 母库数作年龄共现数	年龄及纵向健康记录	Unknown
+ext-alzeye	Stroke	B	3	0	本次未取得事件个案交集	HES 脑血管事件，限原团队	Unknown
+ext-alzeye	Neuro	DE	4	0	各病种有效交集需核	诊断编码 AD、痴呆、PD	Unknown
+ext-ondri	Age	A	2	0	只确定眼表型、影像获取范围未明	年龄与派生 OCT	Unknown
+ext-ondri	Stroke	BC	2	0	原眼图与 MRI 共现分母未知	卒中史及 MRI 范围待核	Unknown
+ext-ondri	Neuro	DE	3	0	可用眼图与个体病种交集未知	研究内 AD、PD及认知分型	Unknown
+ext-seed-edis	Age	A	4	0	各族群/波次眼图分母未合并	年龄与随访	Unknown
+ext-seed-edis	Stroke	BC	4	300	EDIS 同人脑眼子集；新发卒中系列另计	卒中，EDIS 微出血	Study-linked participants
+ext-seed-edis	Neuro	D	3	300	EDIS 同人神经心理测量	认知	Study-linked participants
+ext-beijing-eye-study	Age	A	3	3205	有卒中问卷眼科分析分母	年龄	Study-linked participants
+ext-beijing-eye-study	Stroke	B	2	3205	卒中问卷样本	既往自报卒中	Study-linked participants
+ext-beijing-eye-study	Neuro	D	3	3127	认知论文分析分母	同期 MMSE	Study-linked participants
+ext-nicola	Age	A	4	1431	认知眼底分析样本	年龄、健康随访	Study-linked participants
+ext-nicola	Stroke	B	4	0	卒中分析分母独立	随访卒中	Unknown
+ext-nicola	Neuro	D	3	1431	认知眼底分析样本	操作性定义 MCI，不等同 AD	Study-linked participants
+ext-areds	Age	A	4	4613	F2 批次人数，非所有眼底字段交集	重复眼底及年龄	Cohort or batch only
+ext-areds	Stroke	B	3	0	临床事件 × 眼图分母未知	新发卒中记录，亚型待核	Unknown
+ext-areds	Neuro	D	2	0	认知子研究原始资料待核	认知子研究	Unknown
+ext-areds2	Age	A	4	4201	有眼部 DICOM 人数，非每类视野完整	年龄、多时点眼图	Cohort or batch only
+ext-areds2	Stroke	BC	4	0	137 个裁定对象与影像交集未知	卒中裁定亚型与时间；病例 MRI 裁定摘要	Unknown
+ext-areds2	Neuro	D	3	0	认知文件与眼图交集未知	TICS 等，非 AD 诊断	Unknown
+ext-bmes	Age	A	4	3654	基线眼底人群	年龄、重复影像和死亡	Study-linked participants
+ext-bmes	Stroke	B	4	3654	原始基线，随访完整人群另计	卒中、TIA、脑血管死亡分别报告	Study-linked participants
+ext-singapore-memory-clinics	Age	A	4	491	认知分析样本	年龄及纵向认知状态	Study-linked participants
+ext-singapore-memory-clinics	Neuro	D	4	212	新发痴呆风险集；491 用于认知下降	新发痴呆及认知下降	Study-linked participants
+ext-nhanes-2005-2008-retina	Age	A	3	5371	可分级子集；原始像素未核实	公开分级、人口学与死亡	Study-linked participants
+ext-nhanes-2005-2008-retina	Stroke	B	2	4570	卒中问卷＋分级	既往自报卒中，非新发事件	Study-linked participants
+ext-nhanes-iii-retina	Age	A	3	7640	死亡/分级研究分析样本	分级及死亡，像素未知	Study-linked participants
+ext-framingham-original-eye	Age	A	2	2631	既往眼科检查人数非像素交集	年龄、历史胶片路径待核	Cohort or batch only
+ext-framingham-original-eye	Stroke	BC	2	0	眼底 × 事件或脑 MRI 交集未证	历史眼科研究与父队列临床记录	Unknown
+ext-framingham-original-eye	Neuro	D	2	0	眼底与痴呆交集未证	父队列认知数据，配对待核	Unknown
+ext-eyepacs-eyeage	Age	A	4	100692	训练人数；调参另有 25238	重复访视年龄	Study-linked participants
+ext-joir-japanese-checkup	Age	A	3	0	5000 是照片数	年龄、代谢综合征	Unknown
+brset	Age	A	3	8524	患者规模，去除缺年龄后数量未核	实足年龄	Cohort or batch only
+mbrset	Age	A	3	1291	原始患者规模	实足年龄	Study-linked participants
+odir2019	Age	A	3	5000	组织者患者数；按实际可用分区复核	年龄、双眼	Cohort or batch only
+papila	Age	A	3	244	逐眼表与影像匹配	逐眼实足年龄	Study-linked participants
+grape	Age	A	4	144	整队列患者，非全部多次 CFP 人数	年龄、多访视青光眼	Study-linked participants
+harvard_fairvision	Age	A	3	30000	发布者总人数，年龄完备性需核	配对 SLO+OCT 年龄	Study-linked participants
+fairvlmed	Age	A	3	10000	发布者每人一份	年龄、SLO 与临床文本	Study-linked participants
+ext-fdr26	Age	A	3	1918	论文患者数，ID 前缀分组待作者确认	整数年龄，外部北非人群	Cohort or batch only
+china_fundus_cimt	Age	A	3	2903	人级双眼真实年龄	年龄与同期 CIMT	Study-linked participants
+china_fundus_cimt	Stroke	B	2	2903	眼底 × 超声 CIMT	仅颈动脉壁厚替代指标，无脑卒中事件	Study-linked participants
+octa_500	Age	A	3	500	来源受试者数	年龄及 OCTA 眼别	Study-linked participants
+dryad_functional_oct_alzheimer	Age	A	1	28	AD 比较子集；年龄为区间	年龄段，非连续回归	Study-linked participants
+dryad_functional_oct_alzheimer	Neuro	D	3	28	14 EOAD ＋ 14 年龄匹配对照	功能 OCT、早发 AD 病例对照	Study-linked participants
+trend2_fundus	Neuro	D	3	0	28 个 ID-eye，独立患者人数未知	AD 二元标记，7 阳性 ID-eye	Unknown
+oct_ms_jhu	Age	A	3	26	仅 26 个唯一 ID 能匹配个体年龄	可唯一匹配的 OCT 年龄	Study-linked participants
+retina_age_analysis	Age	A	2	5393	卡片声称人数；归属、重用权待核	年龄，来源隔离	Cohort or batch only
+oculoscope	Age	A	2	0	年龄字段与患者键未知	年龄分组公平性	Unknown
+rose	Neuro	D	2	39	ROSE-1 受试者；外部逐图诊断未知	论文记录有 AD，发布标签待证	Cohort or batch only
+ext-mcfi	Age	A	3	37	37 人都有同眼跨日影像，11 人跨度至少180天	同眼短期重测；长期衰老速率样本不足	Study-linked participants
+ext-scone-scotland	Age	A	4	36000	早期描述超过36000名匹配患者，取保守下界	年龄、多次采集及编码结局	Study-linked participants
+ext-scone-scotland	Stroke	B	3	2495	描述论文 stroke 代码阳性人数，非全部随访交集	首次医学编码日期，非裁定发病日	Outcome-positive subset (lower bound)
+ext-scone-scotland	Neuro	DE	3	1630	痴呆代码人数；AD、PD 另计，不相加	痴呆、AD、PD 代码	Outcome-positive subset (lower bound)
+ext-lothian-birth-cohort-1936	Age	A	2	603	窄年龄出生队列，脑眼分析子集	近单年龄外测	Study-linked participants
+ext-lothian-birth-cohort-1936	Stroke	BC	4	603	双眼映射与 MRI 分析子集	MRI 定量 CSVD；另有既往史	Study-linked participants
+ext-lothian-birth-cohort-1936	Neuro	D	3	683	另一个纵向认知分析队列	纵向认知功能	Study-linked participants

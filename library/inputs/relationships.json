@@ -1,0 +1,58 @@
+[
+  {
+    "source_id": "ext-eyepacs-eyeage",
+    "relation": "same_program_as",
+    "target_id": "eyepacs",
+    "status": "Confirmed program; exact person overlap Unknown",
+    "evidence_url": "https://elifesciences.org/articles/82364",
+    "note": "竞赛子集来自完整项目；眼龄研究抽样与竞赛重合分母未知。"
+  },
+  {
+    "source_id": "ext-areds2",
+    "relation": "cohort_overlap",
+    "target_id": "ext-areds",
+    "status": "Confirmed",
+    "evidence_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002015.v3.p1",
+    "note": "AREDS2 WGS 1363 人中的 488 人也参加过 AREDS；勿视为外部独立人群。"
+  },
+  {
+    "source_id": "retina_age_analysis",
+    "relation": "possible_overlap",
+    "target_id": "brset",
+    "status": "Uncertain",
+    "evidence_url": "https://huggingface.co/datasets/ramankamran/retina-age-analysis",
+    "note": "字段、文件名模式提示应查来源；未确认重用或许可，不合并人数。"
+  },
+  {
+    "source_id": "fairvlmed",
+    "relation": "possible_overlap",
+    "target_id": "harvard_fairvision",
+    "status": "Uncertain",
+    "evidence_url": "https://huggingface.co/datasets/harvardairobotics/FairVision",
+    "note": "相关团队与临床来源，患者独立性未验证。"
+  },
+  {
+    "source_id": "trend2_fundus",
+    "relation": "extension_of",
+    "target_id": "trend_fundus",
+    "status": "Confirmed extension; people overlap Unknown",
+    "evidence_url": "https://zenodo.org/records/7678656",
+    "note": "TREND 扩展，不推断同人。"
+  },
+  {
+    "source_id": "ext-seed-edis",
+    "relation": "distinct_recruitment_comparison",
+    "target_id": "ext-singapore-memory-clinics",
+    "status": "Distinct sampling frames; participant overlap Unknown",
+    "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/36043139/",
+    "note": "SEED/EDIS 人群筛查，另一研究在记忆门诊招募；不能按城市或作者合并。"
+  },
+  {
+    "source_id": "ext-nhanes-iii-retina",
+    "relation": "different_survey_wave",
+    "target_id": "ext-nhanes-2005-2008-retina",
+    "status": "Confirmed survey distinction",
+    "evidence_url": "https://www.cdc.gov/nchs/nhanes/about/",
+    "note": "不同抽样波次，不是同一批人随访。"
+  }
+]

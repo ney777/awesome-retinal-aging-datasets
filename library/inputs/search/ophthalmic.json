@@ -1,0 +1,164 @@
+[
+  {
+    "source": "Web/PhysioNet",
+    "query": "BRSET Brazilian multilabel ophthalmological dataset PhysioNet labels.csv age published BRSET mBRSET mobile 2024",
+    "result": "PhysioNet BRSET v1.0.2 发布和配对字典。",
+    "url": "https://physionet.org/content/brazilian-ophthalmological/1.0.2/"
+  },
+  {
+    "source": "PubMed/NCBI",
+    "query": "AREDS AREDS2 fundus photographs data access dbGaP AREDS2 fundus data repository NIH AREDS cognition mortality images",
+    "result": "区分旧 595 人、2014 F2 批次和不同研究。",
+    "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000001.v3.p1"
+  },
+  {
+    "source": "Grand Challenge",
+    "query": "ODIR-2019 official challenge data patient age gender academic data access license odir2019.grand-challenge.org",
+    "result": "定位主办方样本数与标注定义；官方爬虫直接访问403，官方被索引文本及项目 README 交叉。",
+    "url": "https://odir2019.grand-challenge.org/dataset/"
+  },
+  {
+    "source": "NCBI/PubMed",
+    "query": "AREDS AREDS2 cognitive function death cardiovascular events data dbGaP telephone interview cognitive AREDS age NIH AMD linked fundus photos data dbgap",
+    "result": "AREDS2 CTS/CTI、ADV 和 RCA/RCF。",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12731274/"
+  },
+  {
+    "source": "PhysioNet",
+    "query": "mBRSET, a Mobile Brazilian Retinal Dataset v1.0 (Data Description, Methods, Access)",
+    "result": "患者、眼别、年龄、自报 MI/高血压/神经病变可配。",
+    "url": "https://physionet.org/content/mbrset/1.0/"
+  },
+  {
+    "source": "Figshare / Scientific Data",
+    "query": "PAPILA figshare fundus age patient file clinical age sex left right 244 Scientific Data open reuse UCI fundus age PAPILA",
+    "result": "定位双眼 244 人、年龄字段、作者仓储。",
+    "url": "https://www.nature.com/articles/s41597-022-01388-1"
+  },
+  {
+    "source": "Kaggle / author repository",
+    "query": "Ocular Disease Intelligent Recognition dataset official on official figshare released by authors ODIR-5K shanggong download access license figshare ODIR5K google drive academics grand challenge rules",
+    "result": "Kaggle 仅二次版本，注明上游许可未说明；没有确证 Figshare 原始发布。",
+    "url": "https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k"
+  },
+  {
+    "source": "Grand Challenge 中文",
+    "query": "Chinese ODIR 眼底 年龄 数据集 5000 注册下载 知情同意 商业 卒中 label ODIR-5K publication International Competition OIA-ODIR offsite download 5000",
+    "result": "中文官方条目再次确认于主办方 5,000 受试者，D/H 是阅片分类。",
+    "url": "https://odir2019.grand-challenge.org/dataset/"
+  },
+  {
+    "source": "NCBI/dbGaP",
+    "query": "AREDS2 study dbGaP phs002015 retina images JPEG released fundus photographs 66,000 images access grade original images availability 2026",
+    "result": "v2 网页已 superseded；转查 NIH 最新 v3 发布说明。",
+    "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002015.v3.p1"
+  },
+  {
+    "source": "NIH/FTP (public release PDF)",
+    "query": "phs002015/phs002015.v3.p1/release_notes, pages 1–2",
+    "result": "v3 于2026-10-09释放影像及 SUBJECT_Image；保留许可组。",
+    "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/release_notes"
+  },
+  {
+    "source": "NIH/FTP (data dictionary)",
+    "query": "pht016356.v1.AREDS2_Subject_Image.data_dict.xml + var_report.xml",
+    "result": "确认 512,713 个独特 DICOM 文件与 SUBJECT_ID；原始 CFP 视野数不明。",
+    "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht016356.v1.p1.AREDS2_Subject_Image.var_report.xml"
+  },
+  {
+    "source": "NIH/FTP (data dictionary)",
+    "query": "pht010393.v2.AREDS2_SAD.data_dict.xml; pht010373.v1.AREDS2_CTS.data_dict.xml; pht010376.v1.AREDS2_DEM.data_dict.xml",
+    "result": "SAD 个体卒中裁定，CASEDATE；同键 CTS/DEM。",
+    "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht010393.v2.AREDS2_SAD.data_dict.xml"
+  },
+  {
+    "source": "NIH policy",
+    "query": "NIH NOT-OD-25-083 controlled-access data repositories countries of concern dbGAP clarification 2026 China NIH",
+    "result": "机构所在地会改变可行性；AREDS/2 不作为中国境内机构可直接申请的数据。",
+    "url": "https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-25-083.html"
+  },
+  {
+    "source": "PhysioNet policy",
+    "query": "PhysioNet BRSET portal country of concern access Brazil China CITI not US data 2026 prohibited clarification NIH or DOT PhysioNet EO 14117",
+    "result": "平台说明部分受控数据受限；未找到 BRSET/mBRSET 被逐项列入/排除的官方说明。",
+    "url": "https://physionet.org/news/post/data-security-program-1/"
+  },
+  {
+    "source": "PubMed/NIH",
+    "query": "original AREDS cognitive test published cognitive function retinal macular degeneration AREDS report 16 2117 Age Related Eye Disease Study AREDS cognitive function 2006 baseline photos cognitive cross-sectional study",
+    "result": "确认横断论文的真实样本 2,946；原始个体认知试验未在 v3 公开清单定位。",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16606880/"
+  },
+  {
+    "source": "PubMed/NCBI",
+    "query": "AREDS stroke transient ischemic event cerebrovascular accident followup variable history stroke enrollment AREDS dbGaP pht study stroke actual field stroke type hemorrhage",
+    "result": "核实访视报新诊卒中，未证实精确日或亚型。",
+    "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetListOfAllObjects.cgi?object_type=dataset&study_id=phs000001.v3.p1"
+  },
+  {
+    "source": "PubMed / Scientific Data",
+    "query": "open dataset paired fundus clinical age glaucoma longitudinal SIG database longitudinal glaucoma fundus dataset age demographics open glaucoma GRAPE GitHub figshare",
+    "result": "GRAPE 将影像键配至 144 人 1,115 次眼访视；仅 631 CFP。",
+    "url": "https://www.nature.com/articles/s41597-023-02424-4"
+  },
+  {
+    "source": "Figshare API",
+    "query": "GET /v2/collections/6406319/articles then /v2/articles/23575926 and /v2/articles/23674350",
+    "result": "原始 CFP 和临床工作簿的文件项分别列 CC0。",
+    "url": "https://api.figshare.com/v2/articles/23575926"
+  },
+  {
+    "source": "Figshare API",
+    "query": "GET /v2/articles/14798004",
+    "result": "原数据包 PAPILA.zip 的许可证为 GPL 3.0+。",
+    "url": "https://api.figshare.com/v2/articles/14798004"
+  },
+  {
+    "source": "Hugging Face / CVF",
+    "query": "Harvard-FairVLMed Fairclip SLO age one image per patient 10000 data access license terms github Harvard glaucoma FairVision topology FairDomain overlapping",
+    "result": "元数据提供图像/年龄，但确认其与其他 Harvard 系列的独立性仍需本人级证据。",
+    "url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed"
+  },
+  {
+    "source": "Hugging Face / GitHub",
+    "query": "Harvard FairVision 30k equitable learning retinal disease screening Massachusetts Eye and Ear one eye per subject last visit Cirrus 30,000 study population FairVision original authors data size one center",
+    "result": "30k 配对 SLO/OCT，有年龄；具体视野/人群交叠需复核。",
+    "url": "https://huggingface.co/datasets/harvardairobotics/FairVision"
+  },
+  {
+    "source": "Crossref",
+    "query": "Luo FairCLIP Harnessing Fairness in Vision-Language Learning, rows=1",
+    "result": "命中 CVPR 2024，DOI 10.1109/CVPR52733.2024.01168。",
+    "url": "https://doi.org/10.1109/CVPR52733.2024.01168"
+  },
+  {
+    "source": "PhysioNet",
+    "query": "Embedding-Based Representations for BRSET and mBRSET v1.0.0 Methods",
+    "result": "brset_mbrset_embeddings 是重用原图的衍生表征，不另算患者。",
+    "url": "https://physionet.org/content/embedding-brset-mbrset/1.0.0/"
+  },
+  {
+    "source": "NIH/FTP (variable summaries)",
+    "query": "AREDS2_SAD, AREDS2_CTS and AREDS2_CTI v3 var_report.xml; all-group SUBJECT_ID and outcome frequencies",
+    "result": "SAD 137人175条裁定；完整/短访谈表人数不可相加。",
+    "url": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht010393.v2.p1.AREDS2_SAD.var_report.xml"
+  },
+  {
+    "source": "Figshare v2 ZIP headers / clinical workbooks",
+    "query": "PAPILA.zip central directory and only ClinicalData/patient_data_od.xlsx and patient_data_os.xlsx; aggregate age/ID join",
+    "result": "244位患者，15–90岁，两眼244+244=488个唯一眼别键。",
+    "url": "https://ndownloader.figshare.com/files/35013982"
+  },
+  {
+    "source": "Mendeley Data (publisher discovery)",
+    "query": "FDR26 23101200 10.1016/j.dib.2026.113379 individual age patient ID metadata file structure Bangladesh retinal fundus FDR26 age sex continuous years",
+    "result": "搜索结果识别孟加拉 MCFI ；随后以 Mendeley 上游版本实检。",
+    "url": "https://data.mendeley.com/datasets/stskv6zjt9/1"
+  },
+  {
+    "source": "Mendeley Data public files API and archive",
+    "query": "GET /public-api/datasets/stskv6zjt9/files?folder_id=root&version=1; ZIP central directory and metadata.xlsx",
+    "result": "核对同一眼跨日重复、37个ID及全部首末日期、访视/图像数。",
+    "url": "https://data.mendeley.com/public-api/datasets/stskv6zjt9/files?folder_id=root&version=1"
+  }
+]

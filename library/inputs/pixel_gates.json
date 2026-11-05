@@ -1,0 +1,156 @@
+{
+  "ext-nhanes-2005-2008-retina": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Unknown for raw TIFFs; official open OPXRET files are derived XPT tables, not images. Acquisition manual describes historical TIFF creation only."
+  },
+  "ext-nhanes-iii-retina": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Unknown for raw photographs. Exam public file contains coded retinal readings."
+  },
+  "ext-aric": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Uncertain for raw retinal/brain images via standard BioLINCC release. Public data dictionary documents study IDs, derived measures and flags, not distribution of image files."
+  },
+  "ext-mesa": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Uncertain for archived retinal pixel files; BioLINCC route is for datasets; MESA ancillary project required for new analyses using stored source images when beyond released data."
+  },
+  "ext-chs": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Uncertain for raw retinal or brain pixels; NIH describes their acquisition and provides data/ancillaries, not a retinal-image manifest."
+  },
+  "ext-framingham-original-eye": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Uncertain for digitised source photographs. Protocol specifies archived slides; data package is clinical/ancillary data, no confirmed photo inventory."
+  },
+  "ext-ages-reykjavik": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Uncertain for original retinal/MRI pixel transfer. DUA collaboration is documented for individual-level AGES data; file-specific availability/onsite calculation must be confirmed."
+  },
+  "ext-rotterdam-study": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Study team acquired retinal images and MRI; exact externally provisioned raw files require scope confirmation."
+  },
+  "ext-maastricht-study": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Fundus/OCT pixels collected; study data request portal does not promise raw pixel export; specify raw images separately."
+  },
+  "ext-beijing-eye-study": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Images were acquired; data available on reasonable request; statement does not specify raw images or matched individual export."
+  },
+  "ext-nicola": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "QUB safe setting / secure remote server by application. Health protocol documents scans; public UKDS documentation is not a raw image release."
+  },
+  "ext-bmes": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Study acquired serial retinal photographs. No direct public image delivery established."
+  },
+  "ext-singapore-memory-clinics": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Raw imaging release is restricted; no downloadable public archive confirmed."
+  },
+  "ext-lothian-birth-cohort-1936": {
+    "topics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "reason": "Uncertain for raw retinal pixels under standard request. Official study publishes dictionaries and a study-specific data request form; source pixel access and redistribution require explicit confirmation."
+  }
+}

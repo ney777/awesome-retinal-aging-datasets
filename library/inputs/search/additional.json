@@ -1,0 +1,898 @@
+[
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Tsukazaki Hospital open optos_dataset age sex Japanese public Japanese fundus Tsukazaki  age filename features download UWF optos dataset official",
+    "result": "A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability - PMC | A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability | 学術実績｜社会医療法人三栄会　ツカザキ病院 | Frontiers | Ophthalmology and Artificial Intelligence: Present or Future? A Diabetic Retinopathy Screening Perspective of the Pursuit for Fairness | UNIVERSITY OF",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7618278",
+    "hits": [
+      {
+        "title": "A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability - PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7618278"
+      },
+      {
+        "title": "A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability",
+        "url": "https://www.thelancet.com/article/S2589750020302405/pdf"
+      },
+      {
+        "title": "学術実績｜社会医療法人三栄会　ツカザキ病院",
+        "url": "https://www.tsukazaki-hp.jp/diseases/gakujyutu.html"
+      },
+      {
+        "title": "Frontiers | Ophthalmology and Artificial Intelligence: Present or Future? A Diabetic Retinopathy Screening Perspective of the Pursuit for Fairness",
+        "url": "https://www.frontiersin.org/journals/ophthalmology/articles/10.3389/fopht.2022.898181/full"
+      },
+      {
+        "title": "UNIVERSITY OF",
+        "url": "https://research.birmingham.ac.uk/files/112028767/PIIS2589750020302405.pdf"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Johns Hopkins multiple sclerosis optimal retinal layer segmentation data patient MS OCT 35 21 control official NITRC dataset labels age retina CasMin",
+    "result": "Retinal layer parcellation of optical coherence tomography images: Data resource for multiple sclerosis and healthy controls - PMC | OCT Data - IACL | OCT Data - IACL | Master’s Thesis | Retinal layer parcellation of optical coherence tomography images: Data resource for multiple sclerosis and healthy controls - Johns Hopkins University",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6327073/",
+    "hits": [
+      {
+        "title": "Retinal layer parcellation of optical coherence tomography images: Data resource for multiple sclerosis and healthy controls - PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6327073/"
+      },
+      {
+        "title": "OCT Data - IACL",
+        "url": "https://iacl.ece.jhu.edu/index.php/OCT_Data"
+      },
+      {
+        "title": "OCT Data - IACL",
+        "url": "https://medic.rad.jhmi.edu/index.php?title=OCT_Data"
+      },
+      {
+        "title": "Master’s Thesis",
+        "url": "https://zaguan.unizar.es/record/170530/files/TAZ-TFM-2026-029.pdf"
+      },
+      {
+        "title": "Retinal layer parcellation of optical coherence tomography images: Data resource for multiple sclerosis and healthy controls - Johns Hopkins University",
+        "url": "https://pure.johnshopkins.edu/en/publications/retinal-layer-parcellation-of-optical-coherence-tomography-images/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "China fundus carotid intima media thickness dataset Dryad China age C-IMT ultrasound fundus images file structure",
+    "result": "High-resolution fundus images for ophthalmomics and early cardiovascular disease prediction | High-resolution fundus images for ophthalmomics and early cardiovascular disease prediction | Scientific Data | China Fundus and Carotid Intima-Media Thickness Dataset | EyeDataHub | High-resolution fundus images for ophthalmomics and early cardiovascular disease prediction | High-resolution fundus images for ophthalmomics and early cardiovascular disease prediction.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11968951/",
+    "hits": [
+      {
+        "title": "High-resolution fundus images for ophthalmomics and early cardiovascular disease prediction",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11968951/"
+      },
+      {
+        "title": "High-resolution fundus images for ophthalmomics and early cardiovascular disease prediction | Scientific Data",
+        "url": "https://www.nature.com/articles/s41597-025-04930-z"
+      },
+      {
+        "title": "China Fundus and Carotid Intima-Media Thickness Dataset | EyeDataHub",
+        "url": "https://khosravipooya.com/EyeDataHub/datasets/china_fundus_cimt/"
+      },
+      {
+        "title": "High-resolution fundus images for ophthalmomics and early cardiovascular disease prediction",
+        "url": "https://www.nature.com/articles/s41597-025-04930-z.pdf"
+      },
+      {
+        "title": "High-resolution fundus images for ophthalmomics and early cardiovascular disease prediction.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40180990/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "G1020 glaucoma age patient age sex dataset G1020 G-1020 metadata individual online patient age official",
+    "result": "G1020: A Benchmark Retinal Fundus Image | : Data-Field 4689 | glaucoma-dataset-metadata/origin.md at main · TheBeastCoding/glaucoma-dataset-metadata · GitHub | GitHub - TheBeastCoding/glaucoma-dataset-metadata: Actively maintained and comprehensive public glaucoma dataset catalog · GitHub | GitHub - dylanesq/glaucoma-dataset-directory: Actively maintained and comprehensive public glaucoma dataset catalog · GitHub",
+    "url": "https://www-live.dfki.de/fileadmin/user_upload/import/10840_G1020_A_Benchmark_Retinal_Fundus_Image_Dataset_for_Computer-Aided_Glaucoma_Detection.pdf",
+    "hits": [
+      {
+        "title": "G1020: A Benchmark Retinal Fundus Image",
+        "url": "https://www-live.dfki.de/fileadmin/user_upload/import/10840_G1020_A_Benchmark_Retinal_Fundus_Image_Dataset_for_Computer-Aided_Glaucoma_Detection.pdf"
+      },
+      {
+        "title": ": Data-Field 4689",
+        "url": "https://biobank.ctsu.ox.ac.uk/ukb/field.cgi?id=4689"
+      },
+      {
+        "title": "glaucoma-dataset-metadata/origin.md at main · TheBeastCoding/glaucoma-dataset-metadata · GitHub",
+        "url": "https://github.com/TheBeastCoding/glaucoma-dataset-metadata/blob/main/origin.md"
+      },
+      {
+        "title": "GitHub - TheBeastCoding/glaucoma-dataset-metadata: Actively maintained and comprehensive public glaucoma dataset catalog · GitHub",
+        "url": "https://github.com/TheBeastCoding/glaucoma-dataset-metadata"
+      },
+      {
+        "title": "GitHub - dylanesq/glaucoma-dataset-directory: Actively maintained and comprehensive public glaucoma dataset catalog · GitHub",
+        "url": "https://github.com/dylanesq/glaucoma-dataset-directory"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "OculoScope dataset 16530 images age gender labels release age 0-90 patient age access oculoscope fundus csv dataset",
+    "result": "OculoScope | Zenodo | OculoScope: Fairer AI in Ophthalmology Dataset | EyeDataHub | Fairer AI in ophthalmology via implicit fairness learning for mitigating sexism and ageism | OCTDL: Optical Coherence Tomography Dataset for Image-Based Deep Learning Methods | Scientific Data | BRSET: A Brazilian Multilabel Ophthalmological Dataset of Retina Fundus Photos - PMC",
+    "url": "https://zenodo.org/records/10403889",
+    "hits": [
+      {
+        "title": "OculoScope | Zenodo",
+        "url": "https://zenodo.org/records/10403889"
+      },
+      {
+        "title": "OculoScope: Fairer AI in Ophthalmology Dataset | EyeDataHub",
+        "url": "https://khosravipooya.com/EyeDataHub/datasets/oculoscope/"
+      },
+      {
+        "title": "Fairer AI in ophthalmology via implicit fairness learning for mitigating sexism and ageism",
+        "url": "https://storage.prod.researchhub.com/uploads/papers/2024/06/06/s41467-024-48972-0_duu5fhU.pdf"
+      },
+      {
+        "title": "OCTDL: Optical Coherence Tomography Dataset for Image-Based Deep Learning Methods | Scientific Data",
+        "url": "https://www.nature.com/articles/s41597-024-03182-7"
+      },
+      {
+        "title": "BRSET: A Brazilian Multilabel Ophthalmological Dataset of Retina Fundus Photos - PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10854338/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "eyeAge EyePACS data availability eyePACS longitudinal age individual participant eyeAge dataset cannot be made available company eLife Al Kara",
+    "result": "Longitudinal fundus imaging and its genome-wide association analysis provide evidence for a human retinal aging clock | eLife | A subset of EyePACS data is freely available online | Longitudinal fundus imaging and its genome-wide association analysis provide evidence for a human retinal aging clock | eLife | A subset of EyePACS data is freely available online | A subset of EyePACS data is freely available online",
+    "url": "https://elifesciences.org/articles/82364",
+    "hits": [
+      {
+        "title": "Longitudinal fundus imaging and its genome-wide association analysis provide evidence for a human retinal aging clock | eLife",
+        "url": "https://elifesciences.org/articles/82364"
+      },
+      {
+        "title": "A subset of EyePACS data is freely available online",
+        "url": "https://www.kaggle.com/competitions/diabetic-retinopathy-detection/data"
+      },
+      {
+        "title": "Longitudinal fundus imaging and its genome-wide association analysis provide evidence for a human retinal aging clock | eLife",
+        "url": "https://elifesciences.org/articles/82364v1"
+      },
+      {
+        "title": "A subset of EyePACS data is freely available online",
+        "url": "https://www.kaggle.com/competitions/diabetic-retinopathy-detection/data"
+      },
+      {
+        "title": "A subset of EyePACS data is freely available online",
+        "url": "https://www.kaggle.com/competitions/diabetic-retinopathy-detection/data"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "视网膜 眼底摄影 脑MRI 白质高信号 脑卒中 老龄 队列 数据 眼底 神经退行性疾病 帕金森",
+    "result": "中国脑血管病影像应用指南2019 - 中华神经科杂志 | 中华老年心脑血管病杂志 | 常用脑影像技术在脑卒中诊断中的应用指南 | 中国帕金森病及运动障碍疾病多中心数据库及协作网（PD-MDCNC） | FIND - 中国脑小血管病影像生物样本库研究（CIBB-CSVD）",
+    "url": "https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%84%91%E8%A1%80%E7%AE%A1%E7%97%85%E5%BD%B1%E5%83%8F%E5%BA%94%E7%94%A8%E6%8C%87%E5%8D%972019.html",
+    "hits": [
+      {
+        "title": "中国脑血管病影像应用指南2019 - 中华神经科杂志",
+        "url": "https://cmab.yiigle.com/uploads/guide_html/%E4%B8%AD%E5%9B%BD%E8%84%91%E8%A1%80%E7%AE%A1%E7%97%85%E5%BD%B1%E5%83%8F%E5%BA%94%E7%94%A8%E6%8C%87%E5%8D%972019.html"
+      },
+      {
+        "title": "中华老年心脑血管病杂志",
+        "url": "https://lnxg.cbpt.cnki.net/portal/journal/portal/client/paper/d3c306184c597b787802d6ab993155dc"
+      },
+      {
+        "title": "常用脑影像技术在脑卒中诊断中的应用指南",
+        "url": "https://medtion-image.medtion.com/uploads/1/file/public/202405/20240531145847_dy9hfik7ef.pdf"
+      },
+      {
+        "title": "中国帕金森病及运动障碍疾病多中心数据库及协作网（PD-MDCNC）",
+        "url": "https://www.pd-mdcnc.com/zh-cn/normal.html"
+      },
+      {
+        "title": "FIND - 中国脑小血管病影像生物样本库研究（CIBB-CSVD）",
+        "url": "https://findnetwork.cn/CIBB"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "site:pubmed.ncbi.nlm.nih.gov \"retinal age\" stroke dementia Parkinson retinal age gap cardiovascular risk longitudinal cohort mortality",
+    "result": "Retinal age gap as a predictive biomarker of stroke risk. | Retinal age gap as a predictive biomarker for mortality risk - PubMed | Association of retinal age gap with chronic kidney disease and subsequent cardiovascular disease sequelae: a cross-sectional and longitudinal study from the UK Biobank - PubMed | Deep learning aging marker from retinal images unveils sex-specific clinical and genetic signatures. | Parkinson's Disease and Retinal Age Gap: A Cross-Sectional Analysis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36447293/",
+    "hits": [
+      {
+        "title": "Retinal age gap as a predictive biomarker of stroke risk.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36447293/"
+      },
+      {
+        "title": "Retinal age gap as a predictive biomarker for mortality risk - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35042683/"
+      },
+      {
+        "title": "Association of retinal age gap with chronic kidney disease and subsequent cardiovascular disease sequelae: a cross-sectional and longitudinal study from the UK Biobank - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38989278/"
+      },
+      {
+        "title": "Deep learning aging marker from retinal images unveils sex-specific clinical and genetic signatures.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42786167/"
+      },
+      {
+        "title": "Parkinson's Disease and Retinal Age Gap: A Cross-Sectional Analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42670076/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "site:figshare.com retina Alzheimer fundus OCT angiography dataset cognitive impairment age individual image file",
+    "result": "Paid services - a help article for using figshare | US Funder user guide - Figshare | What data repository should I use? - a help article for using figshare | Figshare Plus - Figshare | How does Figshare plus work",
+    "url": "https://help.figshare.com/article/paid-services",
+    "hits": [
+      {
+        "title": "Paid services - a help article for using figshare",
+        "url": "https://help.figshare.com/article/paid-services"
+      },
+      {
+        "title": "US Funder user guide - Figshare",
+        "url": "https://info.figshare.com/user-guide/us-funder-user-guide/"
+      },
+      {
+        "title": "What data repository should I use? - a help article for using figshare",
+        "url": "https://help.figshare.com/article/what-data-repository-should-i-use"
+      },
+      {
+        "title": "Figshare Plus - Figshare",
+        "url": "https://info.figshare.com/figshare-plus/"
+      },
+      {
+        "title": "How does Figshare plus work",
+        "url": "https://help.figshare.com/how-does-figshare-plus-work"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "site:datadryad.org retinal OCT Huntington's retinal biomarkers OCT images download HD patient file data visual pathway",
+    "result": "Dryad | Data: Is retina affected in Huntington's disease? Is optical coherence tomography a good biomarker? | Dryad | Data: Circuit mechanisms underlying embryonic retinal waves | Dryad | Data: A practical approach to functional optical coherence tomography shows abnormal retinal responses in Alzheimer’s disease | Dryad | Data: Data for: Multimodal spatial transcriptomics redefines cortical pathology in Huntington Disease | Dryad | Data: Dataset for RSOS-211108",
+    "url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.ncjsxksxr",
+    "hits": [
+      {
+        "title": "Dryad | Data: Is retina affected in Huntington's disease? Is optical coherence tomography a good biomarker?",
+        "url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.ncjsxksxr"
+      },
+      {
+        "title": "Dryad | Data: Circuit mechanisms underlying embryonic retinal waves",
+        "url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.h18931zr2"
+      },
+      {
+        "title": "Dryad | Data: A practical approach to functional optical coherence tomography shows abnormal retinal responses in Alzheimer’s disease",
+        "url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.msbcc2ftc"
+      },
+      {
+        "title": "Dryad | Data: Data for: Multimodal spatial transcriptomics redefines cortical pathology in Huntington Disease",
+        "url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.fj6q57485"
+      },
+      {
+        "title": "Dryad | Data: Dataset for RSOS-211108",
+        "url": "https://datadryad.org/dataset/doi%3A10.5061/dryad.tht76hf0c"
+      }
+    ]
+  },
+  {
+    "source": "PubMed ESearch + ESummary",
+    "query": "(\"fundus photography\"[tiab] OR \"fundus imaging\"[tiab] OR \"retinal imaging\"[tiab] OR OCTA[tiab] OR \"optical coherence tomography\"[tiab]) AND (\"retinal age\"[tiab] OR \"aging clock\"[tiab] OR \"biological age\"[tiab]) AND (\"1900/01/01\"[PDAT] : \"2026/11/03\"[PDAT])",
+    "result": "检出 PMID 集合已固定；见 inputs/pubmed/ageclock_pubmed_age.json，非逐篇全文纳入。",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=(%22fundus%20photography%22%5Btiab%5D%20OR%20%22fundus%20imaging%22%5Btiab%5D%20OR%20%22retinal%20imaging%22%5Btiab%5D%20OR%20OCTA%5Btiab%5D%20OR%20%22optical%20coherence%20tomography%22%5Btiab%5D)%20AND%20(%22retinal%20age%22%5Btiab%5D%20OR%20%22aging%20clock%22%5Btiab%5D%20OR%20%22biological%20age%22%5Btiab%5D)%20AND%20(%221900%2F01%2F01%22%5BPDAT%5D%20%3A%20%222026%2F11%2F03%22%5BPDAT%5D)"
+  },
+  {
+    "source": "PubMed ESearch + ESummary",
+    "query": "(\"fundus photography\"[tiab] OR \"retinal imaging\"[tiab] OR \"retinal microvascular\"[tiab] OR OCTA[tiab]) AND (stroke[tiab] OR \"cerebral small vessel disease\"[tiab] OR \"white matter hyperintensities\"[tiab] OR \"brain MRI\"[tiab]) AND (cohort[tiab] OR dataset[tiab]) AND (\"1900/01/01\"[PDAT] : \"2026/11/03\"[PDAT])",
+    "result": "检出 PMID 集合已固定；见 inputs/pubmed/ageclock_pubmed_stroke.json，非逐篇全文纳入。",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=(%22fundus%20photography%22%5Btiab%5D%20OR%20%22retinal%20imaging%22%5Btiab%5D%20OR%20%22retinal%20microvascular%22%5Btiab%5D%20OR%20OCTA%5Btiab%5D)%20AND%20(stroke%5Btiab%5D%20OR%20%22cerebral%20small%20vessel%20disease%22%5Btiab%5D%20OR%20%22white%20matter%20hyperintensities%22%5Btiab%5D%20OR%20%22brain%20MRI%22%5Btiab%5D)%20AND%20(cohort%5Btiab%5D%20OR%20dataset%5Btiab%5D)%20AND%20(%221900%2F01%2F01%22%5BPDAT%5D%20%3A%20%222026%2F11%2F03%22%5BPDAT%5D)"
+  },
+  {
+    "source": "PubMed ESearch + ESummary",
+    "query": "(\"fundus photography\"[tiab] OR \"retinal imaging\"[tiab] OR OCT[tiab] OR OCTA[tiab]) AND (Alzheimer*[tiab] OR dementia[tiab] OR \"cognitive impairment\"[tiab] OR Parkinson*[tiab]) AND (cohort[tiab] OR dataset[tiab] OR \"data sharing\"[tiab]) AND (\"1900/01/01\"[PDAT] : \"2026/11/03\"[PDAT])",
+    "result": "检出 PMID 集合已固定；见 inputs/pubmed/ageclock_pubmed_neuro.json，非逐篇全文纳入。",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=(%22fundus%20photography%22%5Btiab%5D%20OR%20%22retinal%20imaging%22%5Btiab%5D%20OR%20OCT%5Btiab%5D%20OR%20OCTA%5Btiab%5D)%20AND%20(Alzheimer*%5Btiab%5D%20OR%20dementia%5Btiab%5D%20OR%20%22cognitive%20impairment%22%5Btiab%5D%20OR%20Parkinson*%5Btiab%5D)%20AND%20(cohort%5Btiab%5D%20OR%20dataset%5Btiab%5D%20OR%20%22data%20sharing%22%5Btiab%5D)%20AND%20(%221900%2F01%2F01%22%5BPDAT%5D%20%3A%20%222026%2F11%2F03%22%5BPDAT%5D)"
+  },
+  {
+    "source": "PubMed ESearch + ESummary",
+    "query": "(\"fundus photography\"[tiab] OR \"retinal imaging\"[tiab]) AND (mortality[tiab] OR \"cardiovascular risk\"[tiab]) AND (longitudinal[tiab] OR cohort[tiab]) AND (\"1900/01/01\"[PDAT] : \"2026/11/03\"[PDAT])",
+    "result": "检出 PMID 集合已固定；见 inputs/pubmed/ageclock_pubmed_outcomes.json，非逐篇全文纳入。",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=(%22fundus%20photography%22%5Btiab%5D%20OR%20%22retinal%20imaging%22%5Btiab%5D)%20AND%20(mortality%5Btiab%5D%20OR%20%22cardiovascular%20risk%22%5Btiab%5D)%20AND%20(longitudinal%5Btiab%5D%20OR%20cohort%5Btiab%5D)%20AND%20(%221900%2F01%2F01%22%5BPDAT%5D%20%3A%20%222026%2F11%2F03%22%5BPDAT%5D)"
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Africa diabetic retinopathy fundus dataset individual clinical age patient ID Malawi Kenya sub-Saharan Africa African populations DR dataset retinal images age K-public data Eye dataset Uganda",
+    "result": "FDR26: A Fundus Dataset for Diabetic Retinopathy - ScienceDirect | MoDRIA Data Dictionary - Medical Imaging & Ophthalmology Research | macular/diabetic-retinopathy-grading-africa · Datasets at Hugging Face | Evaluating the Generalisability of Convolutional Neural Networks for Diabetic Retinopathy Detection in Latin America and Sub-Saharan Africa | A Brazilian Multilabel Ophthalmological Dataset (BRSET) v1.0.2",
+    "url": "https://www.sciencedirect.com/science/article/pii/S235234092600925X",
+    "hits": [
+      {
+        "title": "FDR26: A Fundus Dataset for Diabetic Retinopathy - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/pii/S235234092600925X"
+      },
+      {
+        "title": "MoDRIA Data Dictionary - Medical Imaging & Ophthalmology Research",
+        "url": "https://mudsreh.africa/codebook/modria"
+      },
+      {
+        "title": "macular/diabetic-retinopathy-grading-africa · Datasets at Hugging Face",
+        "url": "https://huggingface.co/datasets/macular/diabetic-retinopathy-grading-africa"
+      },
+      {
+        "title": "Evaluating the Generalisability of Convolutional Neural Networks for Diabetic Retinopathy Detection in Latin America and Sub-Saharan Africa",
+        "url": "https://www.mdpi.com/2078-2489/17/6/552"
+      },
+      {
+        "title": "A Brazilian Multilabel Ophthalmological Dataset (BRSET) v1.0.2",
+        "url": "https://www.physionet.org/content/brazilian-ophthalmological/1.0.2/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Blue Mountains Eye Study retinal photographs age sex incident stroke risk retinal microvascular signs mortality Australia data access request cohort official BMES data access",
+    "result": "Blue Mountains Cohort Study - Atlas of Longitudinal Datasets | The Incidence and Progression of Age-Related Macular Degeneration over 15 Years: The Blue Mountains Eye Study - PubMed | Cardiovascular risk factors and the long-term incidence of age-related macular degeneration: the Blue Mountains Eye Study - PubMed | ASPREE sub-studies - ASPREE Australia | Five-year incidence of age-related maculopathy lesions: the Blue Mountains Eye Study - PubMed",
+    "url": "https://atlaslongitudinaldatasets.ac.uk/datasets/bmcs",
+    "hits": [
+      {
+        "title": "Blue Mountains Cohort Study - Atlas of Longitudinal Datasets",
+        "url": "https://atlaslongitudinaldatasets.ac.uk/datasets/bmcs"
+      },
+      {
+        "title": "The Incidence and Progression of Age-Related Macular Degeneration over 15 Years: The Blue Mountains Eye Study - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26383995/"
+      },
+      {
+        "title": "Cardiovascular risk factors and the long-term incidence of age-related macular degeneration: the Blue Mountains Eye Study - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17275090/"
+      },
+      {
+        "title": "ASPREE sub-studies - ASPREE Australia",
+        "url": "https://aspree.org/aus/about-the-aspree-project/sub-studies/"
+      },
+      {
+        "title": "Five-year incidence of age-related maculopathy lesions: the Blue Mountains Eye Study - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12045049/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Singapore Epidemiology of Eye Diseases SEED SINDI SiMES retinal fundus cognitive impairment brain MRI EDIS study research data access collaboration Singapore SERI",
+    "result": "Singapore Epidemiology of Eye Diseases (SEED) | Singapore National Eye Centre | Singapore Epidemiology of Eye Diseases Study - Atlas of Longitudinal Datasets | Cohort Profile: The Singapore Epidemiology of Eye Diseases study (SEED) | International Journal of Epidemiology | Oxford Academic | Cohort Profile: The Singapore Epidemiology of Eye Diseases study (SEED) | International Journal of Epidemiology | Oxford Academic | Ocular Epidemiology | Singapore National Eye Centre",
+    "url": "https://www.snec.com.sg/research-innovation/key-programmes/singapore-epidemiology-of-eye-diseases",
+    "hits": [
+      {
+        "title": "Singapore Epidemiology of Eye Diseases (SEED) | Singapore National Eye Centre",
+        "url": "https://www.snec.com.sg/research-innovation/key-programmes/singapore-epidemiology-of-eye-diseases"
+      },
+      {
+        "title": "Singapore Epidemiology of Eye Diseases Study - Atlas of Longitudinal Datasets",
+        "url": "https://atlaslongitudinaldatasets.ac.uk/datasets/singapore-epidemiology-of-eye-diseases-study"
+      },
+      {
+        "title": "Cohort Profile: The Singapore Epidemiology of Eye Diseases study (SEED) | International Journal of Epidemiology | Oxford Academic",
+        "url": "https://doi.org/10.1093/ije/dyaa238"
+      },
+      {
+        "title": "Cohort Profile: The Singapore Epidemiology of Eye Diseases study (SEED) | International Journal of Epidemiology | Oxford Academic",
+        "url": "https://doi.org/10.1093/IJE/DYAA238"
+      },
+      {
+        "title": "Ocular Epidemiology | Singapore National Eye Centre",
+        "url": "https://www.snec.com.sg/research-innovation/research-groups-platforms/research-groups/ocular-epidemiology"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Hong Kong Singapore dataset retinal photography Alzheimer multiethnic multicentre data availability retina Alzheimer disease Reti-AD retinal photographs author request China prospective cognitive scores",
+    "result": "Early detection of dementia through retinal imaging and trustworthy AI | Artificial intelligence–based retinal imaging for brain health assessment: a scoping review - The Lancet Digital Health | Research Fund Secretariat - Detail of Approved Project (Reference No.: 04153506) | Building An AI-based Platform for Alzheimer’s Disease Detection Using Retinal Imaging: Moving from Concept, and Towards Real-world Clinical Deployment - The Chinese University of Hong Kong | An Ensemble Learning Artificial Intelligence Model for Alzheimer's Disease Detection Using OCT",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11491446/",
+    "hits": [
+      {
+        "title": "Early detection of dementia through retinal imaging and trustworthy AI",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11491446/"
+      },
+      {
+        "title": "Artificial intelligence–based retinal imaging for brain health assessment: a scoping review - The Lancet Digital Health",
+        "url": "https://doi.org/10.1016/j.landig.2026.101020"
+      },
+      {
+        "title": "Research Fund Secretariat - Detail of Approved Project (Reference No.: 04153506)",
+        "url": "https://rfs2.healthbureau.gov.hk/app/fundedsearch/projectdetail.xhtml?id=2151"
+      },
+      {
+        "title": "Building An AI-based Platform for Alzheimer’s Disease Detection Using Retinal Imaging: Moving from Concept, and Towards Real-world Clinical Deployment - The Chinese University of Hong Kong",
+        "url": "https://research.cuhk.edu.hk/en/projects/building-an-ai-based-platform-for-alzheimers-disease-detection-us/"
+      },
+      {
+        "title": "An Ensemble Learning Artificial Intelligence Model for Alzheimer's Disease Detection Using OCT",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12915035/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "site:ukbiobank.ac.uk \"new applications\" paused reopen late 2026 UK Biobank access",
+    "result": "Apply for access - UK Biobank | Controlling access to UK Biobank data - UK Biobank | AMS - Log in | citeturn213search2 [wordlim: 200] Crawled: 3 weeks ago; We will share an update via the Researcher Community | We will share an update via the Researcher Community",
+    "url": "https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/",
+    "hits": [
+      {
+        "title": "Apply for access - UK Biobank",
+        "url": "https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/"
+      },
+      {
+        "title": "Controlling access to UK Biobank data - UK Biobank",
+        "url": "https://www.ukbiobank.ac.uk/about-our-data/protecting-the-data/strengthening-uk-biobank/controlling-access-to-uk-biobank-data/"
+      },
+      {
+        "title": "AMS - Log in",
+        "url": "https://ams.ukbiobank.ac.uk/ams/researcher_home.jsp"
+      },
+      {
+        "title": "citeturn213search2 [wordlim: 200] Crawled: 3 weeks ago; We will share an update via the Researcher Community",
+        "url": "https://community.ukbiobank.ac.uk/hc/en-gb"
+      },
+      {
+        "title": "We will share an update via the Researcher Community",
+        "url": "https://community.ukbiobank.ac.uk/hc/en-gb"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "open dataset retina OCT Alzheimer OCTA patients imaging dementia OCTA AD public dataset Vessel Neurodegeneration open Harvard Dataverse OCTA Alzheimer's",
+    "result": "AD Data Initiative | AD Discovery Portal | Tech Help | AD Data Initiative | Discovery Portal | OASIS | Functional OCT Retinal Response Dataset | EyeDataHub | SPHERE ADRC — Stanford ADRC Data Hub (multi-omics, no IRB)",
+    "url": "https://www.alzheimersdata.org/tech-help/ad-discovery-portal",
+    "hits": [
+      {
+        "title": "AD Data Initiative | AD Discovery Portal | Tech Help",
+        "url": "https://www.alzheimersdata.org/tech-help/ad-discovery-portal"
+      },
+      {
+        "title": "AD Data Initiative | Discovery Portal",
+        "url": "https://www.alzheimersdata.org/discovery-portal"
+      },
+      {
+        "title": "OASIS",
+        "url": "https://openneuroscience.org/Resources/OASIS"
+      },
+      {
+        "title": "Functional OCT Retinal Response Dataset | EyeDataHub",
+        "url": "https://khosravipooya.com/EyeDataHub/datasets/dryad_functional_oct_alzheimer/"
+      },
+      {
+        "title": "SPHERE ADRC — Stanford ADRC Data Hub (multi-omics, no IRB)",
+        "url": "https://adrc-sphere.stanford.edu/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Japan health checkup JOIR accessible metabolic syndrome data availability used restricted data fundus age 2025 patient record institutions researchers access contact",
+    "result": "Multi-task deep learning for predicting metabolic syndrome from retinal fundus images in a Japanese health checkup dataset - PMC | Multi-task deep learning for predicting metabolic syndrome from retinal fundus images in a Japanese health checkup dataset | PLOS One | Data Utilization｜一般社団法人Japan Ocular Imaging Registry | Data availability | 6NC-EHRsデータ利活用に関するFAQ - 国立高度専門医療研究センター 医療研究連携推進本部",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12370136/",
+    "hits": [
+      {
+        "title": "Multi-task deep learning for predicting metabolic syndrome from retinal fundus images in a Japanese health checkup dataset - PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12370136/"
+      },
+      {
+        "title": "Multi-task deep learning for predicting metabolic syndrome from retinal fundus images in a Japanese health checkup dataset | PLOS One",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0325337"
+      },
+      {
+        "title": "Data Utilization｜一般社団法人Japan Ocular Imaging Registry",
+        "url": "https://www.joir.jp/data/en_index.html"
+      },
+      {
+        "title": "Data availability",
+        "url": "https://www.nature.com/articles/s41598-025-01811-8.pdf"
+      },
+      {
+        "title": "6NC-EHRsデータ利活用に関するFAQ - 国立高度専門医療研究センター 医療研究連携推進本部",
+        "url": "https://www.japanhealth.jp/project/6nc-ehrs/faq-data.html"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "\"FDR26\" Morocco dataset repository Zenodo Mendeley 3000 images 1918 FDR26 dataset fundus age metadata file PatientID FDR26 license data",
+    "result": "FDR26: A Fundus Dataset for Diabetic Retinopathy - ScienceDirect | FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation | Zenodo | FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation | Zenodo | FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation | Data in brief (2352-3409) - 期刊 | AMiner",
+    "url": "https://www.sciencedirect.com/science/article/pii/S235234092600925X",
+    "hits": [
+      {
+        "title": "FDR26: A Fundus Dataset for Diabetic Retinopathy - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/pii/S235234092600925X"
+      },
+      {
+        "title": "FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation | Zenodo",
+        "url": "https://zenodo.org/records/22768073"
+      },
+      {
+        "title": "FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation | Zenodo",
+        "url": "https://zenodo.org/records/23101200"
+      },
+      {
+        "title": "FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation",
+        "url": "https://lanfrica.com/en/record/fdr26-a-dataset-of-fundus-images-for-diabetic-retinopathy-classification-and-vessels-segmentation"
+      },
+      {
+        "title": "Data in brief (2352-3409) - 期刊 | AMiner",
+        "url": "https://www.aminer.org/academic/journal/data-in-brief/5ea567dcedb6e7d53c03b574"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Blue Mountains Eye Study retinal microvascular signs incident stroke stroke mortality retinal photographs stroke deaths population Mitchell primary PubMed Blue Mountains cohort access Sydney eye study collaborators",
+    "result": "Retinal microvascular signs and risk of stroke and stroke mortality. | Retinal microvascular signs and risk of stroke and stroke mortality | Neurology | Ten-year incidence of retinal vein occlusion in an older population: the Blue Mountains Eye Study - PubMed | Retinal vessel wall signs and the 5 year incidence of age related maculopathy: the Blue Mountains Eye Study. | Five-year incidence and progression of vascular retinopathy in persons without diabetes: the Blue Mountains Eye Study | Eye",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16217050/",
+    "hits": [
+      {
+        "title": "Retinal microvascular signs and risk of stroke and stroke mortality.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16217050/"
+      },
+      {
+        "title": "Retinal microvascular signs and risk of stroke and stroke mortality | Neurology",
+        "url": "https://www.neurology.org/doi/10.1212/01.wnl.0000179177.15900.ca"
+      },
+      {
+        "title": "Ten-year incidence of retinal vein occlusion in an older population: the Blue Mountains Eye Study - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16682596/"
+      },
+      {
+        "title": "Retinal vessel wall signs and the 5 year incidence of age related maculopathy: the Blue Mountains Eye Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14693785/"
+      },
+      {
+        "title": "Five-year incidence and progression of vascular retinopathy in persons without diabetes: the Blue Mountains Eye Study | Eye",
+        "url": "https://www.nature.com/articles/6702085"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Singapore EDIS retinal vascular measurements cognitive impairment brain MRI  retinal photographs MRI dementia Epidemiology of Dementia Singapore retinal blood vessels brain microbleeds primary paper number retinal EDIS study",
+    "result": "Deep-learning retinal vessel calibre measurements and risk of cognitive decline and dementia. | Cerebral microbleeds and cognition: the epidemiology of dementia in Singapore study - PubMed | Deep-learning retinal vessel calibre measurements and risk of cognitive decline and dementia - PMC | Retinal Vascular Fractals and Cognitive Impairment | Deep-learning retinal vessel calibre measurements and risk of cognitive decline and dementia | Brain Communications | Oxford Academic",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36043139/",
+    "hits": [
+      {
+        "title": "Deep-learning retinal vessel calibre measurements and risk of cognitive decline and dementia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36043139/"
+      },
+      {
+        "title": "Cerebral microbleeds and cognition: the epidemiology of dementia in Singapore study - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24322485/"
+      },
+      {
+        "title": "Deep-learning retinal vessel calibre measurements and risk of cognitive decline and dementia - PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9416061/"
+      },
+      {
+        "title": "Retinal Vascular Fractals and Cognitive Impairment",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4176466/"
+      },
+      {
+        "title": "Deep-learning retinal vessel calibre measurements and risk of cognitive decline and dementia | Brain Communications | Oxford Academic",
+        "url": "https://doi.org/10.1093/braincomms/fcac212"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "retinal photographs Parkinson OCT Alzheimer dementia age Asian African retinal imaging data open dataset Moroccan FDR26 2026 date publication DOI FDR26 data",
+    "result": "FDR26: A Fundus Dataset for Diabetic Retinopathy - ScienceDirect | FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation | Zenodo | FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation | Zenodo | CONP Portal | Ontario Neurodegenerative Disease Research Initiative (ONDRI): Foundational Study Longitudinal Data - Release 2.0 | Deep learning aging marker from retinal images unveils sex-specific clinical and genetic signatures | Nature Communications",
+    "url": "https://www.sciencedirect.com/science/article/pii/S235234092600925X",
+    "hits": [
+      {
+        "title": "FDR26: A Fundus Dataset for Diabetic Retinopathy - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/pii/S235234092600925X"
+      },
+      {
+        "title": "FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation | Zenodo",
+        "url": "https://zenodo.org/records/23101200"
+      },
+      {
+        "title": "FDR26 : A Dataset of Fundus Images for Diabetic Retinopathy Classification and Vessels Segmentation | Zenodo",
+        "url": "https://zenodo.org/records/22768073"
+      },
+      {
+        "title": "CONP Portal | Ontario Neurodegenerative Disease Research Initiative (ONDRI): Foundational Study Longitudinal Data - Release 2.0",
+        "url": "https://portal.conp.ca/dataset?id=projects%2Fbraincode_ONDRI_Foundation_Study_Baseline_Data_Release"
+      },
+      {
+        "title": "Deep learning aging marker from retinal images unveils sex-specific clinical and genetic signatures | Nature Communications",
+        "url": "https://www.nature.com/articles/s41467-026-77102-1"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "site:datadryad.org or site:zenodo.org or site:data.mendeley.com retinal fundus image datasets Zambia sub-Saharan Africa Uganda Malawi patient age dataset mobile fundus diabetes patient age",
+    "result": "M'Sila retinal fundus dataset for diabetic retinopathy | Zenodo | M'Sila retinal fundus dataset for diabetic retinopathy classification | Zenodo | AMDNet23: Fundus Image Dataset for Age-Related Macular Degeneration Disease Detection - Mendeley Data | MCFI: A Multi-Session Colored Fundus Image Dataset - Mendeley Data | A Multi-Class Retinal Fundus Image Dataset for Deep Learning-Based Ocular Disease Diagnosis - Mendeley Data",
+    "url": "https://zenodo.org/records/19205723",
+    "hits": [
+      {
+        "title": "M'Sila retinal fundus dataset for diabetic retinopathy | Zenodo",
+        "url": "https://zenodo.org/records/19205723"
+      },
+      {
+        "title": "M'Sila retinal fundus dataset for diabetic retinopathy classification | Zenodo",
+        "url": "https://zenodo.org/records/19169587"
+      },
+      {
+        "title": "AMDNet23: Fundus Image Dataset for Age-Related Macular Degeneration Disease Detection - Mendeley Data",
+        "url": "https://data.mendeley.com/datasets/yj35kjgrv3/1"
+      },
+      {
+        "title": "MCFI: A Multi-Session Colored Fundus Image Dataset - Mendeley Data",
+        "url": "https://data.mendeley.com/datasets/stskv6zjt9/1"
+      },
+      {
+        "title": "A Multi-Class Retinal Fundus Image Dataset for Deep Learning-Based Ocular Disease Diagnosis - Mendeley Data",
+        "url": "https://data.mendeley.com/datasets/z227d626vm/1"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "ROSE retinal OCT angiography vessel segmentation dataset ROSE-1 Alzheimer's disease controls image file naming AD healthy labels paired participants GitHub official authors groups",
+    "result": "ROSE1&2 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn | ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model | Zenodo | ROSE: Retinal OCT-Angiography segmentation dataset | Zenodo | Awesome-Medical-Dataset/resources/ROSE.md at main · openmedlab/Awesome-Medical-Dataset · GitHub | ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model - The University of Liverpool Repository",
+    "url": "https://imed.nimte.ac.cn/dataofrose.html",
+    "hits": [
+      {
+        "title": "ROSE1&2 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn",
+        "url": "https://imed.nimte.ac.cn/dataofrose.html"
+      },
+      {
+        "title": "ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model | Zenodo",
+        "url": "https://zenodo.org/records/12702720"
+      },
+      {
+        "title": "ROSE: Retinal OCT-Angiography segmentation dataset | Zenodo",
+        "url": "https://zenodo.org/records/12775880"
+      },
+      {
+        "title": "Awesome-Medical-Dataset/resources/ROSE.md at main · openmedlab/Awesome-Medical-Dataset · GitHub",
+        "url": "https://github.com/openmedlab/Awesome-Medical-Dataset/blob/main/resources/ROSE.md"
+      },
+      {
+        "title": "ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model - The University of Liverpool Repository",
+        "url": "https://livrepository.liverpool.ac.uk/3112860/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "ROSE-1 dataset AD and healthy normal how tell images Alzheimer's dataset ROSE ROSE-1 don't provide patient labels dataset official SVC DVC grayscale filenames AD control ROSE 26 13 13",
+    "result": "ROSE1&2 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn | Retinal OCTA Phenotyping with LLM Reporting for Alzheimer’s Disease | Data File FAQ - National Alzheimer’s Coordinating Center (NACC) | Awesome-Medical-Dataset/resources/ROSE.md at main · openmedlab/Awesome-Medical-Dataset · GitHub | Awesome-Medical-Dataset_sandeep/resources/ROSE.md at main · shiraskars/Awesome-Medical-Dataset_sandeep · GitHub",
+    "url": "https://imed.nimte.ac.cn/dataofrose.html",
+    "hits": [
+      {
+        "title": "ROSE1&2 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn",
+        "url": "https://imed.nimte.ac.cn/dataofrose.html"
+      },
+      {
+        "title": "Retinal OCTA Phenotyping with LLM Reporting for Alzheimer’s Disease",
+        "url": "https://rt.http3.lol/index.php?q=aHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA5LjA0Njg5djE"
+      },
+      {
+        "title": "Data File FAQ - National Alzheimer’s Coordinating Center (NACC)",
+        "url": "https://www.naccdata.org/data-file-faq"
+      },
+      {
+        "title": "Awesome-Medical-Dataset/resources/ROSE.md at main · openmedlab/Awesome-Medical-Dataset · GitHub",
+        "url": "https://github.com/openmedlab/Awesome-Medical-Dataset/blob/main/resources/ROSE.md"
+      },
+      {
+        "title": "Awesome-Medical-Dataset_sandeep/resources/ROSE.md at main · shiraskars/Awesome-Medical-Dataset_sandeep · GitHub",
+        "url": "https://github.com/shiraskars/Awesome-Medical-Dataset_sandeep/blob/main/resources/ROSE.md"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "site:imed.nimte.ac.cn ROSE-1 Alzheimer's disease 117 images ROSE OCTA AD control label",
+    "result": "ROSE1&2 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn | ROSE-O - 医疗影像/眼科影像团队 - imed.nimte.ac.cn | ROSE-All - 医疗影像/眼科影像团队 - imed.nimte.ac.cn | iMED团队在光学相干断层扫描血管造影图像分析方面取得进展 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn | 通过眼睛，探索脑部疾病筛查新范式 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn",
+    "url": "https://imed.nimte.ac.cn/dataofrose.html",
+    "hits": [
+      {
+        "title": "ROSE1&2 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn",
+        "url": "https://imed.nimte.ac.cn/dataofrose.html"
+      },
+      {
+        "title": "ROSE-O - 医疗影像/眼科影像团队 - imed.nimte.ac.cn",
+        "url": "https://imed.nimte.ac.cn/ROSE-O.html"
+      },
+      {
+        "title": "ROSE-All - 医疗影像/眼科影像团队 - imed.nimte.ac.cn",
+        "url": "https://imed.nimte.ac.cn/rose-all.html"
+      },
+      {
+        "title": "iMED团队在光学相干断层扫描血管造影图像分析方面取得进展 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn",
+        "url": "https://imed.nimte.ac.cn/view-20411.html"
+      },
+      {
+        "title": "通过眼睛，探索脑部疾病筛查新范式 - 医疗影像/眼科影像团队 - imed.nimte.ac.cn",
+        "url": "https://imed.nimte.ac.cn/view-26360.html"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "\"Blue Mountains Eye Study\" data linkage Blue Mountains Eye Study CHeReL external data sets NSW ocular imaging access study",
+    "result": "Blue Mountains Cohort Study - Atlas of Longitudinal Datasets | A guide to Australian eye health data, 2nd edition (full publication) (AIHW) | A guide to Australian eye health data | A guide to Australian eye health data, 2nd edition (full publication) (AIHW) | Blue Mountains Cohort Study: Incidence of eye disease, hearing loss and other health outcomes",
+    "url": "https://atlaslongitudinaldatasets.ac.uk/datasets/bmcs",
+    "hits": [
+      {
+        "title": "Blue Mountains Cohort Study - Atlas of Longitudinal Datasets",
+        "url": "https://atlaslongitudinaldatasets.ac.uk/datasets/bmcs"
+      },
+      {
+        "title": "A guide to Australian eye health data, 2nd edition (full publication) (AIHW)",
+        "url": "https://www.aihw.gov.au/getmedia/aaaa9c6e-ff38-4ea3-9793-4a9d19834a17/phe-119-10786.pdf.aspx?inline=true"
+      },
+      {
+        "title": "A guide to Australian eye health data",
+        "url": "https://www.aihw.gov.au/getmedia/89624dd0-7e36-41ce-82d0-73dc57475f8e/agtaehd-c02.pdf.aspx"
+      },
+      {
+        "title": "A guide to Australian eye health data, 2nd edition (full publication) (AIHW)",
+        "url": "https://www.aihw.gov.au/getmedia/aaaa9c6e-ff38-4ea3-9793-4a9d19834a17/phe-119-10786.pdf%3Fv%3D20230605182949%26inline%3Dtrue"
+      },
+      {
+        "title": "Blue Mountains Cohort Study: Incidence of eye disease, hearing loss and other health outcomes",
+        "url": "https://researchdata.edu.au/blue-mountains-cohort-health-outcomes/99588"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "NHANES 2005 2008 raw retinal fundus photographs images download NHANES Digital fundus images original retinal photographs available research data center public dataset retinal images fundus photography CDC NHANES raw TIF",
+    "result": "OPXRET_D | National Health and Nutrition Examination Survey (NHANES) Ophthalmology Procedures Manual | About the Data: National Health and Nutrition Examination Survey | Vision and Eye Health Surveillance System | CDC | The NHANES is | U.S. Department of Health & Human Services - National Health and Nutrition Examination Survey (NHANES) – Vision and Eye Health Surveillance",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPXRET_D.htm",
+    "hits": [
+      {
+        "title": "OPXRET_D",
+        "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPXRET_D.htm"
+      },
+      {
+        "title": "National Health and Nutrition Examination Survey (NHANES) Ophthalmology Procedures Manual",
+        "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2007/manuals/manual_op.pdf"
+      },
+      {
+        "title": "About the Data: National Health and Nutrition Examination Survey | Vision and Eye Health Surveillance System | CDC",
+        "url": "https://www.cdc.gov/vision-health-data/data-sources/national-health-nutrition-examination-survey.html"
+      },
+      {
+        "title": "The NHANES is",
+        "url": "https://www.nature.com/articles/s41598-024-80275-8.pdf"
+      },
+      {
+        "title": "U.S. Department of Health & Human Services - National Health and Nutrition Examination Survey (NHANES) – Vision and Eye Health Surveillance",
+        "url": "https://catalog.data.gov/dataset/national-health-and-nutrition-examination-survey-nhanes-vision-and-eye-health-surveillance-18155"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "NHANES III raw fundus photographs research data center digital retinal images fundus download CDC original NHANES retina scans access",
+    "result": "About NHANES | National Health and Nutrition Examination Survey | CDC | National Health and Nutrition Examination Survey III: Fundus Photography for Health Technicians Manual | ftp.cdc.gov - /pub/NHANES/XRays/Nhanes3/ | Third National Health and Nutrition Examination Survey (NHANES III), 1988-94 | Research Data Center | RDC | CDC",
+    "url": "https://www.cdc.gov/nchs/nhanes/about/?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fnchs%2Fnhanes%2Fabout_nhanes.htm",
+    "hits": [
+      {
+        "title": "About NHANES | National Health and Nutrition Examination Survey | CDC",
+        "url": "https://www.cdc.gov/nchs/nhanes/about/?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fnchs%2Fnhanes%2Fabout_nhanes.htm"
+      },
+      {
+        "title": "National Health and Nutrition Examination Survey III: Fundus Photography for Health Technicians Manual",
+        "url": "https://wwwn.cdc.gov/nchs/Data/Nhanes3/Manuals/fundus.pdf"
+      },
+      {
+        "title": "ftp.cdc.gov - /pub/NHANES/XRays/Nhanes3/",
+        "url": "https://ftp.cdc.gov/pub/NHANES/XRays/Nhanes3/"
+      },
+      {
+        "title": "Third National Health and Nutrition Examination Survey (NHANES III), 1988-94",
+        "url": "https://wwwn.cdc.gov/nchs/data/nhanes3/3a/EXAMSE-acc.pdf"
+      },
+      {
+        "title": "Research Data Center | RDC | CDC",
+        "url": "https://portugues.cdc.gov/rdc/"
+      }
+    ]
+  },
+  {
+    "source": "Web discovery → primary repository / publication",
+    "query": "Alzheimer fundus closed data NHANES raw retina retinal fundus photographs RDC images retina NHANES available to researchers NCHS not provided retinopathy images",
+    "result": "Research Data Center | RDC | CDC | A foundation model for generalizable disease detection from retinal images | Nature | citeturn274search1 [wordlim: 200] Published: 3.1 years ago; Crawled: last week; The AlzEye dataset is subject to the contractual restrictions of the data sharing agreements between National Health Service Digital, Moorfields Eye Hospital and University College London, and is not available for access beyond the AlzEye research team. ... Data for ocular disease experiments are publicly available online and can be accessed through the following links: IDRID | About NHANES | National Health and Nutrition Examination Survey | CDC | A foundation model for generalizable disease detection from retinal images | Nature",
+    "url": "https://www.cdc.gov/rdc/",
+    "hits": [
+      {
+        "title": "Research Data Center | RDC | CDC",
+        "url": "https://www.cdc.gov/rdc/"
+      },
+      {
+        "title": "A foundation model for generalizable disease detection from retinal images | Nature",
+        "url": "https://www.nature.com/articles/s41586-023-06555-x"
+      },
+      {
+        "title": "citeturn274search1 [wordlim: 200] Published: 3.1 years ago; Crawled: last week; The AlzEye dataset is subject to the contractual restrictions of the data sharing agreements between National Health Service Digital, Moorfields Eye Hospital and University College London, and is not available for access beyond the AlzEye research team. ... Data for ocular disease experiments are publicly available online and can be accessed through the following links: IDRID",
+        "url": "https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid"
+      },
+      {
+        "title": "About NHANES | National Health and Nutrition Examination Survey | CDC",
+        "url": "https://www.cdc.gov/nchs/nhanes/about/?CDC_AAref_Val=https%3A%2F%2Fwww.cdc.gov%2Fnchs%2Fnhanes%2Fabout_nhanes.htm"
+      },
+      {
+        "title": "A foundation model for generalizable disease detection from retinal images | Nature",
+        "url": "https://www.nature.com/articles/s41586-023-06555-x?trk=public_post_comment-text"
+      }
+    ]
+  },
+  {
+    "source": "Awesome Ophthalmology Dataset",
+    "query": "github Awesome Ophthalmology Dataset retinal data list fundus stroke OCTA aging",
+    "result": "Secondary discovery index with 77 profiles; used to trace PAPILA, GRAPE, OCTA-500 and ROSE to origin. No new cohort asserted from the index.",
+    "url": "https://github.com/NanxuGong/Awesome-Ophthalmology-Dataset"
+  },
+  {
+    "source": "Grand Challenge",
+    "query": "site:grand-challenge.org iChallenge AMD ADAM age related macular degeneration fundus challenge dataset age",
+    "result": "Official challenge supports AMD eye labels, no participant age established from clinical background.",
+    "url": "https://amd.grand-challenge.org/clinicalbackground/"
+  },
+  {
+    "source": "Kaggle",
+    "query": "site:kaggle.com/datasets fundus age healthy fundus ODIR fundus ocular disease patient age",
+    "result": "ODIR rehost located; reconcile with organizer and subsets. No additional independent cohort.",
+    "url": "https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k"
+  },
+  {
+    "source": "Hugging Face",
+    "query": "site:huggingface.co/datasets fundus age ODIR retinal age clinical age dataset dataset card",
+    "result": "Retina Age Analysis metadata viewer exists; upstream provenance unresolved. Fundus_CFP reuses named parents.",
+    "url": "https://huggingface.co/datasets/ramankamran/retina-age-analysis"
+  },
+  {
+    "source": "Zenodo",
+    "query": "site:zenodo.org retinal OCTA Alzheimer Parkinson retina dataset images age open retinal dataset cognitively impaired",
+    "result": "Yoga older-adult record contains measures/cognition workbook only; excluded from pixel tasks.",
+    "url": "https://zenodo.org/records/21480568"
+  },
+  {
+    "source": "Dryad",
+    "query": "site:datadryad.org retinal OCT Alzheimers Parkinson dataset retinal images OCTA individual age Jichi",
+    "result": "Functional OCT archive identified; revisit per-subject ages vs age bands.",
+    "url": "https://datadryad.org/dataset/doi:10.5061/dryad.msbcc2ftc"
+  },
+  {
+    "source": "PhysioNet",
+    "query": "fundus retinal age aging clock dataset fundus age data Japan China public DeepDRiD PAPILA age dataset PhysioNet mBRSET",
+    "result": "mBRSET dictionary confirms age; controlled credentialing, distinct embedding derivative.",
+    "url": "https://physionet.org/content/mbrset/1.0/"
+  },
+  {
+    "source": "GitHub/PyPI",
+    "query": "git ls-remote --tags EyeDataHub; PyPI project release history",
+    "result": "Highest stable tag v0.7.0; PyPI latest 0.7.0. Unreleased main is not substituted for the stable tag.",
+    "url": "https://pypi.org/project/eyedatahub/"
+  },
+  {
+    "source": "中文发现",
+    "query": "眼底 影像 脑卒中 认知 白质高信号 队列 数据 开放 视网膜 中国 开滦 北京眼病研究",
+    "result": "定位 DeepRETStroke，回溯 SDPP 影像/MRI 与事件子集；CIBB-CSVD 计划页未确立可配对眼底图。",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12623247/"
+  },
+  {
+    "source": "Hugging Face",
+    "query": "site:huggingface.co/datasets fundus age ODIR retinal age clinical age dataset dataset card",
+    "result": "Fundus_CFP uploader declares portions of ODIR, PAPILA, Messidor, APTOS. Do not count as new cohort.",
+    "url": "https://huggingface.co/datasets/AlexeyGHT/Fundus_CFP"
+  }
+]

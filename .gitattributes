@@ -1,0 +1,9 @@
+# Frozen source and generated table bytes are checked by SHA-256.
+# Preserve exact bytes across Windows, macOS and Linux checkouts.
+library/inputs/** -text
+*.csv -text
+*.tsv -text
+*.sqlite binary
+*.tar.gz binary
+*.png binary
+*.jpg binary

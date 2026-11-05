@@ -1,0 +1,1609 @@
+[
+  {
+    "id": "ext-uk-biobank",
+    "name": "UK Biobank Eye and Vision / UK Biobank Repeat Imaging",
+    "official_url": "https://www.ukbiobank.ac.uk/about-our-data/types-of-data/imaging-data/",
+    "country": "United Kingdom",
+    "institution": "UK Biobank; UK Biobank Eye and Vision Consortium",
+    "year": "2022 (online publication of retinal grading report; print 2023)",
+    "doi": "10.1038/s41433-022-02298-7",
+    "citation": "Warwick AN et al. UK Biobank retinal imaging grading: methodology, baseline characteristics and findings for common ocular diseases. Eye. Online 2022; print 2023 (PubMed 36329166; correction 36604558).",
+    "modalities": "Fundus; OCT; brain MRI in a subset",
+    "images": "Aug 2025 Showcase, 102,971 left-eye field items and 104,504 right-eye field items across instances; counts include repeats. Historical 2009–2010 grading paper reports 121,260 gradable eyes.",
+    "participants": "2009–2010: 68,514 attended, 68,504 had ≥1 CFP; 64,367 had ≥1 gradable CFP. Not the all-instances union.",
+    "eyes": "Left/right coded separately; unilateral missingness possible.",
+    "device": "Topcon 3D OCT-1000 Mark II; single-field 45° CFP (baseline reported protocol).",
+    "quality": "Separate grades; gradeable denominators differ by eye and endpoint.",
+    "multivisit": "Yes; Showcase instances per eye. Repeated observations apply only to a subset.",
+    "multimodal": "Yes; OCT + CFP, brain MRI in an overlapping subset.",
+    "multicenter": "Yes; recruitment/assessment centres, imaging availability varies by centre and instance.",
+    "family": "UK Biobank",
+    "relation": "Cohort family; eye, brain, repeat assessment, outcome subsets and secondary papers are overlapping facets.",
+    "access": "Controlled access",
+    "image_access": "Confirmed bulk CFP/OCT data fields under approved UKB-RAP project; new applications paused on cited page.",
+    "label_access": "Confirmed controlled participant-level linkage, depending on approved tier/fields and consent.",
+    "license": "UK Biobank project agreement; not an open image licence.",
+    "research_terms": "Eligible researchers, public-interest health research, approved project, institutional agreement and fees; RAP compute/storage costs additional.",
+    "commercial_terms": "Eligible scientific researchers in commercial organisations can apply on the public-interest health-research terms; no general commercial reuse right.",
+    "access_url": "https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/",
+    "pairing": "Approved project participant ID + assessment instance + laterality for retinal bulk fields. Define imaging index date and match hospital/death follow-up or MRI instance explicitly. 46,969 people passed QC in a historical age/stroke study (35,917 held out after healthy age-training group); not the whole UKB or the eye–MRI intersection.",
+    "strengths": "Published same-participant outcomes across age, stroke, OCT–MRI, dementia and PD; separated eye fields and repeat instances.",
+    "limitations": "New application intake shown as paused at 2026-11-03 (planned late-2026 opening is not confirmation); selection by imaging/QC/healthy volunteer and different exam dates. Age gap is a prediction residual; individual biological age is not ground truth.",
+    "experiment": "Train a patient-split chronological-age model in the disease-free baseline subset. Estimate independent age-bias correction; compare a clinical stroke-risk baseline against baseline+age gap under time-to-event analysis with an external cohort. Audit MRI temporal offsets, withdrawals and follow-up.",
+    "sources": {
+      "s1": [
+        "https://pubmed.ncbi.nlm.nih.gov/36329166/",
+        "Warwick et al., abstract, Results; baseline attendance, at least one photograph, graded photographs and gradeable eyes. See linked correction before using full tables."
+      ],
+      "s2": [
+        "https://biobank.ndph.ox.ac.uk/ukb/label.cgi?id=725",
+        "Category 725, bulk fields 21015/21016 bilateral CFP and 21017/21018 OCT slices; 21011–21014 native OCT."
+      ],
+      "s3": [
+        "https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21015",
+        "Aug 2025 item count and assessment instances for left-eye field."
+      ],
+      "s4": [
+        "https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21016",
+        "Aug 2025 item count and assessment instances for right-eye field."
+      ],
+      "s5": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9710167/",
+        "Methods, stroke ascertainment and statistical analysis; imaging cohort, healthy age training subset, linkage to hospital admission/death, first stroke timing, ICD codes I60/I61/I63/I64."
+      ],
+      "s6": [
+        "https://pubmed.ncbi.nlm.nih.gov/35042683/",
+        "Methods; 80,169 selected CFP from 46,969 participants with chronological age and subsequent death follow-up."
+      ],
+      "s7": [
+        "https://pubmed.ncbi.nlm.nih.gov/33369822/",
+        "Methods and Results; same-person macular OCT layers and brain MRI regional volumes; MRI subset independent of larger CFP counts."
+      ],
+      "s8": [
+        "https://pubmed.ncbi.nlm.nih.gov/39868381/",
+        "Methods and Results; baseline UKB retinal OCT was followed for clinical AD and FTD diagnoses."
+      ],
+      "s9": [
+        "https://doi.org/10.1038/s41598-024-54251-1",
+        "Methods/data flow; PD derived from linked clinical records with status relative to fundus date; 296 people before image QC, 84 PD cases retained in matched analysis."
+      ],
+      "s10": [
+        "https://www.ukbiobank.ac.uk/publications/deep-learning-aging-marker-from-retinal-images-unveils-sex-specific-clinical-and-genetic-signatures/",
+        "Abstract; chronological age/sex, cognitive performance, incident dementia/CVD and all-cause mortality in UKB retinal image analysis."
+      ],
+      "s11": [
+        "https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=25781",
+        "Total WMH volume in mm³ from T1/T2 FLAIR. Field existence confirmed; intersection with fundus after QC not enumerated here."
+      ],
+      "s12": [
+        "https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/",
+        "Apply for access notice: new applications paused for platform changes; late 2026 intended reopening. Scientific researchers including commercial organisations, public interest requirement."
+      ],
+      "s13": [
+        "https://www.ukbiobank.ac.uk/use-our-data/fees/",
+        "Fees section: approved tier and UKB-RAP compute/storage charges."
+      ],
+      "s14": [
+        "https://pubmed.ncbi.nlm.nih.gov/42837054/",
+        "Methods; image-based retinal parameters paired with constructed frailty index and systemic aging indices in 45,542 UKB participants."
+      ],
+      "s15": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8261460/",
+        "Participants/methods; baseline was collected at 22 centres; OCT/brain MRI analysis."
+      ],
+      "s16": [
+        "https://doi.org/10.1038/s41467-026-77102-1",
+        "Methods, fundus photography acquisition; Topcon 3D OCT-1000 Mark II and field of view."
+      ],
+      "s17": [
+        "https://www.ukbiobank.ac.uk/about-us/how-we-work/access-to-uk-biobank-data/",
+        "Access checks, legal agreement and controlled research platform."
+      ],
+      "adfull": [
+        "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2024.1513302/full",
+        "Discussion and cohort methods: 30,573 UK Biobank participants with baseline OCT for incident dementia analyses, separate MRI subset."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s6",
+        "Chronological age with CFP and mortality follow-up in same individuals."
+      ],
+      "B": [
+        1,
+        "s5",
+        "Subsequent stroke ascertained from linked hospital/death records."
+      ],
+      "C": [
+        1,
+        "s7",
+        "Same individuals with OCT morphology and brain MRI; see s11 for WMH field."
+      ],
+      "D": [
+        1,
+        "s8",
+        "Baseline OCT linked to incident AD/FTD diagnoses; s10 also supports cognition/dementia."
+      ],
+      "E": [
+        1,
+        "s9",
+        "Person-level PD ICD record linked to acquisition dates."
+      ],
+      "F": [
+        1,
+        "s10",
+        "Incident CVD and mortality were evaluated in eye-imaged participants."
+      ],
+      "G": [
+        3,
+        "s2",
+        "Bilateral multimodal source for pretraining/transfer; independent external centres still needed."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s6",
+        "Chronological age, not a biological-age label."
+      ],
+      "sex": [
+        "Confirmed",
+        "s10",
+        "Sex-stratified eye analyses."
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s5",
+        "Hypertension covariate, algorithm and measurement to reproduce from original study."
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s5",
+        "Diabetes covariate in retinal-stroke models."
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s10",
+        "Incident CVD."
+      ],
+      "stroke_type": [
+        "Confirmed",
+        "s5",
+        "ICD I60/I61/I63/I64 identify coded categories incl. unspecified; not all clinically adjudicated subtypes."
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s5",
+        "First recorded stroke after baseline; hospital/death linkage."
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s7",
+        "Direct overlapping eye + brain MRI subset."
+      ],
+      "csvd": [
+        "Confirmed",
+        "s11",
+        "WMH volume exists at person/instance level; compute paired usable N after approval."
+      ],
+      "ad": [
+        "Confirmed",
+        "s8",
+        "Incident clinical AD diagnosis, not biomarker-confirmed in every case."
+      ],
+      "dementia": [
+        "Confirmed",
+        "s10",
+        "Incident dementia."
+      ],
+      "cognition": [
+        "Confirmed",
+        "s10",
+        "Cognitive performance."
+      ],
+      "parkinson": [
+        "Confirmed",
+        "s9",
+        "ICD-coded prevalent/incident PD; attrition severe after QC."
+      ],
+      "frailty": [
+        "Confirmed",
+        "s14",
+        "Research-derived FI, not a clinician-assigned gold standard."
+      ],
+      "health": [
+        "Confirmed",
+        "s5",
+        "Healthy reference subset by study-specific disease exclusion."
+      ],
+      "mortality": [
+        "Confirmed",
+        "s6",
+        "All-cause registry follow-up."
+      ],
+      "followup": [
+        "Confirmed",
+        "s5",
+        "Time to first recorded stroke/end of observation."
+      ]
+    }
+  },
+  {
+    "id": "ext-nhanes-2005-2008-retina",
+    "name": "NHANES 2005–2008 Ophthalmology – Retinal Imaging (OPXRET_D / OPXRET_E)",
+    "official_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPXRET_D.htm",
+    "country": "United States",
+    "institution": "CDC, NCHS; University of Wisconsin reading centre",
+    "year": "2008 (first release of 2005–2006 codebook); next independent 2007–2008 cycle also included.",
+    "citation": "CDC/NCHS. NHANES 2005–2006 and 2007–2008, Ophthalmology – Retinal Imaging, OPXRET_D/E codebooks.",
+    "modalities": "Fundus",
+    "participants": "5,371 had gradable retinal photographs across the two cycles in a published stroke analysis; 4,570 had its required stroke and eye variables. Not total recruited.",
+    "eyes": "Protocol two 45° fields per eye, both eyes.",
+    "device": "Canon CR6-45NM with Canon 10D back.",
+    "resolution": "6.3 MP image capture (not necessarily released pixel dimensions).",
+    "quality": "Reading-centre graders; per-eye gradability fields; analytic sample excludes ungradable cases.",
+    "multivisit": "Two independent survey cross-sections; mortality linkage extends follow-up. No repeated retinal imaging documented for the same respondents.",
+    "multimodal": "Fundus + clinical questionnaires/exams",
+    "multicenter": "National clustered multistage sampling; mobile exam locations do not imply released centre IDs.",
+    "family": "NHANES",
+    "relation": "Two independent continuous-NHANES cycles grouped as one resource; not NHANES III or the derived myopia/metal exposure entry.",
+    "access": "Open download",
+    "image_access": "Unknown for raw TIFFs; official open OPXRET files are derived XPT tables, not images. Acquisition manual describes historical TIFF creation only.",
+    "label_access": "Confirmed open respondent-level grading, demographic and questionnaire variables; public-use NDI-linked mortality restricted in detail.",
+    "research_terms": "Use public-use documentation, design/weights, codebooks and cycle-specific rules; raw pixel access separately unverified.",
+    "access_url": "https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Examination&Cycle=2005-2006",
+    "pairing": "SEQN keys within corresponding OPXRET_D/E, DEMO_D/E, MCQ_D/E and public LMF files. Sampling weights and design variables mandatory. MCQ160F is self-reported stroke history, MCQ180F age first told. Public mortality includes limited fields and disclosure protection; no incident non-fatal stroke demonstrated.",
+    "strengths": "Independently reproducible participant-level analysis using open retinal grades and mortality/medical questionnaires; probability sampling.",
+    "limitations": "No confirmed public raw image route. No verified brain MRI or contemporaneous standard dementia battery in the retinal cycles. Cross-cycle cognition data cannot be joined by respondent.",
+    "experiment": "Use public OPXRET grades as exposures for survey-weighted prevalent self-reported stroke and time-to-death. Restrict to eligible adults, combine cycles correctly, estimate total eligible-to-complete attrition; pixel-level age model requires separately verified images.",
+    "sources": {
+      "s1": [
+        "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPXRET_D.htm",
+        "Component/eligibility, protocol, analytic notes and SEQN codebook. Eligible ≥40 years, two images/eye, Canon camera, per-eye grading; file type XPT."
+      ],
+      "s2": [
+        "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/OPXRET_E.htm",
+        "Component Description, Quality Control and codebook; SEQN-keyed 2007–2008 grades."
+      ],
+      "s3": [
+        "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/MCQ_D.htm",
+        "MCQ160F and MCQ180F; respondent-level history and age at first diagnosis; CVD/coronary disease items included."
+      ],
+      "s4": [
+        "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/MCQ_E.htm",
+        "Variable labels: self-reported stroke history and age first told, no event date or stroke subtype in these fields."
+      ],
+      "s5": [
+        "https://www.cdc.gov/nchs/linked-data/mortality-files/",
+        "Public-use NDI-linked files, NHANES eligibility, limited released mortality variables; some variables receive synthetic values."
+      ],
+      "s6": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10275905/",
+        "Study population/flow; paired retinal-grade and stroke records across 2005–2008: 5,371 graded, 4,570 complete for analysis."
+      ],
+      "s7": [
+        "https://pubmed.ncbi.nlm.nih.gov/37680275/",
+        "Methods; jointly analysed 2005–2008 grades and NDI-linked follow-up through 2019."
+      ],
+      "s8": [
+        "https://wwwn.cdc.gov/nchs/data/nhanes/public/2007/manuals/manual_op.pdf",
+        "Sec. 3.4.1; acquisition system made participant/eye-coded TIFFs. Does not describe public distribution."
+      ],
+      "s9": [
+        "https://wwwn.cdc.gov/nchs/nhanes/search/variablelist.aspx?Cycle=2005-2006",
+        "RIDAGEYR, RIAGENDR, BPQ020, DIQ010 and corresponding file names. Check each cycle for top-coding."
+      ],
+      "s10": [
+        "https://www.cdc.gov/healthy-aging-data/nhanes/index.html",
+        "CDC cognitive performance page lists selected later adult cycles, distinct from these retinal imaging cycles."
+      ],
+      "s11": [
+        "https://ftp.cdc.gov/pub/health_statistics/nchs/datalinkage/linked_mortality/",
+        "Official public-use file listing includes separate NHANES 2005–06/2007–08 _MORT_2019_PUBLIC.dat."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "Age + grade linkage verified via SEQN (s9); pixel access unresolved."
+      ],
+      "B": [
+        1,
+        "s6",
+        "Matched retinal grades + prevalent self-reported stroke; no incident stroke endpoint."
+      ],
+      "D": [
+        0,
+        "s10",
+        "Excluded from direct cognitive-battery studies across later independent survey cycles; hidden/linked dementia phenotype not confirmed."
+      ],
+      "F": [
+        1,
+        "s7",
+        "Same participants' retinal grades/NDI mortality."
+      ],
+      "G": [
+        3,
+        "s8",
+        "Acquisition protocol useful; pixel dataset and commercial licence unresolved."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s9",
+        "Age in years, top-coded per cycle; ≥40 eligible."
+      ],
+      "sex": [
+        "Confirmed",
+        "s9",
+        "RIAGENDR."
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s9",
+        "BPQ020 self-report; BPX adds exam-based measures."
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s9",
+        "DIQ010 clinician-diagnosed diabetes, self-report."
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s3",
+        "Self-reported coronary heart disease/MI, separate from adjudicated CVD."
+      ],
+      "stroke_type": [
+        "Not available",
+        "s4",
+        "MCQ160F/180F supply any stroke with no type."
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s4",
+        "Age first told; not calendar event date or verified age of onset."
+      ],
+      "cognition": [
+        "Uncertain",
+        "s10",
+        "Do not borrow later cognitive batteries; same-cycle standardized cognitive test not confirmed."
+      ],
+      "mortality": [
+        "Confirmed",
+        "s7",
+        "All-cause and limited cause-specific linkage."
+      ],
+      "followup": [
+        "Confirmed",
+        "s5",
+        "National Death Index linkage, not repeated eye visits."
+      ]
+    }
+  },
+  {
+    "id": "ext-nhanes-iii-retina",
+    "name": "NHANES III (1988–1994) fundus grading and NDI linkage",
+    "official_url": "https://wwwn.cdc.gov/Nchs/Nhanes/nhanes3/default.aspx",
+    "country": "United States",
+    "institution": "CDC/NCHS",
+    "citation": "CDC/NCHS. Third National Health and Nutrition Examination Survey, Examination Data File documentation; NHANES III Fundus Photography Manual.",
+    "modalities": "Fundus",
+    "eyes": "One randomly selected eye, one nonstereoscopic colour photograph.",
+    "device": "Canon CR4–45NM nonmydriatic film camera, 45°.",
+    "participants": "7,640 adults in one eye–mortality study; not a count of all retinal photographs.",
+    "quality": "Reading-centre grades; images may be ungradable.",
+    "multivisit": "Cross-sectional photography; death follow-up by NDI.",
+    "multimodal": "Fundus + health exam and mortality records",
+    "multicenter": "US probability sample; site availability for modelling unknown.",
+    "family": "NHANES",
+    "relation": "Separate survey era from 2005–2008; different participants and single-eye acquisition protocol.",
+    "access": "Open download",
+    "image_access": "Unknown for raw photographs. Exam public file contains coded retinal readings.",
+    "label_access": "Confirmed public exam and NDI files for linked respondent-level analysis.",
+    "access_url": "https://wwwn.cdc.gov/Nchs/Nhanes/nhanes3/default.aspx",
+    "research_terms": "Apply survey sampling rules and use matching release documentation.",
+    "pairing": "NHANES III public exam participant ID links within NHANES III and NDI mortality, not to a different continuous cycle. Directly demonstrated in 7,640 adults.",
+    "strengths": "National probability survey and prospective linked mortality, independent of later NHANES.",
+    "limitations": "Single historical film eye, nonrepresentative of pediatric or younger ages, raw image transfer not established.",
+    "experiment": "Independently replicate grade–mortality associations across NHANES eras after harmonizing grading, monocular vs binocular ascertainment, case mix, follow-up and survey weights.",
+    "sources": {
+      "s1": [
+        "https://wwwn.cdc.gov/Nchs/Nhanes/nhanes3/default.aspx",
+        "Official survey overview and data files; 39,695 eligible sample persons ≠ eye cohort."
+      ],
+      "s2": [
+        "https://wwwn.cdc.gov/nchs/data/nhanes3/3a/EXAMSE-acc.pdf",
+        "Fundus photography section, eligible age ≥40, one-eye retinal images and graded variables."
+      ],
+      "s3": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4111992/",
+        "Methods, NHANES III subjects with retinopathy and CKD followed for all-cause and CVD mortality; 7,640 in analysis."
+      ],
+      "s4": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5089732/",
+        "Fundus photography methods specify randomly selected eye, 45°, non-stereoscopic Canon CR4–45NM film."
+      ],
+      "s5": [
+        "https://www.cdc.gov/nchs/linked-data/mortality-files/",
+        "NHANES III in NDI-linked data release; public and restricted-use distinctions."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s2",
+        "Age eligibility and person-level grading, but no confirmed pixel access."
+      ],
+      "F": [
+        1,
+        "s3",
+        "Person-linked retinopathy, kidney disease and cause-specific death."
+      ],
+      "G": [
+        3,
+        "s4",
+        "Historical one-eye acquisition can inform protocol shifts; raw pixel availability unknown."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s2",
+        "Age documented; ≥40 eligible."
+      ],
+      "sex": [
+        "Confirmed",
+        "s3",
+        "Sex in mortality-analysis adjustment."
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s3",
+        "Diabetes by biomarkers/medication as detailed in analysis."
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s3",
+        "Hypertension variable in mortality analysis."
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s3",
+        "CVD death, not all incident CVD."
+      ],
+      "mortality": [
+        "Confirmed",
+        "s3",
+        "Public eligible mortality linkage."
+      ],
+      "followup": [
+        "Confirmed",
+        "s3",
+        "Baseline to mortality ascertainment; 2006 endpoint in study."
+      ]
+    }
+  },
+  {
+    "id": "ext-aric",
+    "name": "Atherosclerosis Risk in Communities (ARIC) retinal ancillary studies",
+    "official_url": "https://biolincc.nhlbi.nih.gov/studies/aric/",
+    "country": "United States",
+    "institution": "NHLBI; ARIC Coordinating Center, University of North Carolina and four field communities",
+    "year": "2002 (paired eye–MRI–stroke publication)",
+    "doi": "10.1001/jama.288.1.67",
+    "citation": "Wong TY et al. Cerebral white matter lesions, retinopathy, and incident clinical stroke. JAMA. 2002;288:67–74. See also retinal-stroke analysis, PMID 11597667 (2001).",
+    "modalities": "Fundus; later OCT/OCTA-related ancillary eye variables; brain MRI in a subset",
+    "participants": "10,358 retinal photography participants in early stroke study; 1,684 with MRI+retina in 1993–1995 study. These are distinct analytic denominators.",
+    "eyes": "Visit 3 single-eye protocol, later visits/ancillary forms distinguish eyes.",
+    "quality": "Grading and ungradable/exclusion fields; later ancillary dictionary also distinguishes retina, GCC, ONH and macular/disc angio scans by eye.",
+    "multivisit": "Yes; visit 3 and visit 5 CFP; MRI repeat subset and follow-up. Do not assume each participant has serial imaging.",
+    "multimodal": "Yes; CFP + brain MRI in overlapping participants.",
+    "multicenter": "Yes; four US communities.",
+    "family": "ARIC",
+    "relation": "V3, V5 neurocognitive, V7 ancillary and later endpoints belong to overlapping ARIC family.",
+    "access": "Controlled access",
+    "image_access": "Uncertain for raw retinal/brain images via standard BioLINCC release. Public data dictionary documents study IDs, derived measures and flags, not distribution of image files.",
+    "label_access": "Confirmed application route for exam, annual follow-up, adjudicated event and ancillary variables; verify selected release/fields.",
+    "license": "BioLINCC Research Materials Distribution Agreement (RMDA); no open pixel licence verified.",
+    "research_terms": "Register PI/submit study request and institution/ethics requirements per BioLINCC. BioLINCC/NIH controlled-access route prohibits covered access from institutions located in China (including Hong Kong/Macau) and the other listed countries under NOT-OD-25-083. A separate study collaboration is not a verified alternative route for covered data.",
+    "access_url": "https://biolincc.nhlbi.nih.gov/studies/aric/",
+    "pairing": "Use cohort ID / visit-mapped scrambled ID supplied in approved release (visit-specific ID in ancillary dictionary); ascertain phenotype availability by visit. 1,684 actually had both retinal exam and brain MRI, not all 15,792 parent participants.",
+    "strengths": "Direct correspondence among retinal signs, WML/infarcts, later clinical stroke, cognitive test trajectories and study-defined dementia.",
+    "limitations": "Eye photos vs already derived grades, visit-specific laterality, censoring and late-visit survivor selection. Raw image package unconfirmed; check ancillary PI and linkage/consent.",
+    "experiment": "Compare baseline clinical model vs model adding retinal signs to predict first clinical stroke, quantify added calibration/discrimination at a fixed horizon and separately model MRI lesions; repeat cognition analyses accounting for attrition.",
+    "sources": {
+      "s1": [
+        "https://biolincc.nhlbi.nih.gov/studies/aric/",
+        "Available data: exam cycles v1–v10, contacts years 2–35, events including death, heart disease and stroke to 2023. Study description, design and request process."
+      ],
+      "s2": [
+        "https://pubmed.ncbi.nlm.nih.gov/11597667/",
+        "Methods; 10,358 people aged 51–72 from four communities had graded retina and record-adjudicated incident stroke; adjusts for sex, diabetes and BP."
+      ],
+      "s3": [
+        "https://pubmed.ncbi.nlm.nih.gov/12090864/",
+        "Participants and outcome measures; 1,684 with same-visit retinal photographs and MRI, age 51–72, WMLs and subsequent clinical stroke."
+      ],
+      "s4": [
+        "https://pubmed.ncbi.nlm.nih.gov/20519327/",
+        "Methods/results; paired retinal microvascular lesions and new MRI brain/lacunar infarct or white matter lesions over median 10.5 years."
+      ],
+      "s5": [
+        "https://pubmed.ncbi.nlm.nih.gov/30706941/",
+        "V5 ARIC-NCS cross-sectional retina and adjudicated normal cognition/MCI/dementia; this supports syndrome-level labels."
+      ],
+      "s6": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5880633/",
+        "Abstract and Methods; visit 3 fundus and cognitive battery at multiple time points (three tests, composite score). Flow/attrition may change effective N."
+      ],
+      "s7": [
+        "https://biolincc.nhlbi.nih.gov/media/studies/aric/Data%20Dictionary%20-%20Ancillary%20Studies.pdf",
+        "as2014_38_v7_err; scrambled cohort visit ID, eye-specific photograph/angiography exclusions ERR11A1–ERR11A6; no image payload indicated."
+      ],
+      "s8": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2894269/",
+        "Methods; retinal microvascular abnormalities followed for classified lacunar, nonlacunar thrombotic or cardioembolic stroke."
+      ],
+      "s9": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?phd=4483&study_id=phs000280.v5.p1",
+        "Visit 3 retinal photography manual; repeat same-eye photography in QC sample, systematic photograph grading and quality feedback."
+      ],
+      "s10": [
+        "https://biolincc.nhlbi.nih.gov/faq/",
+        "PI registration, data requests and RMDA approval process."
+      ],
+      "policy": [
+        "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-083.html",
+        "Official NIH implementation notice; as of April 4, 2025 institutions located in countries of concern including China (Hong Kong and Macau included) are prohibited from accessing NIH controlled-access repositories and associated data."
+      ],
+      "biofaq": [
+        "https://biolincc.nhlbi.nih.gov/faq/",
+        "International requestors section explicitly applies NIH controlled-access restrictions. No general worldwide availability."
+      ],
+      "consent_20261106": [
+        "https://biolincc.nhlbi.nih.gov/studies/aric/",
+        "Targeted recheck 2026-11-06, Consent / Specific Consent Restrictions: study data cannot be used for commercial purposes. This recheck covers use restrictions, not all resource fields."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s2",
+        "Individual age and fundus photo/QC."
+      ],
+      "B": [
+        1,
+        "s8",
+        "Adjudicated clinical ischemic stroke subtypes linked to retina."
+      ],
+      "C": [
+        1,
+        "s3",
+        "1,684 confirmed brain MRI and retinal participants (not all ARIC)."
+      ],
+      "D": [
+        1,
+        "s5",
+        "Normal/MCI/dementia at V5; longitudinal cognition from s6."
+      ],
+      "F": [
+        1,
+        "s2",
+        "Participant-level diabetes, BP and vascular risk factors in retinal study; broader event files s1."
+      ],
+      "G": [
+        3,
+        "s2",
+        "Multiple communities; pixel acquisition for domain transfer requires separate confirmation."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s2",
+        "Age recorded; early study range 51–72."
+      ],
+      "sex": [
+        "Confirmed",
+        "s2",
+        "Participant sex included."
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s2",
+        "BP/risk exposure. Distinguish BP vs derived hypertension definition."
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s2",
+        "Diabetes covariate in eye study."
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s1",
+        "Available heart disease event follow-up, cross-match eye sample per release."
+      ],
+      "stroke_type": [
+        "Confirmed",
+        "s8",
+        "Adjudicated lacunar, nonlacunar thrombotic and cardioembolic stroke."
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s2",
+        "Incident adjudication + follow-up."
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s3",
+        "MRI–retina overlap."
+      ],
+      "csvd": [
+        "Confirmed",
+        "s4",
+        "White matter lesions and incident lacunar infarcts; not synonymous with clinical stroke."
+      ],
+      "dementia": [
+        "Confirmed",
+        "s5",
+        "Cognitive status adjudication V5."
+      ],
+      "cognition": [
+        "Confirmed",
+        "s6",
+        "Composite of three neuropsychological tests."
+      ],
+      "ad": [
+        "Uncertain",
+        "s5",
+        "Source verifies syndrome; AD etiology/biomarker label not confirmed here."
+      ],
+      "mortality": [
+        "Confirmed",
+        "s1",
+        "Available follow-up for mortality in ARIC; eye-specific N must be determined."
+      ],
+      "followup": [
+        "Confirmed",
+        "s4",
+        "Repeat MRI and events in subset."
+      ]
+    },
+    "commercial_terms": "Not permitted under the BioLINCC study data terms; the official Consent section prohibits commercial use.",
+    "source_review_dates": {
+      "consent_20261106": "2026-11-06"
+    }
+  },
+  {
+    "id": "ext-mesa",
+    "name": "Multi-Ethnic Study of Atherosclerosis (MESA Eye / cognitive–MRI ancillaries)",
+    "official_url": "https://biolincc.nhlbi.nih.gov/studies/mesa/",
+    "country": "United States",
+    "institution": "NHLBI; MESA Coordinating Center and six US field communities",
+    "year": "2012 (retina–stroke publication)",
+    "doi": "10.1161/STROKEAHA.112.673335",
+    "citation": "Kawasaki R et al. Retinal microvascular signs and risk of stroke: the Multi-Ethnic Study of Atherosclerosis. Stroke. 2012. Compare Ong SS et al., Alzheimers Dement. DOI 10.1002/alz.13498.",
+    "modalities": "Fundus; brain MRI in subset",
+    "participants": "4,849 underwent retinal photography in 2002–04 stroke study (62 incident strokes over 6 years). North Carolina MRI/cognition subset: 313 with gradable exam-2 images; 306 with gradable exam-5 images (overlapping groups).",
+    "eyes": "Both eyes photographed under protocol; a usable fellow eye may replace ungradable measurement.",
+    "device": "Canon CR6-45NM with digital Canon D-60 camera back for early retinal photography.",
+    "quality": "Reading-centre grading, QC and gradable subsets; laterality fallback must be reported.",
+    "multivisit": "Yes; fundus at exams 2 and 5; cognitive/MRI assessments later.",
+    "multimodal": "Yes; same-participant CFP and brain MRI in NC subset.",
+    "multicenter": "Yes; six communities for parent; specific paired MRI results derive from one NC field centre.",
+    "family": "MESA",
+    "relation": "Retinal, cognitive and MRI ancillaries overlap parent. Do not sum exam-specific denominators.",
+    "access": "Controlled access",
+    "image_access": "Uncertain for archived retinal pixel files; BioLINCC route is for datasets; MESA ancillary project required for new analyses using stored source images when beyond released data.",
+    "label_access": "Confirmed mechanism for deidentified data through BioLINCC/DMDA and direct MESA proposals; exact data source selection subject to review.",
+    "license": "MESA DMDA / BioLINCC agreement depending on route.",
+    "research_terms": "BioLINCC application or MESA manuscript proposal/committee approval; extra Coordinating Center services or reanalysis of existing images may require ancillary proposal. BioLINCC/NIH controlled-access route prohibits covered access from institutions located in China (including Hong Kong/Macau) and the other listed countries under NOT-OD-25-083. A separate study collaboration is not a verified alternative route for covered data.",
+    "access_url": "https://mesa-nhlbi.org/form/mesa-intake",
+    "pairing": "Same participants with eye images at exams 2/5 and cognition at exam 5 or MRI/cognition at exam 6. Use MESA participant and exam linkage after approval; not all six centres contributed the directly documented MRI subset.",
+    "strengths": "Multiethnic prospective cohort with proven retina–event and retina–brain pairings, repeated CFP in a subset.",
+    "limitations": "62 early clinical strokes despite 4,849 people; MRI ancillary subset and parent centre distribution differ. Raw pixel transfer unverified.",
+    "experiment": "Externally validate a frozen retinal vascular/age score on subsequent stroke, compare calibration by population group. Analyze NC baseline fundus vs later MRI/cognition separately, with lag and attrition reported.",
+    "sources": {
+      "s1": [
+        "https://biolincc.nhlbi.nih.gov/studies/mesa/",
+        "Study overview and available-data request route; six-community prospective cohort, clinically overt CVD events and exams."
+      ],
+      "s2": [
+        "https://pubmed.ncbi.nlm.nih.gov/23111439/",
+        "Methods and Results; photos at exam 2, 4,849 people/62 incident strokes, 6-year follow-up."
+      ],
+      "s3": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3508325/",
+        "Fundus photography/Methods; bilateral Canon CR6-45NM with D-60 back, risk factor definitions and adjudication."
+      ],
+      "s4": [
+        "https://pubmed.ncbi.nlm.nih.gov/37828734/",
+        "Methods/results: NC field centre with gradable exam-2 (313) or exam-5 (306) retinal images and exam-6 cognition/MRI. Reported associations include cortical gray matter volume and isotropic free water."
+      ],
+      "s5": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876697/",
+        "Methods and Data Availability; exam 2/5 retinal vessel measures, cognitive tests, age/sex and diabetes/BP covariates; article directs applicants to approved MESA data route."
+      ],
+      "s6": [
+        "https://mesa-nhlbi.org/form/mesa-intake",
+        "Researcher intake describes manuscript proposal/committee review and signed agreement for direct MESA collaboration."
+      ],
+      "s7": [
+        "https://mesa-nhlbi.org/researchers/ancillary",
+        "Examples of ancillary studies: deriving new data from existing images and obtaining extra coordinating-centre services."
+      ],
+      "s8": [
+        "https://pubmed.ncbi.nlm.nih.gov/29324452/",
+        "MESA clinical event adjudication: ischemic/hemorrhagic and other strokes distinguished in parent follow-up; subtype event counts of the retina subset not reported here."
+      ],
+      "policy": [
+        "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-083.html",
+        "Official NIH implementation notice; as of April 4, 2025 institutions located in countries of concern including China (Hong Kong and Macau included) are prohibited from accessing NIH controlled-access repositories and associated data."
+      ],
+      "biofaq": [
+        "https://biolincc.nhlbi.nih.gov/faq/",
+        "International requestors section explicitly applies NIH controlled-access restrictions. No general worldwide availability."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s5",
+        "Age in same participants; observed age range limits age extrapolation."
+      ],
+      "B": [
+        1,
+        "s2",
+        "Retinal grades paired with prospective stroke events."
+      ],
+      "C": [
+        1,
+        "s4",
+        "Same-person gradable retinal photos and later MRI in a geographically restricted subset."
+      ],
+      "D": [
+        1,
+        "s5",
+        "Cognitive tests directly paired; clinical AD diagnosis not established by cognitive scores."
+      ],
+      "F": [
+        1,
+        "s3",
+        "Retinopathy and measured cardiometabolic risk factors in eye sample."
+      ],
+      "G": [
+        3,
+        "s1",
+        "Diverse field centres and exam waves, raw pixels unverified."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s5",
+        "Age at exam."
+      ],
+      "sex": [
+        "Confirmed",
+        "s5",
+        "Self-reported demographics."
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s3",
+        "Clinical BP, medication or study-derived hypertension."
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s3",
+        "Defined in study as a participant risk factor."
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s3",
+        "Measured CVD risk markers; incident stroke linkage demonstrated."
+      ],
+      "stroke_type": [
+        "Confirmed",
+        "s8",
+        "Parent study adjudicates subtype; retinal subset counts for subtype require linkage."
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s2",
+        "Prospectively ascertained incident stroke."
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s4",
+        "NC subset had MRI at exam 6."
+      ],
+      "csvd": [
+        "Uncertain",
+        "s4",
+        "Retinal–brain MRI link is direct. Confirm which MRI-cSVD markers and usable overlap are released; a gray-matter volume or free-water result alone is not a CSVD diagnosis."
+      ],
+      "cognition": [
+        "Confirmed",
+        "s5",
+        "Processing speed and global cognitive assessment, not an AD diagnosis."
+      ],
+      "ad": [
+        "Uncertain",
+        "s4",
+        "MRI neurodegeneration biomarkers are not an AD diagnostic label."
+      ],
+      "followup": [
+        "Confirmed",
+        "s2",
+        "Longitudinal stroke and repeat exams."
+      ]
+    }
+  },
+  {
+    "id": "ext-chs",
+    "name": "Cardiovascular Health Study (CHS) retinal examination",
+    "official_url": "https://biolincc.nhlbi.nih.gov/studies/chs/",
+    "country": "United States",
+    "institution": "NHLBI; Cardiovascular Health Study",
+    "year": "2006 (online eye–MRI study)",
+    "doi": "10.1093/aje/kwj350",
+    "citation": "Associations between findings on cranial magnetic resonance imaging and retinal photography in the elderly: the Cardiovascular Health Study. Am J Epidemiol. 2007;165:78–84. PMID 17041135.",
+    "modalities": "Fundus; brain MRI in subset",
+    "participants": "1,717 with retinal examination plus brain MRI. 2,211 with retinal photography in cognition/dementia analysis; denominators overlap. CHD/stroke caliber study had 1,992 gradable.",
+    "eyes": "One randomly selected eye at 1997–98 visit; 45° disc–macula field.",
+    "quality": "832/2,824 had ungradable photos for caliber in a published analysis; selected sample of older survivors.",
+    "multivisit": "Longitudinal clinical events; MRI progression assessed. Repeated fundus photos not verified.",
+    "multimodal": "Yes; retina and cranial MRI.",
+    "multicenter": "Yes; US field sites; see BioLINCC and published field-centre covariate.",
+    "family": "Cardiovascular Health Study",
+    "relation": "One cohort; MRI, cognitive and event analyses partially overlap.",
+    "access": "Controlled access",
+    "image_access": "Uncertain for raw retinal or brain pixels; NIH describes their acquisition and provides data/ancillaries, not a retinal-image manifest.",
+    "label_access": "Confirmed BioLINCC study request; grades and follow-up documented; exact approved outcome dictionary and visit match should be checked.",
+    "license": "BioLINCC RMDA, not a verified image redistribution licence.",
+    "research_terms": "PI registration, application, institutional agreement/ethics requirements. BioLINCC/NIH controlled-access route prohibits covered access from institutions located in China (including Hong Kong/Macau) and the other listed countries under NOT-OD-25-083. A separate study collaboration is not a verified alternative route for covered data. Data/biospecimen use is consent-tiered to CVD-related research only or unrestricted research area; a non-CVD neurodegeneration or aging project must confirm its permitted subset.",
+    "access_url": "https://biolincc.nhlbi.nih.gov/studies/chs/",
+    "pairing": "1,717 participants underwent MRI and retinal photography in 1991–99; eye date was not necessarily MRI date. Separate patient subset had cognition/dementia adjudication. Use study ID + visit, document baseline and follow-up.",
+    "strengths": "Older population; multiple verified endpoints including subsequent CHD/stroke, MRI infarcts and white matter grade, cognitive tests and dementia.",
+    "limitations": "One randomly chosen eye; substantial missing/poor-quality photos; selected older population and uncertain pixel release.",
+    "experiment": "Externally validate published retinal/clinical risk scores in older adults using subsequent adjudicated stroke and MRI white-matter grade as separate outcomes. Report missingness and age-distribution shift.",
+    "sources": {
+      "s1": [
+        "https://biolincc.nhlbi.nih.gov/studies/chs/",
+        "Study overview: MRI, retinal photographs, CHD/stroke/death follow-up; BioLINCC package includes event data through 2015-06-30. Conditions/follow-up are not pixel manifests."
+      ],
+      "s2": [
+        "https://pubmed.ncbi.nlm.nih.gov/17041135/",
+        "Abstract; 1,717 people with retinal photographs and brain MRI; white matter grade and incident/prevalent infarcts."
+      ],
+      "s3": [
+        "https://pubmed.ncbi.nlm.nih.gov/17525385/",
+        "Methods; 2,211 people 69–97 years, graded retinal photos; Digit Symbol and modified MMSE, detailed dementia assessment, hypertension/diabetes covariates."
+      ],
+      "s4": [
+        "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/411329",
+        "Methods/Results: one random eye, 45° photos; image exclusions and numbers; retinal caliber matched to incident CHD and stroke."
+      ],
+      "s5": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3127407/",
+        "Methods; 1997–98 retinal examination and functional measures (executive dysfunction, gait etc.)."
+      ],
+      "s6": [
+        "https://biolincc.nhlbi.nih.gov/faq/",
+        "BioLINCC investigator account, request, RMDA."
+      ],
+      "policy": [
+        "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-083.html",
+        "Official NIH implementation notice; as of April 4, 2025 institutions located in countries of concern including China (Hong Kong and Macau included) are prohibited from accessing NIH controlled-access repositories and associated data."
+      ],
+      "biofaq": [
+        "https://biolincc.nhlbi.nih.gov/faq/",
+        "International requestors section explicitly applies NIH controlled-access restrictions. No general worldwide availability."
+      ],
+      "consent_20261106": [
+        "https://biolincc.nhlbi.nih.gov/studies/chs/",
+        "Targeted recheck 2026-11-06, Consent: commercial data restrictions and research-area restrictions are present; data/biospecimen use is tiered to CVD-related versus unrestricted-area research. This recheck covers consent scope, not all resource fields."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s3",
+        "Participant age matched to retinal exam; older age spectrum only."
+      ],
+      "B": [
+        1,
+        "s4",
+        "Incident CHD and clinical stroke in examined persons."
+      ],
+      "C": [
+        1,
+        "s2",
+        "Cranial MRI paired with retina; grades, incident and prevalent infarcts."
+      ],
+      "D": [
+        1,
+        "s3",
+        "Cognition and clinical dementia assessed in the same subset."
+      ],
+      "F": [
+        1,
+        "s4",
+        "Incident coronary outcomes directly matched; parent death follow-up in s1."
+      ],
+      "G": [
+        3,
+        "s1",
+        "Multi-community population; raw pixel access unverified."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s3",
+        "69–97 in cognition analysis."
+      ],
+      "sex": [
+        "Confirmed",
+        "s3",
+        "Sex covariate."
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s3",
+        "Hypertension stratification."
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s3",
+        "Diabetes covariate."
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s4",
+        "Incident CHD in retinal photo cohort."
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s4",
+        "Incident clinical stroke during follow-up."
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s2",
+        "1,717 with both exams."
+      ],
+      "csvd": [
+        "Confirmed",
+        "s2",
+        "White matter grade and MRI infarcts."
+      ],
+      "dementia": [
+        "Confirmed",
+        "s3",
+        "Clinical dementia assessed, not a guaranteed etiology-specific or biomarker label."
+      ],
+      "cognition": [
+        "Confirmed",
+        "s3",
+        "DSST and modified MMSE."
+      ],
+      "frailty": [
+        "Uncertain",
+        "s5",
+        "Gait/functional measures available; frailty index in same eye subset not verified."
+      ],
+      "health": [
+        "Confirmed",
+        "s5",
+        "Functional status measured."
+      ],
+      "mortality": [
+        "Confirmed",
+        "s1",
+        "CHS death surveillance, overlapping usable count not supplied."
+      ],
+      "followup": [
+        "Confirmed",
+        "s1",
+        "Longitudinal clinical surveillance, timing varies by file."
+      ]
+    },
+    "commercial_terms": "Commercial use is restricted; verify the participant-consent subset and approved agreement. The BioLINCC page does not provide blanket commercial permission for the data.",
+    "source_review_dates": {
+      "consent_20261106": "2026-11-06"
+    }
+  },
+  {
+    "id": "ext-framingham-original-eye",
+    "name": "Framingham Eye Study (FES I/II), Original Framingham Heart Study cohort",
+    "official_url": "https://biolincc.nhlbi.nih.gov/studies/framcohort/",
+    "country": "United States",
+    "institution": "Framingham Heart Study, Boston University/NHLBI; University of Wisconsin photograph reading centre",
+    "year": "1980 (FES monograph)",
+    "citation": "The Framingham Eye Study monograph. Surv Ophthalmol. 1980. PMID 7444756; NIH dbGaP FES II original-cohort eye exam protocol.",
+    "modalities": "Fundus",
+    "participants": "2,631 aged 52–85 in the 1973–75 clinical eye monograph. Approximately 1,500 surviving participants were targeted by FES II protocol; not a verified complete paired/gradable photo count.",
+    "eyes": "FES II protocol grades right and left eye photographs; disc and macula; visit-level image quality.",
+    "quality": "Reading centre forms and slide-set quality control. Historical analogue slides.",
+    "multivisit": "FES I/II photographed survivors: 1973–75 and 1986–89 exam protocol. Individual paired usable count unknown.",
+    "multimodal": "Fundus + eye/clinical examination. No demonstrated paired brain MRI here.",
+    "multicenter": "Single community (Framingham, MA); multiple reading/processing institutes do not imply multisite population recruitment.",
+    "family": "Framingham Heart Study",
+    "relation": "Original cohort only. Do not transfer Offspring MRI/AD sample names or counts without validating the same individuals.",
+    "access": "Controlled access",
+    "image_access": "Uncertain for digitised source photographs. Protocol specifies archived slides; data package is clinical/ancillary data, no confirmed photo inventory.",
+    "label_access": "Confirmed original-cohort selected eye data through study application; candidate event/MRI cross-joins require approved file inventory.",
+    "license": "Institutional BioLINCC/Framingham study agreements; no open image licence verified.",
+    "research_terms": "Full or expedited IRB/ethics approval required. Exemption/waiver does not suffice according to BioLINCC. BioLINCC/NIH controlled-access route prohibits covered access from institutions located in China (including Hong Kong/Macau) and the other listed countries under NOT-OD-25-083. A separate study collaboration is not a verified alternative route for covered data.",
+    "access_url": "https://biolincc.nhlbi.nih.gov/studies/framcohort/",
+    "pairing": "FES II original-cohort photo grading forms and visit/person records; verify digital scan inventory and subject crosswalk before requesting image–endpoint set. Distinct from offspring/OMNI.",
+    "strengths": "Repeated macular assessment across decades and an original longitudinal cardiovascular cohort.",
+    "limitations": "Survivor/age selection, analogue films; diagnostic/findings tables publicly documented but raw image retrieval, paired MRI/clinical stroke intersections unresolved.",
+    "experiment": "Seek a feasibility count for original-cohort photographs that can be digitised and matched across FES visits to age and clinical event records before attempting image-based modeling.",
+    "sources": {
+      "s1": [
+        "https://biolincc.nhlbi.nih.gov/studies/framcohort/",
+        "Parent original cohort, documented biennial cardiovascular/death follow-up and IRB requirement. Provides FES II protocol, not a retinal images inventory."
+      ],
+      "s2": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?phd=952&study_id=phs000007.v20.p8",
+        "FES II manual, objectives and chapters 3/4: original cohort, disc/macula photographs, labelled slides, visit/participant and eye-specific grading."
+      ],
+      "s3": [
+        "https://pubmed.ncbi.nlm.nih.gov/7444756/",
+        "FES I monograph: 2,631 adults aged 52–85; prevalence and ophthalmologic exam data."
+      ],
+      "s4": [
+        "https://pubmed.ncbi.nlm.nih.gov/141882/",
+        "FES analysis joined age/sex, earlier BP and metabolic measures to ophthalmic diagnoses in original cohort. Ophthalmic diagnosis is not itself proof of a digital image resource."
+      ],
+      "s5": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/dataset.cgi?pht=391&study_id=phs000007.v16.p6",
+        "Original-cohort eye examination dataset and associated protocol; distinct from offspring MRI datasets."
+      ],
+      "policy": [
+        "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-083.html",
+        "Official NIH implementation notice; as of April 4, 2025 institutions located in countries of concern including China (Hong Kong and Macau included) are prohibited from accessing NIH controlled-access repositories and associated data."
+      ],
+      "biofaq": [
+        "https://biolincc.nhlbi.nih.gov/faq/",
+        "International requestors section explicitly applies NIH controlled-access restrictions. No general worldwide availability."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s2",
+        "Original-cohort patient/exam-labelled photo grading and age-evaluated eye exam (s3); pixel availability unresolved."
+      ],
+      "B": [
+        2,
+        "s1",
+        "Stroke surveillance in parent but usable same-person photo/event intersection not established."
+      ],
+      "C": [
+        2,
+        "s2",
+        "Photos verified; other FHS MRI reports often describe Offspring, not these same persons."
+      ],
+      "D": [
+        2,
+        "s1",
+        "Longitudinal clinical parent; no verified person-level match to original-cohort fundus, an external request is needed."
+      ],
+      "F": [
+        2,
+        "s4",
+        "Ocular diagnoses paired to earlier BP/metabolic variables; raw pixel–longitudinal event join unverified."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s3",
+        "Age range at original eye exam."
+      ],
+      "sex": [
+        "Confirmed",
+        "s4",
+        "Age-sex-specific ophthalmic analyses."
+      ],
+      "hypertension": [
+        "Uncertain",
+        "s4",
+        "BP measurements documented; clinical hypertension label not verified."
+      ],
+      "cardiovascular": [
+        "Uncertain",
+        "s1",
+        "Parent cohort follows coronary disease; pixel-matched count unavailable."
+      ],
+      "brain_mri": [
+        "Uncertain",
+        "s2",
+        "Do not infer an original FES photo–MRI intersection from an Offspring MRI release."
+      ],
+      "mortality": [
+        "Uncertain",
+        "s1",
+        "Parent follow-up exists; photographic overlap/coverage requires a crosswalk."
+      ],
+      "followup": [
+        "Confirmed",
+        "s2",
+        "FES II recontacts survivors; individual longitudinal eye-pair availability unknown."
+      ]
+    }
+  },
+  {
+    "id": "ext-ages-reykjavik",
+    "name": "Age, Gene/Environment Susceptibility–Reykjavik Study (AGES-RS)",
+    "official_url": "https://hjarta.is/en/research/ages-phase-1/",
+    "country": "Iceland",
+    "institution": "Icelandic Heart Association and US National Institute on Aging",
+    "year": "2010 (retina–microbleed–dementia paper)",
+    "doi": "10.1212/WNL.0b013e3182020349",
+    "citation": "Qiu C et al. Cerebral microbleeds, retinopathy, and dementia: the AGES-Reykjavik Study. Neurology. 2010;75:2221–2228.",
+    "modalities": "Fundus; brain MRI",
+    "participants": "5,764 AGES-I parent; 3,906 in joint retina/cognition/MRI cross-section; 2,502 in baseline retina with serial MRI microbleed study. 4,966 in separate retina–mortality analysis; samples overlap.",
+    "eyes": "Both eyes; two 45° fields/eye centred on disc and fovea after pharmacologic dilation.",
+    "device": "6.3-MP Canon digital nonmydriatic camera.",
+    "resolution": "6.3 MP capture.",
+    "quality": "Standardised image grading; require gradable image/assessment for specific analytic cohorts.",
+    "multivisit": "Yes for brain MRI; baseline CFP and 2007–11 MRI follow-up documented. Repeat retinal images in that paired analysis not established.",
+    "multimodal": "Yes; bilateral CFP + MRI.",
+    "multicenter": "Single Reykjavik population-based study centre.",
+    "family": "Reykjavik Study / AGES-Reykjavik",
+    "relation": "AGES I/II are successive phases in surviving Reykjavik participants; analysis Ns overlap.",
+    "access": "Author contact",
+    "image_access": "Uncertain for original retinal/MRI pixel transfer. DUA collaboration is documented for individual-level AGES data; file-specific availability/onsite calculation must be confirmed.",
+    "label_access": "Research collaboration and approval through Icelandic Heart Association/AGES Executive Committee; raw image list and crosswalk not public.",
+    "license": "Negotiated collaboration/DUA; no public individual-level licence identified.",
+    "research_terms": "Submit project to Icelandic Heart Association (AGES_data_request@hjarta.is; recent study data-availability statement), consent and institutional requirements apply.",
+    "access_url": "https://hjarta.is/en/research/ages-phase-1/",
+    "pairing": "Exams from same elderly participants at AGES-I; separate study identifies 2,502 who also had repeat MRI at AGES-II. Outcomes and dates are cohort managed, so confirm ID mapping and maximum allowed visit lag.",
+    "strengths": "Direct fundus–MRI microbleed, clinical AD/vascular dementia adjudication, cognition and death ascertainment with population controls.",
+    "limitations": "Elderly survivors from a geographically concentrated population; most dementia evidence cited is cross-sectional. Eligibility for a data collaboration is not proof that image files can be transferred.",
+    "experiment": "Study whether baseline retinal microvascular signs improve prediction of new MRI-defined microbleeds by location. Separate cross-sectional AD/vascular dementia analyses; use Icelandic cohort as external test only if data agreement permits.",
+    "sources": {
+      "s1": [
+        "https://hjarta.is/en/research/ages-phase-1/",
+        "Icelandic Heart Association study overview; survivors of Reykjavik cohort, NIA collaboration."
+      ],
+      "s2": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3013588/",
+        "Methods/Figure 1: 3,906 with gradable retinal, MRI and cognitive testing; dementia adjudication including NINCDS-ADRDA clinical AD and vascular dementia. Covariates include hypertension, diabetes, sex and WMH."
+      ],
+      "s3": [
+        "https://doi.org/10.1212/WNL.0000000000004792",
+        "Methods: 2,502 with binocular CFP baseline and MRI at baseline/follow-up; camera/dilation, 45° fields, microbleed incidence by site."
+      ],
+      "s4": [
+        "https://pubmed.ncbi.nlm.nih.gov/27067925/",
+        "Methods: 4,966 participants with retinopathy assessed from fundus and subsequent all-cause/CVD death; also evaluated concomitant stroke."
+      ],
+      "s5": [
+        "https://www.nature.com/articles/s41467-026-72957-w",
+        "Data availability: AGES participant-level data can be accessed through collaboration with Icelandic Heart Association under DUA; email contact. This is not an image inventory."
+      ],
+      "s6": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2690617/",
+        "Brain and retina imaging at Reykjavik research center; WMH and brain infarcts assessed alongside retinal signs."
+      ],
+      "s7": [
+        "https://www.neurology.org/doi/full/10.1212/WNL.0000000000218036",
+        "Data availability identifies AGES-Reykjavik Study Executive Committee as data-request contact."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s4",
+        "Chronological age and photos in older persons, limited age span."
+      ],
+      "B": [
+        1,
+        "s4",
+        "Prior stroke history paired with retinal status in mortality analysis; not evidence for incident clinical stroke subtype prediction."
+      ],
+      "C": [
+        1,
+        "s3",
+        "Bilateral fundus at baseline with two brain MRI waves on same people."
+      ],
+      "D": [
+        1,
+        "s2",
+        "Cognition and clinical dementia subtypes assessed in same people."
+      ],
+      "F": [
+        1,
+        "s4",
+        "Subsequent all-cause and cardiovascular mortality."
+      ],
+      "G": [
+        3,
+        "s6",
+        "Multimodal older-adult external cohort; single centre, pixels unverified."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s4",
+        "Ages 67–96 in mortality study."
+      ],
+      "sex": [
+        "Confirmed",
+        "s2",
+        "Participant sex recorded."
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s2",
+        "Clinical covariate."
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s2",
+        "Clinical covariate."
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s4",
+        "CVD death and comorbidity."
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s4",
+        "Prior stroke considered; subtype classification not established."
+      ],
+      "stroke_time": [
+        "Uncertain",
+        "s4",
+        "Prior stroke, not verified onset date."
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s3",
+        "MRI in retina-imaged participants at two waves."
+      ],
+      "csvd": [
+        "Confirmed",
+        "s3",
+        "Incident microbleeds; WMH/infarcts in s6."
+      ],
+      "ad": [
+        "Confirmed",
+        "s2",
+        "Clinical AD criteria, not biomarker-positive AD."
+      ],
+      "dementia": [
+        "Confirmed",
+        "s2",
+        "Clinically adjudicated including vascular dementia."
+      ],
+      "cognition": [
+        "Confirmed",
+        "s2",
+        "Processing speed, memory and executive performance."
+      ],
+      "mortality": [
+        "Confirmed",
+        "s4",
+        "Subsequent all-cause and cardiovascular death."
+      ],
+      "followup": [
+        "Confirmed",
+        "s3",
+        "Serial MRI, separate from death follow-up."
+      ]
+    }
+  },
+  {
+    "id": "ext-scone-scotland",
+    "name": "Scottish Collaborative Optometry-Ophthalmology Network e-research (SCONe)",
+    "official_url": "https://clinical-sciences.ed.ac.uk/ophthalmology/scone/about-scone",
+    "country": "United Kingdom (Scotland)",
+    "institution": "University of Edinburgh, Scottish community optometry practices, Public Health Scotland/eDRIS National Safe Haven",
+    "year": "2025 (cohort descriptor); Feb 2026 (phase 2 scope update)",
+    "doi": "10.1136/bmjhci-2024-101236",
+    "citation": "Tochel C et al. SCONe: a community-acquired retinal image repository enabling ocular, cardiovascular and neurodegenerative disease prediction. BMJ Health Care Inform. 2025;32:e101236.",
+    "modalities": "Fundus",
+    "images": "Phase-2 report: 1,499,677 images delivered; nearly 800,000 linked to NHS records at that report. Earlier published cohort: >367,000 matched images. Distinct snapshots, not additive.",
+    "participants": "131,678 people in phase-2 delivery; linked person count not given for the ~800,000 image update. 2025 descriptor reports >36,000 matched patients.",
+    "eyes": "Usually left + right per date; coded outcomes assigned to the person, not eye-specific.",
+    "device": "2025 subset: typically 45° CFP; Topcon (~90%), Canon (~5%), Nikon (~4%). Device shares should not be generalized to all future submissions.",
+    "quality": "Approximately 9,500 images read for AMD, quality and pathology in phase-2 report; not all images clinically graded.",
+    "multivisit": "Yes, repeated community optometry dates for some individuals; date/follow-up heterogeneity.",
+    "multimodal": "Fundus + healthcare records. Neither routine brain MRI nor OCT pixels established by cohort descriptor.",
+    "multicenter": "Yes; multiple community optometry practices and camera systems across Scotland.",
+    "family": "SCONe",
+    "relation": "Phase 1/2 and 2025 published linked subset overlap. No additional cohort for each practice or outcome.",
+    "access": "Controlled access",
+    "image_access": "Confirmed within Scottish National Safe Haven for approved SCONe researchers/projects only. External researchers need a project-specific partnership; raw export not offered.",
+    "label_access": "Confirmed linked coded hospital/general ophthalmic/death records for approved Safe Haven work; not an open individual-level table.",
+    "license": "Public Health Scotland governance; no publicly redistributable patient/image licence.",
+    "research_terms": "Collaborative inquiry with SCONe, approved institution/research project, governance training and Safe Haven-controlled analysis; only checked non-disclosive outputs can leave.",
+    "access_url": "https://clinical-sciences.ed.ac.uk/ophthalmology/scone/about-scone",
+    "pairing": "PHS/eDRIS links images via approved patient identity matching to routine health records. Research uses deidentified person, image date and earliest disease-code date (clinical onset unknown). More than one image/eye/date possible. Linked subset is smaller than phase-2 delivered inventory.",
+    "strengths": "Direct clinical-code linkage for stroke, clinical AD/dementia and PD; repeated fundus, multiple devices and spatially distributed community sites.",
+    "limitations": "Optometry attenders, older population and incomplete medical history. First code is a dated proxy; do not assume it is incident onset or model same-day dual-eye images as independent people. Safe Haven access is project specific.",
+    "experiment": "On an approved Safe Haven project, train a patient-split age model and evaluate whether a frozen age gap improves prediction of first recorded stroke/dementia beyond clinical covariates. Require adequate pre-index observation, treat death as competing risk, reserve a practice/device and monitor coding completeness.",
+    "sources": {
+      "s1": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12083377/",
+        "Tochel et al., Methods; results Table 2 and Figs 2–3. Patient/date matching, sex/age, camera distribution, repeat dates. In earlier linked cohort: 2,495 stroke, 1,630 dementia, 309 AD, 288 Parkinson, 703 cognitive-decline code groups; overlap possible. Earliest code a proxy, not validated incident onset."
+      ],
+      "s2": [
+        "https://clinical-sciences.ed.ac.uk/sites/default/files/2026-03/Summary%20of%20the%20second%20phase%20of%20the%20SCONe%20project%2C%202022%20to%202025.pdf",
+        "Phase-2 report, data collection/curation: 1,499,677 images, 131,678 persons delivered, nearly 800,000 images linked to NHS records, around 9,500 graded; do not use counts as complete phenotype denominators."
+      ],
+      "s3": [
+        "https://clinical-sciences.ed.ac.uk/ophthalmology/scone/about-scone",
+        "Official governance: Public Health Scotland controls access within the National Safe Haven; data not shared outwith secure facility."
+      ],
+      "s4": [
+        "https://accord.scot/scottish-universities-transform-eye-health-research-with-retinal-imaging-resource",
+        "University/NHS research office (24 Oct 2025): approved members of SCONe team only have access; external partnership must be confirmed."
+      ],
+      "s5": [
+        "https://doi.org/10.1186/s12874-024-02143-3",
+        "Study-team linkage methodology, also referenced in phase-2 report; linkage results and impact of incomplete matches must be assessed."
+      ],
+      "s6": [
+        "https://pubmed.ncbi.nlm.nih.gov/40374195/",
+        "2025 published cohort snapshot; >367,000 matched retinal images, >36,000 matched patients. Separate from phase-2 larger delivered inventory."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "Participant age, dated retina, repeated optometry subset."
+      ],
+      "B": [
+        1,
+        "s1",
+        "Table 2 verifies same patients with coded stroke and retina, relative first-code dates."
+      ],
+      "D": [
+        1,
+        "s1",
+        "AD, dementia and cognitive decline coded in linked patients, not validated cognitive test scores."
+      ],
+      "E": [
+        1,
+        "s1",
+        "PD code groups matched to retina at person/date."
+      ],
+      "F": [
+        1,
+        "s1",
+        "Coded hypertension/heart disease, diabetes and linked death records in repository."
+      ],
+      "G": [
+        3,
+        "s1",
+        "Community practice/device heterogeneity; data remain in the National Safe Haven."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "Individual ages linked to capture dates; cohort access is controlled."
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "Patient demographics in linked health records."
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s1",
+        "Hypertension/hypertensive heart disease code grouping."
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s1",
+        "Coded diagnosis."
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s1",
+        "Ischaemic heart disease, hypertension/heart disease and pulmonary heart disease codes."
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s1",
+        "Table 2 reports any stroke; subtype label coverage not established."
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s1",
+        "Dated first recorded stroke code, not adjudicated clinical onset."
+      ],
+      "ad": [
+        "Confirmed",
+        "s1",
+        "Clinical AD code, not gold-standard pathology."
+      ],
+      "dementia": [
+        "Confirmed",
+        "s1",
+        "Clinical coded dementia."
+      ],
+      "cognition": [
+        "Uncertain",
+        "s1",
+        "Cognitive decline code confirmed; individual standardized cognitive scores not confirmed."
+      ],
+      "parkinson": [
+        "Confirmed",
+        "s1",
+        "PD code."
+      ],
+      "mortality": [
+        "Confirmed",
+        "s1",
+        "National Records of Scotland Death Register linkage; availability of cause/timing by project must be verified."
+      ],
+      "followup": [
+        "Confirmed",
+        "s1",
+        "Dated historical health records and repeated imagery in a subset."
+      ]
+    }
+  },
+  {
+    "id": "ext-lothian-birth-cohort-1936",
+    "name": "Lothian Birth Cohort 1936 (LBC1936) retinal and brain imaging",
+    "official_url": "https://lothian-birth-cohorts.ed.ac.uk/data-access-collaboration",
+    "country": "United Kingdom (Scotland)",
+    "institution": "University of Edinburgh, Lothian Birth Cohorts",
+    "year": "2019 (retina–MRI study)",
+    "doi": "10.1038/s41598-019-42534-x",
+    "citation": "Retinal microvasculature and cerebral small vessel disease in the Lothian Birth Cohort 1936 and Mild Stroke Study. Sci Rep. 2019. PMID 31004095.",
+    "modalities": "Fundus; brain MRI",
+    "participants": "Wave 2: 866 attended clinical assessment, 681 completed brain imaging and provided WMH/SVD data; analytic n=603 with retinal measurements in both eyes. Separate retina–cognition study n=683. Do not add Mild Stroke Study n=155.",
+    "eyes": "Bilateral retinal photographs.",
+    "device": "Non-mydriatic 45° Canon CR-DGi CFP in Wave 2.",
+    "quality": "Use bilateral gradeable vessel metrics for the 603-person MRI analysis; exclusions can bias complete-case subset.",
+    "multivisit": "Yes for longitudinal cognitive testing, from childhood IQ through late-life waves; retinal vascular measures in cited studies were acquired at wave 2, repeated retinal pixels not demonstrated.",
+    "multimodal": "Yes; bilateral CFP + structural brain MRI.",
+    "multicenter": "One regional community cohort (Lothian, Scotland); not multicenter retinal acquisition evidence.",
+    "family": "Lothian Birth Cohort 1936",
+    "relation": "Not LBC1921. Mild Stroke Study is a distinct cohort sharing a paper/imaging protocol; n=155 must not be attributed to LBC1936.",
+    "access": "Application",
+    "image_access": "Uncertain for raw retinal pixels under standard request. Official study publishes dictionaries and a study-specific data request form; source pixel access and redistribution require explicit confirmation.",
+    "label_access": "Confirmed proposal-based route for cohort/imaging variables, pending approval and approved release field inventory.",
+    "license": "Cohort-specific agreement, no open raw-image licence identified.",
+    "research_terms": "List proposed variables and methods, submit LBC data request form to cohort director; verify retinal pixel coverage and which sites are eligible.",
+    "access_url": "https://lothian-birth-cohorts.ed.ac.uk/data-access-collaboration",
+    "pairing": "1936-born cohort wave 2 (~age 73), bilateral fundus vascular measures and structural MRI. Subsequent cognitive scores link to the same people. Do not transfer stroke patients or counts from companion Mild Stroke Study.",
+    "strengths": "Narrow age range controls age confounding; measured childhood cognitive ability and later-life repeated tests, MRI small-vessel phenotypes.",
+    "limitations": "Birth-year restriction precludes learning a widely generalizable age clock within this sample. Image transfer not established. Secondary prevention/mild-stroke patients from another study must be kept separate.",
+    "experiment": "Use as an external test of retinal vessel features for WMH burden and late-life cognitive change at nearly fixed age. Compare against baseline IQ and vascular risk, model mortality/attrition, and avoid misclassifying longitudinal cognitive tests as dementia diagnoses.",
+    "sources": {
+      "s1": [
+        "https://www.nature.com/articles/s41598-019-42534-x",
+        "Methods and Results (LBC1936, separately from Mild Stroke Study), Table 1: 866 attended, 681 MRI/WMH/SVD, 603 analytic with bilateral retinal measures; source reports chronic vascular covariates and prior stroke."
+      ],
+      "s2": [
+        "https://pubmed.ncbi.nlm.nih.gov/28400371/",
+        "Methods; 683 with photos at ~73 and cognitive testing, including childhood IQ adjustment; endpoint is cognitive performance."
+      ],
+      "s3": [
+        "https://pubmed.ncbi.nlm.nih.gov/31338413/",
+        "Methods; retinal markers measured at mean age 72.5 (SD 0.7), cognitive domains serially tested at ~73, 76, 79. Evidence does not establish clinical AD/dementia labels."
+      ],
+      "s4": [
+        "https://lothian-birth-cohorts.ed.ac.uk/data-access-collaboration",
+        "Study data/imaging dictionaries, research plan and official data request form to cohort director; raw retinal image distribution not guaranteed."
+      ],
+      "s5": [
+        "https://bjo.bmj.com/content/101/7/993",
+        "Retinal imaging section; wave-2 45° non-mydriatic CR-DGi fundus photographs."
+      ],
+      "s6": [
+        "https://lothian-birth-cohorts.ed.ac.uk/history",
+        "Official history of independent LBC1921 and LBC1936, childhood Scottish Mental Surveys and late-life wave ages."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s2",
+        "Retina and age paired but nearly fixed age; external calibration/mechanistic study, poor age-span for training."
+      ],
+      "B": [
+        1,
+        "s1",
+        "Prior stroke and vascular risk covariates are recorded in LBC1936; incident/subtyped stroke evidence not established."
+      ],
+      "C": [
+        1,
+        "s1",
+        "Direct retina/MRI pairing with WMH burden, PVS, lacunes/microbleeds."
+      ],
+      "D": [
+        1,
+        "s3",
+        "Retinal measurements and longitudinal cognition tested in same cohort."
+      ],
+      "F": [
+        1,
+        "s1",
+        "Diabetes and hypertension among participants with bilateral retinal measurements."
+      ],
+      "G": [
+        3,
+        "s1",
+        "Multimodal regional cohort; source image access needs confirmation."
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "Wave 2 narrow age range, mean ~72.5."
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "Participant-level demographics."
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s1",
+        "270/603 with hypertension."
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s1",
+        "58/603 with diabetes."
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s1",
+        "Vascular risk and cardiovascular history from imaging cohort."
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s1",
+        "LBC1936 reports stroke history; subtypes of separate Mild Stroke Study not transferable."
+      ],
+      "stroke_time": [
+        "Uncertain",
+        "s1",
+        "History, not verified incident clinical date."
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s1",
+        "Paired structural brain MRI."
+      ],
+      "csvd": [
+        "Confirmed",
+        "s1",
+        "MRI white-matter hyperintensity grades/volume, perivascular spaces, lacunes and microbleeds."
+      ],
+      "cognition": [
+        "Confirmed",
+        "s3",
+        "Repeated cognition by domain; separate from dementia diagnosis."
+      ],
+      "followup": [
+        "Confirmed",
+        "s3",
+        "Waves of cognitive follow-up."
+      ]
+    }
+  }
+]

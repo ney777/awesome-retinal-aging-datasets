@@ -1,0 +1,167 @@
+{
+  "as_of": "2026-11-06",
+  "started_utc": "2026-11-05T17:36:20.467090+00:00",
+  "finished_utc": "2026-11-05T17:41:58.115756+00:00",
+  "master_sha256": "a5bfbd02d32f16839ed42e0a2f8f384598750e19f7f70ebae4ec494f40fe9f4d",
+  "resources": 479,
+  "unique_input_urls": 488,
+  "checked_urls": 488,
+  "complete": true,
+  "method": "HEAD only; guarded manual redirect following, maximum five hops; no GET fallback",
+  "max_workers": 8,
+  "per_initial_host_concurrency": 2,
+  "url_deadline_seconds": 12.0,
+  "status_counts": {
+    "HTTP reachable": 331,
+    "Unresolved": 132,
+    "Candidate missing": 25
+  },
+  "http_code_counts": {
+    "200": 329,
+    "403": 80,
+    "": 48,
+    "500": 3,
+    "202": 1,
+    "503": 1,
+    "203": 1,
+    "404": 25
+  },
+  "candidate_missing": [
+    {
+      "url": "https://www.kaggle.com/c/aptos2019-blindness-detection",
+      "http_code": 404,
+      "resource_ids": "aptos2019"
+    },
+    {
+      "url": "https://www.kaggle.com/c/diabetic-retinopathy-detection",
+      "http_code": 404,
+      "resource_ids": "eyepacs"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/cnzakimuena/retinal-oct-and-octa-data-3",
+      "http_code": 404,
+      "resource_ids": "retinal_oct_octa_two_subjects_processed"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset",
+      "http_code": 404,
+      "resource_ids": "smdg"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection",
+      "http_code": 404,
+      "resource_ids": "higancnn_generated_glaucoma"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/gaoweihao/amd-sd",
+      "http_code": 404,
+      "resource_ids": "amd_sd"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/jr2ngb/cataractdataset",
+      "http_code": 404,
+      "resource_ids": "cataract"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/jananowakova/retinal-image-dataset-of-infants-and-rop",
+      "http_code": 404,
+      "resource_ids": "rop_ostrava"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/michachwesiuk/hybridgaze",
+      "http_code": 404,
+      "resource_ids": "hybridgaze"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/mathieugodbout/oct-postsurgery-visual-improvement",
+      "http_code": 404,
+      "resource_ids": "oct_macular_hole_postsurgery"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/nurmukhammed7/augemnted-ocular-diseases",
+      "http_code": 404,
+      "resource_ids": "aod"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/nafin59/ocular-toxoplasmosis-fundus-images-dataset",
+      "http_code": 404,
+      "resource_ids": "toxofundus"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/orvile/rim-one-retinal-dataset-for-assessing-glaucoma",
+      "http_code": 404,
+      "resource_ids": "rimone_dl"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/obulisainaren/retinal-oct-c8",
+      "http_code": 404,
+      "resource_ids": "oct_c8"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/samriddhibagchi/e-ophtha-diabetic-retinopathy-datasets-ex-ma",
+      "http_code": 404,
+      "resource_ids": "e_ophtha"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/paultimothymooney/kermany2018",
+      "http_code": 404,
+      "resource_ids": "kermany_oct"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/zeeshanahmed13/intraretinal-cystoid-fluid",
+      "http_code": 404,
+      "resource_ids": "intraretinal_cystoid_fluid"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/shozosaeki/visual-field-testing-experiment",
+      "http_code": 404,
+      "resource_ids": "visual_field_testing_experiment"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset",
+      "http_code": 404,
+      "resource_ids": "gleam"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/lokeshsaipureddi/drishtigs-retina-dataset-for-onh-segmentation",
+      "http_code": 404,
+      "resource_ids": "drishti_gs"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/cheshrcat/ru-medical-texts-ophtalmology",
+      "http_code": 404,
+      "resource_ids": "ru_medical_texts_ophthalmology"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/elmehdi12/keratoconus-detection",
+      "http_code": 404,
+      "resource_ids": "keratoconus_detection_kaggle"
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/vietai-advance-retinal-disease-detection-2020/data",
+      "http_code": 404,
+      "resource_ids": "vietai_retinal_disease"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/clerimar/brasil-glaucoma-brg",
+      "http_code": 404,
+      "resource_ids": "brasil_glaucoma_brg"
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification",
+      "http_code": 404,
+      "resource_ids": "rfmid"
+    }
+  ],
+  "download_access_verified": false,
+  "limitations": [
+    "2xx establishes only a HEAD HTTP response, not image/label download or permission.",
+    "401/403/405/429, DNS/TLS/transport failures and timeouts remain Unresolved, not dead.",
+    "404/410 remain candidates for manual verification; some sites reject HEAD.",
+    "The total 12-second budget includes redirects; no page text or medical data was fetched.",
+    "Every destination is checked for userinfo, local names, private IPs and DNS answers; DNS answers are pinned for curl.",
+    "Sensitive redirect query values are redacted; response headers/cookies are not archived."
+  ],
+  "input_url_mapping_verified_against_final_master": true,
+  "input_url_mapping_sha256": "9f999b778b65741b15e590ef0286a696d645f645cf1118d82cf6a951f066f9c7"
+}

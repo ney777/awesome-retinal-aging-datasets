@@ -1,0 +1,43 @@
+id	population	qc	multi	access	ready_tracks	basis
+ext-uk-biobank	1	1	3	0		多评估中心，受控 RAP；新申请暂停。
+ext-nhanes-2005-2008-retina	1	1	2	0		概率抽样与分级质控；公开 XPT 无像素。
+ext-nhanes-iii-retina	1	1	2	0		历史概率样本；公开阅读分级。
+ext-aric	1	1	3	1		四社区、阅读中心；独立像素交付未证。
+ext-mesa	1	1	3	1		六社区，MRI 子集集中于北卡；像素须另审。
+ext-chs	1	1	3	1		多地社区、有不可分级照片；像素供给未证。
+ext-framingham-original-eye	1	1	1	1		单社区历史胶片及分级，数字化待核。
+ext-ages-reykjavik	1	1	1	1		同一雷克雅未克人群；合作范围待核。
+ext-rotterdam-study	1	0	1	1		单地区人群；管理团队受理；像素需确认。
+ext-maastricht-study	1	0	1	1		地区人群及糖尿病富集；申请需指明影像格式。
+ext-rhineland-study	1	1	1	2		社区研究、MRI/OCT 质控；DUAC 受理影像申请。
+ext-shanghai-sdpp	1	1	1	1		非营利定向申请；MRI 子集与事件子集分别计。
+ext-alzeye	0	0	2	0		医院多个地点；限原团队分析个体系统疾病资料。
+ext-ondri	0	1	3	1		跨安大略中心；影像表型存在，原始眼图未知。
+ext-seed-edis	1	0	2	2		多族群，影像项目申请；EDIS 另需许可。
+ext-beijing-eye-study	1	0	1	1		地域人群，研究申请到像素映射待核。
+ext-nicola	1	1	1	1		地区老年人群、掩蔽分级；安全环境内像素供给待核。
+ext-areds	0	1	3	2		多中心试验、有正式受控眼图路径；地域适格性另审。
+ext-areds2	0	1	3	2		82 个中心，DICOM+ID 字典；dbGaP 资格限制。
+ext-bmes	1	1	1	1		单地区、标准化分级，原始影像交付待核。
+ext-singapore-memory-clinics	0	0	2	1		双门诊，个体资料共享受限。
+ext-eyepacs-eyeage	0	1	1	1		论文多个访视；与竞赛包有重叠，需联系 EyePACS。
+ext-joir-japanese-checkup	0	0	1	1		日本男性体检子集；须项目方批准。
+brset	0	1	3	2		三门诊两种相机，PhysioNet 认证与 DUA。
+mbrset	0	1	1	2		单次地区活动手机设备，须认证。
+odir2019	0	1	3	1		多医院/设备；官方科研复用范围未确立，暂缓实际使用。
+papila	0	0	1	4	Age	单医院，公开原始影像和逐眼临床表。
+grape	0	1	2	4	Age	单中心三种相机，开放真实访视与眼别。
+harvard_fairvision	0	0	1	4	Age	临床 SLO+OCT，公开文件；限非商业研究。
+fairvlmed	0	0	1	4	Age	临床 SLO 单样本；科研条件，系列间重叠未证。
+ext-fdr26	0	1	1	3		开放北非单中心资源，逐图年龄已核实；没有已认证患者键，独立验证暂待分组核准。
+china_fundus_cimt	0	1	1	4	Age	单中心住院人群；公开双眼、ID与真年龄；CIMT 仅替代终点。
+octa_500	0	0	1	1		具 OCT/OCTA；账号及作者密码流程。
+dryad_functional_oct_alzheimer	0	1	1	3	Neuro	数据包与病例映射明确；按平台流程获取，机制样本很小。
+trend2_fundus	0	1	1	4	Neuro	公开病例列与 TIFF 名对应；仅 28 个 ID-eye，患者总数未证。
+oct_ms_jhu	0	1	1	3	Age	原 ZIP 标识核验；仅 26 个唯一年龄匹配。
+retina_age_analysis	0	0	0	0		来源/授权链及 BRSET 潜在重叠未证。
+oculoscope	0	0	1	1		UWF 源档受控；年龄连续值与个体键未知。
+rose	0	1	2	1		两个设备/子集，病例映射与准入未证。
+ext-mcfi	0	0	1	4	Age	单中心多间隔，患者/会话/眼别文件映射已核。
+ext-scone-scotland	0	1	3	2		社区验光多门店多设备；须项目团队合作在苏格兰安全环境内运行。
+ext-lothian-birth-cohort-1936	1	1	1	1		苏格兰单地区出生队列，年龄窄，影像授权待核。

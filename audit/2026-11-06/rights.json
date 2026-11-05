@@ -1,0 +1,466 @@
+{
+  "audit_date": "2026-11-06",
+  "repo": ".",
+  "initial_repo_commit": "6451e1aa75bfa9013592a4b9e3056bd1d507ca7c",
+  "scope": "Independent public-release image-rights/citation/privacy audit; no visibility change. Parent later authorized license clarification in three files only.",
+  "summary": {
+    "selected_images": 5,
+    "official_license_verified": 5,
+    "image_hashes_match": 5,
+    "visible_identifier_findings": 0,
+    "embedded_identity_metadata_findings": 0,
+    "required_license_scope_correction": "Implemented in three assigned files",
+    "remaining_content_precision": "China-Fundus-CIMT original/raw wording; no image replacement required by this audit"
+  },
+  "findings": [
+    {
+      "id": "RIGHTS-1",
+      "severity": "P1",
+      "status": "Remediated in working tree; parent integration pending",
+      "title": "Upstream metadata CC BY 4.0 was omitted from the repository-wide license/citation scope",
+      "evidence": [
+        {
+          "path": "initial LICENSE.md:3-17",
+          "observation": "Original heading grouped code and catalog presentation under MIT; metadata section mentioned only retained MIT notice."
+        },
+        {
+          "path": "library/inputs/v0.7.0/LICENSE:25-30",
+          "observation": "MIT notice explicitly covers EyeDataHub library code itself."
+        },
+        {
+          "url": "https://github.com/pooyakhosravi/EyeDataHub/blob/0ce7144459a41e8be255fed7fa62c30416613e6b/README.md#L190-L195",
+          "observation": "Fixed README separately licenses catalog metadata under CC BY 4.0. Archive copy and live v0.7.0 raw README matched byte-for-byte."
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode.en#s3",
+          "observation": "Sharing requires retained creator/source/license information and indication of modifications."
+        }
+      ],
+      "suggested_fix": "Scope original software to MIT, upstream/derived catalog to CC BY 4.0, preserve full upstream citation and modification history, exclude independently licensed images/provider material. Do not treat catalog license as permission to redistribute every archive/cache file.",
+      "implemented_files": [
+        "LICENSE.md",
+        "CITATION.cff",
+        "UPSTREAM_NOTICE.md"
+      ]
+    },
+    {
+      "id": "RIGHTS-2",
+      "severity": "P2",
+      "status": "Open; README scope belongs to parent",
+      "title": "China-Fundus-CIMT original/raw wording should distinguish publisher preprocessing from local non-modification",
+      "evidence": [
+        {
+          "path": "README.zh-CN.md:15,51,53",
+          "observation": "Uses original-data-image wording and says the sample was not cropped or re-encoded."
+        },
+        {
+          "path": "assets/examples/manifest.json:China-Fundus-CIMT.transform",
+          "observation": "None / source bytes preserved correctly describes this repository transformation, but not acquisition-raw status."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41597-025-04930-z",
+          "locator": "Data preprocessing / Image cropping and renaming; Data quality control",
+          "observation": "Publisher removed information borders, standardized/cropped to 512 x 512 and applied restoration to some low-quality images; selected sample restoration status not established."
+        }
+      ],
+      "suggested_fix": "Say unmodified official distributed sample / 未由本仓库修改的官方分发样例. Add that original publisher preprocessing is present; avoid asserting raw camera pixels or no prior crop. Retain source-byte hashes and current no-local-change declaration."
+    },
+    {
+      "id": "RIGHTS-3",
+      "severity": "P3",
+      "status": "Optional reference improvement, not a demonstrated license failure",
+      "title": "OCTDL dataset creator list differs from requested article citation",
+      "evidence": [
+        {
+          "url": "https://zenodo.org/records/10839556",
+          "locator": "Authors/Creators and description BibTeX",
+          "observation": "10 dataset creators; article citation includes Paul A. Constable as an eleventh author and orders Ronkin/Borisov differently."
+        },
+        {
+          "url": "https://github.com/MikhailKulyabin/OCTDL#citation",
+          "observation": "Official repository requests full paper citation including Paul A. Constable."
+        }
+      ],
+      "suggested_fix": "Keep the correct ten-author dataset-release attribution and optionally add a separate complete 11-author paper citation, clearly labeled. Do not claim the dataset release creator list itself is wrong."
+    },
+    {
+      "id": "RIGHTS-4",
+      "severity": "P3",
+      "status": "Observed limitation; existing manifest already acknowledges MCFI key/date",
+      "title": "Manifest provenance remains linkable to source participant tables despite absence of visible/EXIF identifiers",
+      "evidence": [
+        {
+          "path": "assets/examples/manifest.json:MCFI.archive_member,original_filename,privacy_review",
+          "observation": "Original member path includes participant key, acquisition date and time; these can join upstream metadata."
+        },
+        {
+          "url": "https://data.mendeley.com/datasets/stskv6zjt9/1",
+          "locator": "Description, dataset organization and metadata.csv",
+          "observation": "Provider documents ID/date/time naming and participant-level metadata table."
+        },
+        {
+          "path": "private local image-metadata audit record (not redistributed)",
+          "observation": "No EXIF identity data; only OCTDL Orientation. PNGs have no text/EXIF chunks; JPEG headers contain no other APP identity/comment payloads."
+        }
+      ],
+      "suggested_fix": "Keep privacy wording limited to the inspected bytes/visible content, preserve the existing pseudonymous-linkage caveat, and do not label the samples irreversibly anonymous or consent-verified solely because a CC license exists. No newly exposed direct identifier was found."
+    },
+    {
+      "id": "RIGHTS-5",
+      "severity": "P3",
+      "status": "Handled in UPSTREAM_NOTICE.md",
+      "title": "Historical EyeDataHub DOI archival API currently returns 410",
+      "evidence": [
+        {
+          "url": "https://zenodo.org/api/records/21798623",
+          "observation": "HTTP 410 Gone observed on 2026-11-06; the DOI is present in the frozen upstream CITATION.cff."
+        }
+      ],
+      "suggested_fix": "Retain the historical upstream DOI as supplied, prefer fixed Git commit and SHA hashes for reproduction, and avoid asserting that it currently serves a downloadable archive."
+    }
+  ],
+  "asset_reviews": [
+    {
+      "resource_id": "china_fundus_cimt",
+      "file": "assets/examples/china-fundus-cimt-original.png",
+      "permission_evidence_status": "Confirmed for the selected asset and cited release",
+      "source_license": "CC0-1.0",
+      "source_authors_status": "Complete for the cited dataset release or paper figure",
+      "sha256": "940ffde0c46e3be85635c36dccd18e723b946e0bce467383ff38c13aabd74fe4",
+      "matches_existing_manifest_hash": true,
+      "dimensions": [
+        512,
+        512
+      ],
+      "visual_review": "Viewed the full local image; no visible name, face, birth date, patient text or identifying overlay found. GRAPE contains only figure labels.",
+      "embedded_metadata": {
+        "file": "china-fundus-cimt-original.png",
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGB",
+        "exif": {},
+        "info": {},
+        "jpeg_segments": [],
+        "png_chunks": [
+          {
+            "type": "IHDR",
+            "bytes": 13
+          },
+          {
+            "type": "IDAT",
+            "bytes": 65536
+          },
+          {
+            "type": "IDAT",
+            "bytes": 65536
+          },
+          {
+            "type": "IDAT",
+            "bytes": 65536
+          },
+          {
+            "type": "IDAT",
+            "bytes": 65536
+          },
+          {
+            "type": "IDAT",
+            "bytes": 17030
+          },
+          {
+            "type": "IEND",
+            "bytes": 0
+          }
+        ]
+      },
+      "limits": "Did not repeat ZIP range extraction in this audit; checked local file hash against recorded acquisition manifest and independently re-read official licensing metadata.",
+      "license_observation": "Version-1 Figshare API license is CC0 with the CC0 1.0 URL. All 10 dataset creators in the API appear in the gallery attribution. Dataset grant is distinct from the associated paper license.",
+      "processing_observation": "Official paper Data preprocessing says patient-information borders were removed and images cropped/standardized to 512 x 512; its quality workflow also restores some low-quality images. The selected image is a distributed 512 x 512 file; whether this particular sample underwent restoration is Unknown.",
+      "source_evidence": [
+        "https://api.figshare.com/v2/articles/27907056/versions/1",
+        "https://www.nature.com/articles/s41597-025-04930-z#Sec6"
+      ],
+      "privacy_source": "Paper Methods reports ethics waiver YX2023-2011(F1) and anonymization. Visual/metadata observations below do not independently prove irreversible anonymization."
+    },
+    {
+      "resource_id": "ext-fdr26",
+      "file": "assets/examples/fdr26-original.jpg",
+      "permission_evidence_status": "Confirmed for the selected asset and cited release",
+      "source_license": "CC-BY-4.0",
+      "source_authors_status": "Complete for the cited dataset release or paper figure",
+      "sha256": "cb6585a78ad5a209049e480769e03d3fe64670dc28f298acc568fae4ed178e7e",
+      "matches_existing_manifest_hash": true,
+      "dimensions": [
+        1960,
+        1958
+      ],
+      "visual_review": "Viewed the full local image; no visible name, face, birth date, patient text or identifying overlay found. GRAPE contains only figure labels.",
+      "embedded_metadata": {
+        "file": "fdr26-original.jpg",
+        "size": [
+          1960,
+          1958
+        ],
+        "mode": "RGB",
+        "exif": {},
+        "info": {
+          "jfif": 257,
+          "jfif_version": [
+            1,
+            1
+          ],
+          "jfif_unit": 0,
+          "jfif_density": [
+            1,
+            1
+          ]
+        },
+        "jpeg_segments": [
+          {
+            "type": "APP0",
+            "bytes": 14,
+            "preview": "b'JFIF\\x00\\x01\\x01\\x00\\x00\\x01\\x00\\x01\\x00\\x00'"
+          }
+        ],
+        "png_chunks": []
+      },
+      "limits": "Did not repeat ZIP range extraction in this audit; checked local file hash against recorded acquisition manifest and independently re-read official licensing metadata.",
+      "license_observation": "Official Zenodo API for record 23101200 has metadata.license.id=cc-by-4.0. Page identifies version v3. Creator Sanae Lamti plus all three distinct named contributors are credited in the manifest.",
+      "processing_observation": "Selected archive is Fundus_FDR26.zip classification image, not vessels_FDR26.zip. Source explicitly says vessel masks were incorporated from earlier publications; their underlying third-party rights were not established and cannot be inferred from this selected image review.",
+      "source_evidence": [
+        "https://zenodo.org/api/records/23101200",
+        "https://zenodo.org/records/23101200"
+      ],
+      "privacy_source": "Official record reviewed does not state consent or an ethics approval. No claim of confirmed consent is made; file-level visible/embedded checks passed."
+    },
+    {
+      "resource_id": "ext-mcfi",
+      "file": "assets/examples/mcfi-original.jpg",
+      "permission_evidence_status": "Confirmed for the selected asset and cited release",
+      "source_license": "CC-BY-4.0",
+      "source_authors_status": "Complete for the cited dataset release or paper figure",
+      "sha256": "f3cf002e13abb6918e4f862902e38b83db0d743dacd5d05adf02a4289cd24f2a",
+      "matches_existing_manifest_hash": true,
+      "dimensions": [
+        3072,
+        3072
+      ],
+      "visual_review": "Viewed the full local image; no visible name, face, birth date, patient text or identifying overlay found. GRAPE contains only figure labels.",
+      "embedded_metadata": {
+        "file": "mcfi-original.jpg",
+        "size": [
+          3072,
+          3072
+        ],
+        "mode": "RGB",
+        "exif": {},
+        "info": {
+          "jfif": 257,
+          "jfif_version": [
+            1,
+            1
+          ],
+          "jfif_unit": 0,
+          "jfif_density": [
+            1,
+            1
+          ]
+        },
+        "jpeg_segments": [
+          {
+            "type": "APP0",
+            "bytes": 14,
+            "preview": "b'JFIF\\x00\\x01\\x01\\x00\\x00\\x01\\x00\\x01\\x00\\x00'"
+          }
+        ],
+        "png_chunks": []
+      },
+      "limits": "Did not repeat ZIP range extraction in this audit; checked local file hash against recorded acquisition manifest and independently re-read official licensing metadata.",
+      "license_observation": "Official Mendeley Data version 1 page Licence section states CC BY 4.0. The manifest lists all eight page contributors, matching names and order.",
+      "processing_observation": "3072 x 3072 JPEG matches the official distribution resolution and filename convention; no further preprocessing of this particular image is established by the page.",
+      "source_evidence": [
+        "https://data.mendeley.com/datasets/stskv6zjt9/1"
+      ],
+      "privacy_source": "Official naming convention encodes participant ID, eye, date and time, with a participant-level metadata table available upstream. The local manifest reproduces that joinable original name; it already discloses the pseudonymous key/date-time. Consent/ethics specifics were not located on the reviewed dataset page."
+    },
+    {
+      "resource_id": "octdl",
+      "file": "assets/examples/octdl-original.jpg",
+      "permission_evidence_status": "Confirmed for the selected asset and cited release",
+      "source_license": "CC-BY-4.0",
+      "source_authors_status": "Complete for the cited dataset release or paper figure",
+      "sha256": "1ac0f7689598ea144396a77e428ea551510de66742ac1e17170c7223a1f06311",
+      "matches_existing_manifest_hash": true,
+      "dimensions": [
+        1146,
+        389
+      ],
+      "visual_review": "Viewed the full local image; no visible name, face, birth date, patient text or identifying overlay found. GRAPE contains only figure labels.",
+      "embedded_metadata": {
+        "file": "octdl-original.jpg",
+        "size": [
+          1146,
+          389
+        ],
+        "mode": "RGB",
+        "exif": {
+          "Orientation": "1"
+        },
+        "info": {
+          "jfif": 257,
+          "jfif_version": [
+            1,
+            1
+          ],
+          "dpi": [
+            120,
+            120
+          ],
+          "jfif_unit": 1,
+          "jfif_density": [
+            120,
+            120
+          ],
+          "exif": "<32 bytes>"
+        },
+        "jpeg_segments": [
+          {
+            "type": "APP0",
+            "bytes": 14,
+            "preview": "b'JFIF\\x00\\x01\\x01\\x01\\x00x\\x00x\\x00\\x00'"
+          },
+          {
+            "type": "APP1",
+            "bytes": 32,
+            "preview": "b'Exif\\x00\\x00MM\\x00*\\x00\\x00\\x00\\x08\\x00\\x01\\x01\\x12\\x00\\x03\\x00\\x00\\x00\\x01\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00'"
+          }
+        ],
+        "png_chunks": []
+      },
+      "limits": "Did not repeat ZIP range extraction in this audit; checked local file hash against recorded acquisition manifest and independently re-read official licensing metadata.",
+      "license_observation": "Official Zenodo record 10839556 API states cc-by-4.0, page version v2. All 10 dataset creators appear in the gallery. The separate paper has 11 authors including Paul A. Constable; this is an attribution-scope distinction, not evidence that the dataset creator list is missing a person.",
+      "processing_observation": "Selected JPEG is an official distributed OCT B-scan in the NO category; this is not raw interferometry data or a full OCT volume. Normal label is inherited from the directory, not independently diagnosed.",
+      "source_evidence": [
+        "https://zenodo.org/api/records/10839556",
+        "https://zenodo.org/records/10839556",
+        "https://www.nature.com/articles/s41597-024-03182-7?error=cookies_not_supported",
+        "https://github.com/MikhailKulyabin/OCTDL#citation"
+      ],
+      "privacy_source": "Original paper Methods states Ural Federal University ethics approval (Conclusion No. 1, 1 February 2023) and written informed consent. Data Records explains pseudonymous patient IDs in file names. Only Orientation=1 is present in local EXIF."
+    },
+    {
+      "resource_id": "grape",
+      "file": "assets/examples/grape-figure3.png",
+      "permission_evidence_status": "Confirmed for the selected asset and cited release",
+      "source_license": "CC-BY-4.0",
+      "source_authors_status": "Complete for the cited dataset release or paper figure",
+      "sha256": "1a01830ab88e762e14c272d57e92538c7bdffb660d49872add2c5b1c87d9a4db",
+      "matches_existing_manifest_hash": true,
+      "dimensions": [
+        1200,
+        366
+      ],
+      "visual_review": "Viewed the full local image; no visible name, face, birth date, patient text or identifying overlay found. GRAPE contains only figure labels.",
+      "embedded_metadata": {
+        "file": "grape-figure3.png",
+        "size": [
+          1200,
+          366
+        ],
+        "mode": "RGB",
+        "exif": {},
+        "info": {},
+        "jpeg_segments": [],
+        "png_chunks": [
+          {
+            "type": "IHDR",
+            "bytes": 13
+          },
+          {
+            "type": "IDAT",
+            "bytes": 65536
+          },
+          {
+            "type": "IDAT",
+            "bytes": 65536
+          },
+          {
+            "type": "IDAT",
+            "bytes": 65536
+          },
+          {
+            "type": "IDAT",
+            "bytes": 65536
+          },
+          {
+            "type": "IDAT",
+            "bytes": 14623
+          },
+          {
+            "type": "IEND",
+            "bytes": 0
+          }
+        ]
+      },
+      "limits": "Did not repeat ZIP range extraction in this audit; checked local file hash against recorded acquisition manifest and independently re-read official licensing metadata.",
+      "license_observation": "PMC copyright/license section confirms CC BY 4.0 with third-party material covered unless a credit line says otherwise. Publisher Figure 3 caption and PMC Figure 3 caption contain no separate third-party credit or exclusion. All seven paper authors, article DOI, figure number and copyright notice are retained.",
+      "processing_observation": "Complete publisher figure with three panels, arrows, ROI and disc/cup contours. Correctly marked published_figure and described as preprocessing illustration rather than an unannotated dataset image.",
+      "source_evidence": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10404253/",
+        "https://www.nature.com/articles/s41597-023-02424-4/figures/3"
+      ],
+      "privacy_source": "Paper Patient inclusion reports signed written informed consent and ethics approval Y2020-1027. Its preprocessing section states personal information was hidden on CFPs. Figure text only identifies Original Image, ROI and OD segmentation."
+    }
+  ],
+  "cff_schema_decision": {
+    "url": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json",
+    "locators": [
+      "definitions.license.oneOf[1].$comment",
+      "properties.license-url.description"
+    ],
+    "observation": "License arrays are OR; license-url is intended for non-SPDX licenses. Neither directly expresses path-specific mixed standard-license scope. Omitted both optional fields; message links scoped LICENSE and abstract states components.",
+    "validation": "Passed official CFF 1.2.0 Draft-07 JSON Schema and format checker; YAML dates normalized to ISO strings as required by the schema."
+  },
+  "modified_repository_files": [
+    "LICENSE.md",
+    "CITATION.cff",
+    "UPSTREAM_NOTICE.md"
+  ],
+  "not_modified": "Root READMEs, image bytes, image manifest, repository visibility, Git history and archive/cache contents.",
+  "source_snapshots": {
+    "cff-1.2.0-schema.json": {
+      "sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+      "bytes": 63763
+    },
+    "eyedatahub_license.txt": {
+      "sha256": "9063da8d6d1261fca9496c46c53215b4407842a189d9a63407f23b310f6b5618",
+      "bytes": 1532
+    },
+    "eyedatahub_readme_live.txt": {
+      "sha256": "1e088696d103c420bd5f45eb1fa3e2a4b905ffcddb34f25c8695d9c85677321e",
+      "bytes": 8336
+    },
+    "eyedatahub_v070_README.md": {
+      "sha256": "1e088696d103c420bd5f45eb1fa3e2a4b905ffcddb34f25c8695d9c85677321e",
+      "bytes": 8336
+    },
+    "figshare_cimt.json": {
+      "sha256": "f8edd52ba267e20b5de01875ababf490575d9cdd3879a74f9e62e9b40f217981",
+      "bytes": 6591
+    },
+    "zenodo_fdr26.json": {
+      "sha256": "c1a176792c1ee1421d596deab38f022756f2c45e162318b465e48b5220c27e3c",
+      "bytes": 5601
+    },
+    "zenodo_octdl.json": {
+      "sha256": "a9a827de44ab55258e53ecc37e13345354304720186ec1d8386116ddd3c2f017",
+      "bytes": 7133
+    }
+  },
+  "changed_file_sha256": {
+    "LICENSE.md": "8bb86f159e2e3e10004ffa10abadd011a83d75ec42f5a1cb84cc21cd48a2aee4",
+    "CITATION.cff": "6f92c9cc5e3e701b27e002255cf4b19b981dbb7154966171dd9f1c1930242a5f",
+    "UPSTREAM_NOTICE.md": "04786fed957d8bda9b14b997cf6662fa93793e4309d850a203765a77f19aad69"
+  }
+}

@@ -1,0 +1,3 @@
+# Optional plotting dependency only; catalog/ranking builders use Python stdlib.
+# Install with: python -m pip install -r requirements-stats.txt
+matplotlib==3.9.4

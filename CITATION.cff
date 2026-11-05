@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "Cite this catalog if it informs resource selection, and retain the EyeDataHub attribution in UPSTREAM_NOTICE.md when reusing the derived catalog. Cite original dataset publications and releases when using their data. Component-specific license scopes: https://github.com/ney777/awesome-retinal-aging-datasets/blob/main/LICENSE.md"
+type: software
+title: "Awesome Retinal Aging & Oculomics Datasets"
+version: 0.1.2
+date-released: 2026-11-06
+authors:
+  - family-names: Chen
+    given-names: Qian
+repository-code: "https://github.com/ney777/awesome-retinal-aging-datasets"
+# CFF 1.2.0 license arrays mean OR, and license-url is for non-SPDX licenses.
+# Neither encodes path-specific scopes for this mixed-content repository.
+# Omit these optional fields; the message and abstract identify the scope notice.
+abstract: "An evidence-linked catalog for retinal aging, eye–brain, neurological and systemic health research. Includes the 451-record EyeDataHub v0.7.0 baseline, 28 additions, topic-specific evidence tiers, access scopes and reproducible ranking tables. Original software is MIT; the upstream metadata and derived catalog are CC BY 4.0. Dataset and gallery assets retain their own licenses."
+references:
+  - type: software
+    title: "EyeDataHub: a command-line tool for finding and accessing ophthalmology datasets"
+    authors:
+      - family-names: Khosravi
+        given-names: Pooya
+      - family-names: Riazi Esfehani
+        given-names: Parsa
+      - family-names: Browne
+        given-names: Andrew W.
+      - family-names: Xie
+        given-names: Xiaohui
+    version: "0.7.0"
+    date-released: "2026-08-04"
+    repository-code: "https://github.com/pooyakhosravi/EyeDataHub"
+    commit: "0ce7144459a41e8be255fed7fa62c30416613e6b"
+    doi: "10.5281/zenodo.21798623"
+    notes: "Upstream software reference. Code is MIT; catalog metadata are CC BY 4.0 under the fixed-version README. See UPSTREAM_NOTICE.md for scope and modifications."
+keywords:
+  - retinal imaging
+  - oculomics
+  - aging
+  - stroke
+  - neurodegeneration
+  - datasets

@@ -1,0 +1,1557 @@
+[
+  {
+    "id": "ext-rotterdam-study",
+    "name": "Rotterdam Study / Rotterdam Scan Study (ERGO)",
+    "official_url": "https://www.erasmusmc.nl/en/research/core-facilities/ergo-the-rotterdam-study",
+    "country": "Netherlands",
+    "institution": "Erasmus MC",
+    "year": "2006",
+    "doi": "10.1093/brain/awh688",
+    "citation": "Ikram MK et al. Retinal vessel diameters and cerebral small vessel disease: the Rotterdam Scan Study. Brain. 2006.",
+    "modalities": "Fundus | OCT | brain MRI",
+    "family": "Rotterdam Study (ERGO)",
+    "relation": "Same parent cohort; Rotterdam Scan denominators and prospective stroke/dementia analyses overlap potentially; no pooling across publications.",
+    "participants": "490 paired retina and MRI in original CSVD analysis; separate 5,540 stroke-free retinal participants in incidence study; separate 2,436 with gradable images and MRI in diffusion study.",
+    "eyes": "One eye per person for 490-person CSVD analysis.",
+    "multivisit": "Yes (MRI follow-up and clinical surveillance); repeat retinal photos not established for each MRI subject.",
+    "multimodal": "Yes",
+    "multicenter": "One district, Ommoord; population-based local cohort.",
+    "access": "Application",
+    "access_url": "https://www.erasmusmc.nl/en/research/core-facilities/ergo-the-rotterdam-study",
+    "image_access": "Study team acquired retinal images and MRI; exact externally provisioned raw files require scope confirmation.",
+    "label_access": "Management team reviews requests; measures, event subtypes and dates in publications; obtain explicit field/format approval.",
+    "research_terms": "Management approval under Dutch study privacy procedures; contact secretariat.epi@erasmusmc.nl per study team.",
+    "pairing": "1990–1993 digitized baseline fundus in one eye; MRI in 1995–1996 in 490 participants. Stroke-free 5,540 is from another analysis. Individual IDs/pseudonyms controlled.",
+    "strengths": "同一人眼底微血管、MRI 白质病灶与腔隙及事件随访有独立论文佐证。",
+    "limitations": "单地区、首轮≥55 岁；不同分析子集不等于同批患者。影像可否拿到像素与批准范围有关。",
+    "experiment": "以影像时间为起点，在有 MRI 的子集中回归白质病变等级，再在无基线卒中的事件队列检验增量预测及校准。",
+    "sources": {
+      "s1": [
+        "https://pubmed.ncbi.nlm.nih.gov/16317022/",
+        "Methods, 490 without dementia aged 60–90; one-eye digitized fundus then MRI; periventricular/subcortical lesions and lacunar infarcts."
+      ],
+      "s2": [
+        "https://pubmed.ncbi.nlm.nih.gov/16682664/",
+        "Methods, 5,540 age ≥55 with gradable photos and no baseline stroke; first-ever stroke followed through 2002, cerebral infarction evaluated."
+      ],
+      "s3": [
+        "https://pubmed.ncbi.nlm.nih.gov/21288987/",
+        "Methods and results: prospective fundus caliber, 11.6 years mean; 655 dementia, including diagnosed AD and vascular dementia."
+      ],
+      "s4": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8286166/",
+        "Data availability directs Rotterdam Study proposals to secretariat.epi@erasmusmc.nl, reviewed by management team; no raw retinal file entitlement stated."
+      ],
+      "s5": [
+        "https://doi.org/10.1212/WNL.0000000000003080",
+        "Methods: 2,436 participants aged ≥45 with gradable retinal images and brain MRI/diffusion, separate analysis."
+      ],
+      "s6": [
+        "https://doi.org/10.1001/jamaneurol.2018.1563",
+        "Mutlu et al., retinal OCT and dementia in Rotterdam Study; related analyses of same parent cohort."
+      ],
+      "s7": [
+        "https://www.erasmusmc.nl/en/research/core-facilities/ergo-the-rotterdam-study",
+        "Erasmus MC, ERGO core facility. Prospective local cohort began 1990."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "连续年龄及同一人眼底测量。"
+      ],
+      "B": [
+        1,
+        "s2",
+        "前瞻首次卒中/脑梗死。"
+      ],
+      "C": [
+        1,
+        "s1",
+        "同一人视网膜与 MRI 白质病灶、腔隙。"
+      ],
+      "D": [
+        1,
+        "s3",
+        "眼底血管与后续 AD、血管性痴呆。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "个体年龄（CSVD 样本 60–90 岁）"
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s1",
+        "头 MRI；有复查子样本"
+      ],
+      "csvd": [
+        "Confirmed",
+        "s1",
+        "脑室周围和皮质下白质病灶、腔隙性脑梗死"
+      ],
+      "stroke_type": [
+        "Confirmed",
+        "s2",
+        "首次卒中，含脑梗死，未核实所有分型释放"
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s2",
+        "事件随访用于风险建模；外部日期精度待审"
+      ],
+      "ad": [
+        "Confirmed",
+        "s3",
+        "诊断分型"
+      ],
+      "dementia": [
+        "Confirmed",
+        "s3",
+        "事件/亚型"
+      ],
+      "followup": [
+        "Confirmed",
+        "s3",
+        "平均 11.6 年（痴呆分析）"
+      ]
+    }
+  },
+  {
+    "id": "ext-maastricht-study",
+    "name": "The Maastricht Study",
+    "official_url": "https://www.demaastrichtstudie.nl/research/data-guidelines",
+    "country": "Netherlands",
+    "institution": "Maastricht University / Maastricht UMC+",
+    "year": "2023",
+    "doi": "10.1002/alz.13442",
+    "citation": "van der Heide FCT et al. Thinner inner retinal layers are associated with lower cognitive performance, lower brain volume, and altered white matter network structure. Alzheimers Dement. 2024 (online 2023).",
+    "modalities": "Fundus | OCT | brain MRI",
+    "family": "The Maastricht Study",
+    "relation": "Multiple publications and partial visits/subsets from one parent study.",
+    "participants": "3,436 in OCT/cognition analysis; MRI only a subset. Separate fundus/brain white matter analysis includes 4,010; bilateral caliber measurements available in 54.7% of that analysis.",
+    "eyes": "Fundus photos both eyes; before Nov 2013 caliber often one eye.",
+    "device": "Nidek AFC-230 45°; 3T Siemens Prisma-fit for MRI.",
+    "multimodal": "Yes",
+    "access": "Application",
+    "access_url": "https://www.demaastrichtstudie.nl/research/data-guidelines",
+    "image_access": "Fundus/OCT pixels collected; study data request portal does not promise raw pixel export; specify raw images separately.",
+    "label_access": "Research plan reviewed; published analyses use cognitive scores, brain morphometry and metabolic covariates.",
+    "research_terms": "Formal proposal through portal; external researchers encouraged to work with management member/domain expert.",
+    "pairing": "OCT thickness paired with global cognition; MRI introduced Dec 2013, subset only. Fundus caliber vs 3T connectivity separate. Request intersected denominator and exam dates.",
+    "strengths": "正式目录、申请入口；两项研究核实同人视网膜结构/血管与全脑指标。",
+    "limitations": "糖尿病超采样；MRI 非全体；横断面认知评分不能替代 AD 诊断。",
+    "experiment": "按糖代谢状态分层，评估 OCT 层厚与认知评分、MRI 灰白质体积，并在分析前规定两次采集允许的时间差。",
+    "sources": {
+      "s1": [
+        "https://pubmed.ncbi.nlm.nih.gov/37611119/",
+        "Methods: 3,436; age, sex, T2D oversampling; OCT layers linked to cognitive scores and MRI metrics; MRI subgroups vary by endpoint."
+      ],
+      "s2": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11056139/",
+        "Methods, retinal calibers and MRI: fundus camera/eyes; bilateral available for 54.7% of 4,010 analysis subjects; whole brain connectivity."
+      ],
+      "s3": [
+        "https://www.demaastrichtstudie.nl/research/data-guidelines",
+        "Data guidelines: formal request with research plan; external investigator local collaboration encouraged."
+      ],
+      "s4": [
+        "https://www.demaastrichtstudie.nl/research/data-dictionary",
+        "Portal directs users to searchable dictionary; check ownership and requested object type with management."
+      ],
+      "s5": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7286946/",
+        "Methods: 2,876 with retinal caliber and measured glucose status; office blood pressure, sex and age covariates; 176 photography visits substantially later."
+      ],
+      "s6": [
+        "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.13442",
+        "Methods, MRI available only in subset beginning December 2013."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "年龄、OCT 个体配对。"
+      ],
+      "C": [
+        1,
+        "s2",
+        "子集已配对视网膜、脑 MRI。"
+      ],
+      "D": [
+        1,
+        "s1",
+        "多域认知评分；无 AD 病例依据。"
+      ],
+      "F": [
+        1,
+        "s5",
+        "糖代谢状态及眼底血管测量。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "连续年龄"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "个体协变量"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s5",
+        "糖耐量及糖尿病状态"
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s1",
+        "体积及白质网络结构"
+      ],
+      "cognition": [
+        "Confirmed",
+        "s1",
+        "global cognitive performance"
+      ],
+      "ad": [
+        "Uncertain",
+        "s1",
+        "认知评分非 AD 病例标签"
+      ],
+      "dementia": [
+        "Uncertain",
+        "s1",
+        "该研究未确认痴呆事件"
+      ],
+      "followup": [
+        "Uncertain",
+        "s5",
+        "队列前瞻，引用的眼脑分析横断面，未证实可追踪该分析集神经结局"
+      ]
+    }
+  },
+  {
+    "id": "ext-rhineland-study",
+    "name": "Rhineland Study / Rheinland Studie",
+    "official_url": "https://www.rheinland-studie.de/en/participation/rules-of-use/",
+    "country": "Germany",
+    "institution": "German Center for Neurodegenerative Diseases (DZNE), Bonn",
+    "year": "2022",
+    "doi": "10.1038/s41598-022-06821-4",
+    "citation": "Mauschitz MM et al. Retinal layer assessments as potential biomarkers for brain atrophy in the Rhineland Study. Sci Rep. 2022.",
+    "modalities": "OCT | brain MRI",
+    "family": "Rhineland Study",
+    "participants": "First 5,000; 3,505 MRI, 3,395 MRI and SD-OCT; 2,872 final complete-case after exclusions; 2,797 with selected diffusion measures.",
+    "device": "Heidelberg Spectralis SD-OCT; MRI and diffusion sequences.",
+    "quality": "OCT signal ≥20 dB; missingness, neurological and retinal conditions excluded.",
+    "multimodal": "Yes",
+    "access": "Application",
+    "access_url": "https://www.rheinland-studie.de/en/participation/rules-of-use/",
+    "image_access": "DUAC accepts image-database requests; raw/minimally processed files for QC or method development.",
+    "label_access": "QC research database separately requestable; specify fields and join in protocol.",
+    "research_terms": "Consent coverage and data minimization; research collaboration normally required; review purpose against raw image database rules.",
+    "pairing": "Community participants seen in Bonn; same participant OCT and MRI; no universal denominator across diffusion and structural indices.",
+    "strengths": "有精确的 MRI/OCT 交集及排除流程，适合评估完整病例选择偏倚。",
+    "limitations": "本项分析排除了自报卒中，结局为结构/扩散指标；不能据此做 AD 或卒中事件监督。",
+    "experiment": "在 2,872 人原始分析框架内比较视网膜层厚和年龄对海马/灰白质体积的增量解释度。",
+    "sources": {
+      "s1": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8854401/",
+        "Methods/Data analyses: SD-OCT+MRI overlap (3,395); age, sex, HTN, diabetes, BMI, smoking; scan QC ≥20 dB; analytical 2,872; stroke excluded."
+      ],
+      "s2": [
+        "https://www.rheinland-studie.de/en/participation/rules-of-use/",
+        "Data Use and Access Policy §1 and introduction: DUAC; identifiable image vs QC research database scopes; minimization, consent, collaborative access."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "30–94 岁，个体眼底层厚。"
+      ],
+      "C": [
+        1,
+        "s1",
+        "结构/扩散脑 MRI 匹配。"
+      ],
+      "F": [
+        1,
+        "s1",
+        "高血压、糖尿病为配对协变量。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "连续年龄"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "个体协变量"
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s1",
+        "个体协变量"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s1",
+        "个体协变量"
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s1",
+        "灰质/白质/海马及弥散指标"
+      ],
+      "csvd": [
+        "Uncertain",
+        "s1",
+        "弥散指标不等于分级的 WMH、微出血/腔隙标签"
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s1",
+        "自报卒中史为排除条件，未提供卒中分型"
+      ],
+      "followup": [
+        "Uncertain",
+        "s1",
+        "前瞻性母队列；本分析横断面"
+      ]
+    }
+  },
+  {
+    "id": "ext-shanghai-sdpp",
+    "name": "Shanghai Diabetes Prevention Program (SDPP; DeepRETStroke subsets)",
+    "official_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12623247/",
+    "country": "China",
+    "institution": "Shanghai Sixth People's Hospital and study collaborators",
+    "year": "2025",
+    "doi": "10.1038/s41551-025-01413-9",
+    "citation": "Jiang et al. A deep learning system for detecting silent brain infarction and predicting stroke risk. Nat Biomed Eng. 2025.",
+    "modalities": "Fundus | brain MRI",
+    "family": "Shanghai Diabetes Prevention Program",
+    "relation": "SDPP-MRI and non-MRI SDPP are distinct analysis subsets of the same parent; other DeepRETStroke cohorts (including UKB and AREDS) remain separate.",
+    "participants": "782 SDPP-MRI for SBI detection; separate 29,160 in longitudinal non-MRI internal set for incident stroke.",
+    "images": "1,564 in 782 internal SDPP-MRI; 58,320 photos in separate 29,160 longitudinal subset.",
+    "eyes": "Paired left/right fundus images.",
+    "quality": "Study QC of retinal photographs; clinical reference MRI only in MRI subset.",
+    "multimodal": "Yes (MRI subset)",
+    "access": "Author contact",
+    "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12623247/",
+    "image_access": "Deidentified fundus photographs can be requested for non-profit use; raw MRI transfer not promised.",
+    "label_access": "Related clinical information request reviewed by data management committee; verify release of dates and MRI grading field.",
+    "research_terms": "Request T.Y. Wong (wongtienyin@tsinghua.edu.cn); institutional committee and formal DTA.",
+    "commercial_terms": "Published request route limited to non-profit use.",
+    "pairing": "Person-level fundus and MRI-defined silent brain infarction in SDPP-MRI; separate longitudinal non-MRI sample predicts incident stroke. Pseudo-labels in non-MRI sample are not MRI diagnoses.",
+    "strengths": "中国受试者的真值 MRI 子集可与单独的卒中随访分析区分。",
+    "limitations": "申请式分发；不保证原始 MRI。勿把筛查阳性或模型伪标签当作确诊卒中。",
+    "experiment": "MRI 子集评估检出静默性脑梗死；在独立随访子集中检验首次卒中风险并报告校准及时间依赖 AUC。",
+    "sources": {
+      "s1": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12623247/",
+        "Fig 1 and Table 1; separate internal MRI and non-MRI samples; development workflow distinguishes MRI labels from pseudo-labels; Data availability requires committee + DTA for nonprofit fundus images/clinical data."
+      ],
+      "s2": [
+        "https://pure.qub.ac.uk/files/642367133/Jiang_DL_DeepStroke_Silent_and_Clinical_Stroke_Nature_BME_2025.pdf",
+        "Figure 1 / Methods: 782 participants/1,564 fundus images MRI arm; 29,160/58,320 separate longitudinal arm; two eyes. Table 1 reports demographics and metabolic risks."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s2",
+        "配对年龄和眼底。"
+      ],
+      "B": [
+        1,
+        "s1",
+        "随访子集卒中事件。"
+      ],
+      "C": [
+        1,
+        "s1",
+        "MRI 子集有静默性脑梗死参照。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s2",
+        "分析特征"
+      ],
+      "sex": [
+        "Confirmed",
+        "s2",
+        "分析特征"
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s1",
+        "SDPP-MRI 子集"
+      ],
+      "csvd": [
+        "Confirmed",
+        "s1",
+        "MRI 诊断的 SBI；不等价于全套 CSVD 评分"
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s1",
+        "5 年卒中风险；具体日期格式需批准"
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s1",
+        "SBI 和发生卒中已确认；未从该资料核实临床卒中各亚型字段"
+      ],
+      "followup": [
+        "Confirmed",
+        "s1",
+        "非 MRI 子集有事件随访"
+      ]
+    }
+  },
+  {
+    "id": "ext-alzeye",
+    "name": "AlzEye",
+    "official_url": "https://www.insight.hdrhub.org/alzeye",
+    "country": "United Kingdom",
+    "institution": "Moorfields Eye Hospital / UCL / NHS Digital",
+    "year": "2022",
+    "doi": "10.1136/bmjopen-2021-058552",
+    "citation": "Wagner SK et al. AlzEye: longitudinal record-level linkage of ophthalmic imaging and hospital admissions of 353,157 patients in London, UK. BMJ Open. 2022.",
+    "modalities": "Fundus | OCT | other ocular imaging",
+    "family": "AlzEye",
+    "relation": "Distinct from UK Biobank; PD paper used AlzEye and UKB separately.",
+    "participants": "353,157 cohort members; 186,651 linked with an admission; retinal imaging available for 154,830 in published PD analysis denominator.",
+    "images": "2022 cohort profile reported 1,874,175 retinal photographs and 1,567,358 OCT images; updated INSIGHT overview reports >6M retinal images across project scope.",
+    "multivisit": "Yes; clinic visits and national admissions.",
+    "multimodal": "Yes",
+    "multicenter": "One NHS trust, multiple locations; not independent hospital cohorts.",
+    "access": "Unavailable",
+    "access_url": "https://www.insight.hdrhub.org/alzeye",
+    "image_access": "Restricted to AlzEye team under cohort-specific contract; general INSIGHT SRE is not an external AlzEye dataset release.",
+    "label_access": "Linked HES diagnoses and mortality held by team. PD study welcomes proposals to PI; no independent access.",
+    "research_terms": "Collaborative enquiry via PI, not standard independent data request. Scope of source-specific contract controls.",
+    "pairing": "Study team linked retinal images to HES via trusted third party using NHS identifiers. Counts of attendees, imaged participants and admitted patients differ.",
+    "strengths": "临床影像及住院诊断、死亡的链接已实现，英格兰长期监测。",
+    "limitations": "住院编码漏诊，医院就诊样本有选择性；对外不可独立取得既有链接。",
+    "experiment": "仅作为合作价值推荐；经同意后研究 PD 或痴呆住院诊断的发生，按时间剔除基线患病者并区分死亡竞争风险。",
+    "sources": {
+      "s1": [
+        "https://bmjopen.bmj.com/content/12/3/e058552",
+        "Cohort profile: participants, imaging, individual NHS/HES linkage, mortality and stroke coding limitations; Data availability explicitly restricts to AlzEye research team."
+      ],
+      "s2": [
+        "https://www.insight.hdrhub.org/alzeye",
+        "Project overview: dementia/AD linkage, update agreed in 2025 for HES through 2024 and death certificates; no external access commitment."
+      ],
+      "s3": [
+        "https://discovery.ucl.ac.uk/10175799/1/e1581.full.pdf",
+        "Neurology PD study, Results and Data Availability: 700 with prevalent PD among 154,830 imaged; collaboration via PI, data unavailable outside AlzEye team."
+      ]
+    },
+    "topics": {
+      "A": [
+        2,
+        "s1",
+        "研究内按年龄配对；外部合同限制。"
+      ],
+      "B": [
+        2,
+        "s1",
+        "HES 编码及眼底已有研究链接，独立使用受限。"
+      ],
+      "D": [
+        2,
+        "s2",
+        "已有同人 AD/痴呆链接；仅可讨论团队内合作。"
+      ],
+      "E": [
+        2,
+        "s3",
+        "PD 与 OCT 研究可核，团队外访问受限。"
+      ],
+      "F": [
+        2,
+        "s1",
+        "死亡资料已链接；外部审批未证实。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "40 岁以上，有年龄字段"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "个体性别"
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s1",
+        "HES 卒中/TIA 编码涉及漏捕；具体亚型供申请者使用未证实"
+      ],
+      "ad": [
+        "Confirmed",
+        "s2",
+        "HES 诊断"
+      ],
+      "dementia": [
+        "Confirmed",
+        "s2",
+        "HES 诊断"
+      ],
+      "parkinson": [
+        "Confirmed",
+        "s3",
+        "既往/患病 PD；AlzEye 不等于 UKB 的前驱 PD 预测"
+      ],
+      "mortality": [
+        "Confirmed",
+        "s1",
+        "原研究死亡资料；死因证书扩展见 s2"
+      ],
+      "followup": [
+        "Confirmed",
+        "s1",
+        "多年度诊疗及住院记录"
+      ]
+    }
+  },
+  {
+    "id": "ext-ondri",
+    "name": "Ontario Neurodegenerative Disease Research Initiative (ONDRI), Foundational Study release 2.0",
+    "official_url": "https://portal.conp.ca/dataset?id=projects%2Fbraincode_ONDRI_Foundation_Study_Baseline_Data_Release",
+    "country": "Canada",
+    "institution": "Ontario Brain Institute / Brain-CODE",
+    "year": "2022",
+    "doi": "10.1002/alz.12632",
+    "citation": "Sunderland KM et al. Characteristics of the Ontario Neurodegenerative Disease Research Initiative cohort. Alzheimers Dement. 2022.",
+    "modalities": "Fundus | SD-OCT | brain MRI",
+    "family": "ONDRI Foundational Study",
+    "participants": "520 parent; retinal abstract reports 390 pRNFL and 387 macular participants including 43/42 external BEAM controls respectively, not all 520.",
+    "eyes": "Both eyes; 769 pRNFL and 755 macular eyes including external controls in abstract.",
+    "device": "Heidelberg Spectralis",
+    "quality": "Q score <17 excluded, expert review and manual boundary correction.",
+    "multivisit": "Yes; release baseline and longitudinal; repeat raw retinal image counts unverified.",
+    "multimodal": "Yes",
+    "multicenter": "Yes; 14 participating Ontario labs across study, retinal coverage site-specific.",
+    "access": "Controlled access",
+    "access_url": "https://www.braincode.ca/user/register",
+    "image_access": "Raw neuroimaging plus tabular OCT retinal thickness are documented. Raw retinal OCT/fundus pixels are not confirmed in accessible release; ask Brain-CODE.",
+    "label_access": "Controlled data portal lists disease strata, neuropsychology, MRI and retinal measurements by timepoint.",
+    "license": "Brain-CODE Governance Policy",
+    "research_terms": "Registration, Data Access Committee and Steering Committee approval.",
+    "pairing": "SD-OCT documented for participants across AD/MCI, PD, cerebrovascular disease with stroke history, ALS, FTD. Cross-platform/timepoint packages; retinal paper includes additional BEAM controls. Obtain approved participant crosswalk and MRI/OCT overlap.",
+    "strengths": "跨疾病、纵向、多实验室；可先用受控的层厚和认知指标检验假设。",
+    "limitations": "公开说明明确原始脑影像和眼底派生表；未找到承诺交付原始视网膜像素。不能用全部 520 人作为确证的 OCT–MRI 交集。",
+    "experiment": "先以层厚表和病种、认知量表做分层分析；如需像素端到端训练，先向委员会单列原始 OCT 请求。",
+    "sources": {
+      "s1": [
+        "https://portal.conp.ca/dataset?id=projects%2Fbraincode_ONDRI_Foundation_Study_Baseline_Data_Release",
+        "Overview, Data organization/Access: 520 total; tabular data for all assessment platforms plus raw neuroimaging; OCT and clinical/timepoint packages; approved access only."
+      ],
+      "s2": [
+        "https://braininstitute.ca/news-events/2023/updated-neurodegenerative-disease-research-data",
+        "Data owner announcement specifies retinal thickness, clinical and cognitive data, 14 labs."
+      ],
+      "s3": [
+        "https://cos-sco.secure-platform.com/site/solicitations/102001/sessiongallery/94042/application/4624",
+        "Investigator abstract Methods/Results: both eyes, fundus/SDOCT; AD/MCI, PD and CVD with prior stroke; QC; retinal totals include external BEAM controls."
+      ]
+    },
+    "topics": {
+      "A": [
+        2,
+        "s3",
+        "按年龄和影像测量已分析；原始眼图获取不详。"
+      ],
+      "B": [
+        2,
+        "s3",
+        "卒中史分层；未证实卒中时间/分型和眼底像素释放。"
+      ],
+      "C": [
+        2,
+        "s1",
+        "MRI、OCT 平台可申请；完整像素交集待核。"
+      ],
+      "D": [
+        2,
+        "s3",
+        "AD/MCI、认知和眼测量配对，受控表已确认；眼图待核。"
+      ],
+      "E": [
+        2,
+        "s3",
+        "PD、ALS、FTD 眼测量明确，原图访问未核。"
+      ],
+      "G": [
+        2,
+        "s1",
+        "多中心多模态，原始眼图交付待核。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s3",
+        "眼研究按病种报告年龄"
+      ],
+      "ad": [
+        "Confirmed",
+        "s1",
+        "AD/MCI 招募 strata；独立 AD 分型按批准字段"
+      ],
+      "dementia": [
+        "Confirmed",
+        "s1",
+        "额颞叶痴呆等临床诊断"
+      ],
+      "cognition": [
+        "Confirmed",
+        "s1",
+        "神经心理测量包"
+      ],
+      "parkinson": [
+        "Confirmed",
+        "s3",
+        "PD 病种"
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s1",
+        "受控原始神经影像，临床眼研究方法提及 MRI"
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s3",
+        "有卒中史的 CVD；未核实具体分型"
+      ],
+      "followup": [
+        "Confirmed",
+        "s1",
+        "基线及纵向发布"
+      ]
+    }
+  },
+  {
+    "id": "dryad_functional_oct_alzheimer",
+    "name": "Functional OCT Retinal Response Dataset (Bissig)",
+    "official_url": "https://datadryad.org/dataset/doi:10.5061/dryad.msbcc2ftc",
+    "country": "United States",
+    "institution": "Oregon Health & Science University (deposit affiliation)",
+    "year": "2019",
+    "doi": "10.1016/j.neuroimage.2020.117022",
+    "citation": "Bissig D, Zhou CG, Le V, Bernard JT. Optical coherence tomography reveals light-dependent retinal responses in Alzheimer’s disease. NeuroImage. 2020. Dataset DOI 10.5061/dryad.msbcc2ftc.",
+    "modalities": "SD-OCT",
+    "family": "dryad_functional_oct_alzheimer",
+    "relation": "Zenodo record 4935639 mirrors Dryad; repeated/processed image objects and release versions are not new cohorts.",
+    "images": "432 .img files reported in EyeDataHub's deposit audit, include derived copies; not 432 independent acquisitions.",
+    "participants": "40 unique IDs in repository profile tables across experiments; AD experiment compares 14 early-onset AD and 14 age-matched controls.",
+    "eyes": "Experiment 4 targets one retinal slice per participant; laterality across entire release unverified.",
+    "device": "Heidelberg SPECTRALIS SD-OCT",
+    "resolution": "3.89 μm isometric resampled pixels; 30° slice for experiments 1,3,4.",
+    "quality": "Usage notes give per-experiment exclusions and manual processing.",
+    "multivisit": "Repeated conditions within visit; long-term follow-up not documented.",
+    "access": "Registration",
+    "access_url": "https://datadryad.org/dataset/doi:10.5061/dryad.msbcc2ftc",
+    "image_access": "Repository lists 2020 RAR with processed/raw-stage ANALYZE images; Dryad authenticated transfer route recorded by EyeDataHub.",
+    "label_access": "SubjectID folders + profile tables link experimental cohorts and age ranges. Not exact ages.",
+    "license": "CC0 1.0 (dataset)",
+    "research_terms": "Cite dataset; extract v6 archive; Dryad API token for automated retrieval.",
+    "commercial_terms": "CC0 for dataset files; no separate commercial restriction identified.",
+    "pairing": "SubjectID with light/dark condition; AD experiment n=14+14, AQP4 sample n=3. Image derivatives and acquisitions from one subject must stay in same split.",
+    "strengths": "有逐人诊断分组、实验条件和可解析的影像。",
+    "limitations": "AD 病例仅 14 人；年龄按区间；刺激周期非长期随访；不同实验部分人重叠。",
+    "experiment": "逐人留一分析光暗反射差值，区分 AD 与同龄对照，报告每位受试者权重及区间。",
+    "sources": {
+      "s1": [
+        "https://datadryad.org/dataset/doi:10.5061/dryad.msbcc2ftc",
+        "Abstract, Methods and Usage notes: IDs in filenames, 14 AD + 14 controls, 3 AQP4 subjects, SD-OCT acquisition and QC; PROFILE_DATA_for_Dryad lists age ranges."
+      ],
+      "s2": [
+        "https://khosravipooya.com/EyeDataHub/datasets/dryad_functional_oct_alzheimer/",
+        "Reported quantities/transfer audit: 40 unique IDs, 432 derivative-inclusive ANALYZE objects, authenticated route, dataset CC0."
+      ],
+      "s3": [
+        "https://zenodo.org/records/4935639",
+        "Mirror cites same Dryad DOI, source dataset and experiments."
+      ],
+      "s4": [
+        "https://pubmed.ncbi.nlm.nih.gov/32512126/",
+        "Peer-reviewed linked NeuroImage article; its title differs from the Dryad deposit title."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "按受试者可对应年龄段；不支持连续年龄回归。"
+      ],
+      "D": [
+        1,
+        "s1",
+        "早发 AD 病例和匹配对照，SubjectID 与像素配对。"
+      ],
+      "E": [
+        1,
+        "s1",
+        "AQP4 抗体神经疾病机制样本 3 人。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "年龄区间，个体精确年龄无"
+      ],
+      "ad": [
+        "Confirmed",
+        "s1",
+        "早发 AD 14；分组诊断"
+      ],
+      "dementia": [
+        "Uncertain",
+        "s1",
+        "仅记录 AD 组；未提供独立的全因痴呆标签或严重程度。"
+      ],
+      "followup": [
+        "Not available",
+        "s1",
+        "本发布是同次检查光暗刺激条件重复，不含长期结局"
+      ]
+    },
+    "dataset_doi": "10.5061/dryad.msbcc2ftc"
+  },
+  {
+    "id": "trend2_fundus",
+    "name": "TREND2 chronic-disease fundus study",
+    "official_url": "https://zenodo.org/records/7678656",
+    "country": "Montenegro",
+    "institution": "Faculty of Medicine, University of Montenegro",
+    "year": "2023",
+    "doi": "Unknown",
+    "citation": "Popovic N et al. Topological characterization of the retinal microvascular network visualized by portable fundus camera—effects of chronic disease (TREND2). Zenodo v1.1, 2023.",
+    "modalities": "Fundus",
+    "family": "TREND / TREND2",
+    "relation": "Extension to TREND; participant overlap with TREND unverified. Masks are derivatives, not extra images.",
+    "images": "28 original color photos, 28 corresponding masks.",
+    "participants": "28 distinct ID-eye stems; number of independently verified people not stated by deposit.",
+    "eyes": "L/R suffix; 28 unique ID-eye stems matched to original TIFFs.",
+    "device": "MiiS HORUS Scope DEC 200, 45°",
+    "resolution": "2560 × 1920",
+    "quality": "Manual retinal vessel masks; image exclusion criteria include bilateral media opacity.",
+    "multivisit": "No repeat visits documented",
+    "access": "Open download",
+    "access_url": "https://zenodo.org/records/7678656",
+    "image_access": "Anonymous ZIPs with TIFF originals and masks.",
+    "label_access": "28/28 Excel ID# stems matched to the two raw ZIPs’ TIFF filenames. Workbook includes HTN 18 positive, DM2 8 positive, AD 7 positive.",
+    "license": "CC BY 4.0 (EyeDataHub dataset terms)",
+    "research_terms": "Cite and attribute dataset; catalog license applies to deposited material.",
+    "commercial_terms": "CC BY 4.0 with attribution (scope: dataset files).",
+    "pairing": "ID# = TIFF stem including L/R; all 28 rows mapped, 7 AD flags. Unique person count not inferred purely from eye suffix. All are age ≥56; workbook has no exact age.",
+    "strengths": "可立即复核的黑山公共小样本；逐文件 AD、HTN、DM2 可查。",
+    "limitations": "仅 7 个 AD 阳性图像记录；疾病共存；不支持年龄回归、前瞻预测或临床筛查效能结论。",
+    "experiment": "探索同一图像的血管几何与 AD/HTN/DM2 共病关系，报告各标签共现和不确定性。",
+    "sources": {
+      "s1": [
+        "https://zenodo.org/records/7678656",
+        "Description, Files and Inclusion Criteria: raw TIFFs 20+8, segmentations, device/resolution; ages ≥56; TREND extension."
+      ],
+      "s2": [
+        "https://zenodo.org/records/7678656/files/5_ASSOCIATED%20DATA.xlsx",
+        "Inspected actual workbook Sheet 1, 28 rows; ID#, Gender, Education, BMI, HTN, DM2, AD (last 3 binary). AD=1 in 7; no chronological age column; MD5 5ac6cdf910eb1421e7fc26b5682d9450."
+      ],
+      "s3": [
+        "https://zenodo.org/records/7678656",
+        "Raw ZIP central directories for files 1 and 3: 20+8 TIFF stems; compared both stem sets to ID# in XLSX, 28 exact matches and 0 unmatched."
+      ],
+      "s4": [
+        "https://khosravipooya.com/EyeDataHub/datasets/trend2_fundus/",
+        "At a glance → source-stated terms CC BY 4.0."
+      ]
+    },
+    "topics": {
+      "A": [
+        0,
+        "s2",
+        "只有全组年龄下限，没有逐人年龄列。"
+      ],
+      "D": [
+        1,
+        "s2",
+        "AD 二元列可逐 TIFF 连结。"
+      ],
+      "F": [
+        1,
+        "s2",
+        "HTN 与 DM2 二元列。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Not available",
+        "s2",
+        "工作簿无年龄字段；≥56 岁仅入组标准"
+      ],
+      "sex": [
+        "Confirmed",
+        "s2",
+        "Gender 编码；字典释义需确认后解释 0/1"
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s2",
+        "HTN 二元"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s2",
+        "DM2 二元"
+      ],
+      "ad": [
+        "Confirmed",
+        "s2",
+        "AD 二元；7 阳性 TIFF"
+      ],
+      "dementia": [
+        "Uncertain",
+        "s2",
+        "仅记录 AD 组；未提供独立的全因痴呆标签或严重程度。"
+      ],
+      "followup": [
+        "Not available",
+        "s2",
+        "公开表无随访/时间列"
+      ]
+    },
+    "dataset_doi": "10.5281/zenodo.7678656"
+  },
+  {
+    "id": "parkinsons_directional_oct",
+    "name": "Parkinson directional OCT (Lin; aggregate data)",
+    "official_url": "https://doi.org/10.26188/30750011.v1",
+    "country": "Australia",
+    "institution": "University of Melbourne",
+    "year": "2026",
+    "doi": "10.1167/iovs.67.3.59",
+    "citation": "Lin J et al. Detailed Outer Retinal Assessment in Parkinson's Disease Using Directional OCT. IOVS, 2026. Dataset DOI 10.26188/30750011.v1.",
+    "modalities": "OCT-derived group summary only",
+    "family": "Parkinson directional OCT (Melbourne, Lin)",
+    "relation": "Distinct deposit; possible overlap with Tran Melbourne PD cohort not established; do not treat as independent participant cohort.",
+    "access": "Open download",
+    "access_url": "https://doi.org/10.26188/30750011.v1",
+    "image_access": "Not available in deposit; a single XLSX file.",
+    "label_access": "No individual records: group means, SEM, 95% CI and N indexed by retinal location.",
+    "license": "CC BY 4.0",
+    "research_terms": "Attribution; scope = released XLSX.",
+    "commercial_terms": "CC BY 4.0 subject to attribution.",
+    "pairing": "Only group-by-location summary tables; no participant identifiers and no pixels.",
+    "strengths": "可复核 PD 与对照的群体厚度、反射曲线。",
+    "limitations": "不能做个体级配对、交叉验证或影像训练。",
+    "experiment": "仅复核群体剖面及其置信区间。",
+    "sources": {
+      "s1": [
+        "https://api.figshare.com/v2/articles/30750011/versions/1",
+        "Figshare v1 files/license: one processed thickness and reflectance workbook, CC BY 4.0."
+      ],
+      "s2": [
+        "https://ndownloader.figshare.com/files/59995724",
+        "Inspected both workbook sheets Thickness data and Reflectance data; group-level mean, SEM, CI, N by distance/position; no subject rows."
+      ],
+      "s3": [
+        "https://pubmed.ncbi.nlm.nih.gov/41910525/",
+        "Original cohort analysis, not an individual-data release."
+      ]
+    },
+    "topics": {
+      "E": [
+        0,
+        "s2",
+        "仅组汇总；无可训练的逐人眼图。"
+      ]
+    },
+    "phenotypes": {
+      "parkinson": [
+        "Not available",
+        "s2",
+        "公布的是分组统计，非逐人 PD 标签"
+      ]
+    },
+    "dataset_doi": "10.26188/30750011.v1"
+  },
+  {
+    "id": "parkinsons_outer_retinal_structure",
+    "name": "Parkinson outer retinal structure/function (Tran; individual OCT measurements)",
+    "official_url": "https://doi.org/10.26188/24138420.v2",
+    "country": "Australia",
+    "institution": "University of Melbourne",
+    "year": "2023",
+    "doi": "10.3233/JPD-230293",
+    "citation": "Tran KKN et al. Altered Outer Retinal Structure, Electrophysiology and Visual Perception in Parkinson's Disease. J Parkinsons Dis. 2024. Dataset DOI 10.26188/24138420.v2.",
+    "modalities": "OCT-derived thickness | ERG | psychophysics (no pixels)",
+    "family": "Parkinson outer retinal structure (Melbourne, Tran)",
+    "relation": "Two XLSX files are revisions; do not concatenate. Connection to directional OCT source unresolved.",
+    "participants": "16 PD, 21 age-matched controls enrolled; OCT worksheet is smaller than enrolled cohort.",
+    "eyes": "Tested eye is recorded.",
+    "multivisit": "Two assessments in same visit, before/after L-DOPA or matched time.",
+    "multimodal": "Yes (measurements)",
+    "access": "Open download",
+    "access_url": "https://doi.org/10.26188/24138420.v2",
+    "image_access": "Not available in deposit: two measurement XLSX files only.",
+    "label_access": "Px ID + diagnostic-group sheet + demographic and OCT layers. Normalize whitespace in IDs across worksheets.",
+    "license": "CC BY 4.0",
+    "research_terms": "Attribution; use revised v2 workbook.",
+    "commercial_terms": "CC BY 4.0 subject to attribution.",
+    "pairing": "Within XLSX, ID and eye join measured thickness to age, sex and PD group. Demographic vs OCT IDs contain spacing differences. No public OCT images.",
+    "strengths": "可立即做 PD 个体派生表型复核；同日用药前后可区分。",
+    "limitations": "无像素，不纳入影像监督验证；同日重复不反映疾病进展。",
+    "experiment": "使用修订表按受试者 ID 和眼别关联层厚与诊断，进行协变量调整的探索性复现。",
+    "sources": {
+      "s1": [
+        "https://api.figshare.com/v2/articles/24138420/versions/2",
+        "Figshare v2 description/files/license: PD n=16, controls n=21, age 41–85; two measurements in one visit; two Excel files."
+      ],
+      "s2": [
+        "https://ndownloader.figshare.com/files/43121452",
+        "Inspected revised workbook: Ctrl/PD Demographic Data and OCT Data use Px ID, eye, Age, Sex, and pre/post layer thickness; no pixel objects."
+      ],
+      "s3": [
+        "https://pubmed.ncbi.nlm.nih.gov/38189711/",
+        "Original cross-sectional study methods; 16 PD and 21 controls."
+      ]
+    },
+    "topics": {
+      "A": [
+        0,
+        "s2",
+        "年龄仅配派生测量，未提供眼底像素。"
+      ],
+      "E": [
+        0,
+        "s2",
+        "逐人 PD–OCT 派生层厚可分析；像素影像专题排除。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s2",
+        "逐人年龄（派生表）"
+      ],
+      "sex": [
+        "Confirmed",
+        "s2",
+        "逐人性别（派生表）"
+      ],
+      "parkinson": [
+        "Confirmed",
+        "s2",
+        "逐人诊断/分组（派生表）"
+      ],
+      "followup": [
+        "Not available",
+        "s1",
+        "仅同次就诊内重复，无长期随访"
+      ]
+    },
+    "dataset_doi": "10.26188/24138420.v2"
+  },
+  {
+    "id": "dryad_huntingtons_retinal_oct",
+    "name": "Huntington retinal OCT study (individual measurements)",
+    "official_url": "https://datadryad.org/dataset/doi:10.5061/dryad.ncjsxksxr",
+    "country": "Czechia",
+    "institution": "Charles University / General University Hospital in Prague",
+    "year": "2025",
+    "doi": "Unknown",
+    "citation": "Dusek P et al. Data from: Is retina affected in Huntington’s disease? Is optical coherence tomography a good biomarker? Dryad. 2025.",
+    "modalities": "OCT-derived retinal measurements only",
+    "family": "dryad_huntingtons_retinal_oct",
+    "access": "Registration",
+    "access_url": "https://datadryad.org/dataset/doi:10.5061/dryad.ncjsxksxr",
+    "image_access": "Not available in deposit; data.csv and README.md only.",
+    "label_access": "record_id, group, age group, eye, visit, UHDRS and OCT-derived measures; no pixel images.",
+    "license": "CC0 1.0 (EyeDataHub catalog dataset terms)",
+    "pairing": "record_id, eye, visit identify tabular observations. First vs second measurement is documented; longitudinal interval not established.",
+    "strengths": "HD 与正常对照的逐人 UHDRS、CAG 和眼底层厚字典。",
+    "limitations": "派生表，不可训练图像编码器；年龄是区间。",
+    "experiment": "复核 RNFL/TMV 与 UHDRS 的关联；每人双眼合并或建混合模型。",
+    "sources": {
+      "s1": [
+        "https://datadryad.org/dataset/doi:10.5061/dryad.ncjsxksxr",
+        "Files and variables: data.csv and README only; record_id, group, gender, age range, visit, eye, UHDRS, CAG and RNFL measurements."
+      ],
+      "s2": [
+        "https://khosravipooya.com/EyeDataHub/datasets/dryad_huntingtons_retinal_oct/",
+        "Access route/terms: Dryad authenticated API and CC0."
+      ]
+    },
+    "topics": {
+      "A": [
+        0,
+        "s1",
+        "年龄为区间；无眼底像素。"
+      ],
+      "E": [
+        0,
+        "s1",
+        "HD 表型辅助，当前版本仅测量表。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "分组年龄"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "性别"
+      ],
+      "health": [
+        "Confirmed",
+        "s1",
+        "仅 HD 功能与运动量表，非一般健康指数"
+      ],
+      "followup": [
+        "Uncertain",
+        "s1",
+        "visit 表示第 1/2 次测量，时距不明"
+      ]
+    },
+    "dataset_doi": "10.5061/dryad.ncjsxksxr"
+  },
+  {
+    "id": "oct_ms_jhu",
+    "name": "Johns Hopkins OCT MS and Healthy Controls",
+    "official_url": "https://iacl.ece.jhu.edu/index.php/Resources",
+    "country": "United States",
+    "institution": "Johns Hopkins University",
+    "year": "2019",
+    "doi": "10.1016/j.dib.2018.11.060",
+    "citation": "He Y et al. Retinal layer parcellation of optical coherence tomography images: Data resource for multiple sclerosis and healthy controls. Data Brief. 2019.",
+    "modalities": "OCT",
+    "family": "oct_ms_jhu",
+    "images": "35 volumes × 49 B-scans = 1,715 B-scans",
+    "participants": "35 people (21 MS, 14 healthy controls).",
+    "eyes": "Right eye only, one volume per subject.",
+    "device": "Heidelberg Spectralis",
+    "quality": "Nine layer boundaries manually delineated per B-scan.",
+    "multivisit": "One scan per subject",
+    "access": "Open download",
+    "access_url": "https://iacl.ece.jhu.edu/index.php/Resources",
+    "image_access": "JHU IACL publicly links hosted OCT archive.",
+    "label_access": "Direct archive inspection: group encoded in all 35 volume names; demographics CSV contains 35 rows ID, Age, Gender, Eye, Diagnosis. 26 exact, unique demographic→volume joins; 9 control IDs repeat hc0 (cannot disambiguate from filenames).",
+    "license": "CC BY-NC-ND (EyeDataHub dataset terms; consult IACL before redistribution)",
+    "research_terms": "Check dataset NC-ND terms for derivative redistribution.",
+    "commercial_terms": "Non-commercial per recorded data terms.",
+    "pairing": "35 single right-eye volumes. Diagnosis from hc/ms prefixes; 26 unique subject-ID joins for age/sex, 9 controls with duplicated hc0 in CSV. Never guess row-order mapping.",
+    "strengths": "右眼像素与 MS 病种、小样本但明确的逐人粒度。",
+    "limitations": "病例对照样本；9 份对照眼底的年龄/性别映射歧义，余下 26 人偏向 MS；不得跨数据集拼接脑 MRI。",
+    "experiment": "逐人分割验证与分层误差分析；可作小规模设备内复现。",
+    "sources": {
+      "s1": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6327073/",
+        "Data section and Table 1: 35 right eyes (14 HC, 21 MS), 49 slices each, 9 manual boundaries; sex and age summary only in table."
+      ],
+      "s2": [
+        "https://iacl.ece.jhu.edu/index.php/Resources",
+        "OCT MS and Healthy Controls under Retinal resources; separate brain challenge listed independently."
+      ],
+      "s3": [
+        "https://khosravipooya.com/EyeDataHub/datasets/oct_ms_jhu/",
+        "Catalog dataset file terms and download route."
+      ],
+      "s4": [
+        "https://iacl.ece.jhu.edu/~aaron/data/OCT_Manual_Delineations-2018_June_29_b.zip",
+        "Direct ZIP index + demographics-2018_June_29.csv inspected. 35 .vol and CSV rows, ID/Age/Gender/Eye/Diagnosis. 26 unique exact ID joins; hc0 duplicated for nine controls, .vol are hc01–hc09. No image voxels transferred."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s4",
+        "仅 26 份按唯一 ID 可可靠配到连续年龄；不得按行序补齐其余 9 人。"
+      ],
+      "E": [
+        1,
+        "s1",
+        "MS/健康病例对照 + 同一受试者 OCT。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "可用于层分割/表示外部测试。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s4",
+        "人口学 CSV；26 张体积能唯一匹配，9 份对照 ID 歧义。"
+      ],
+      "sex": [
+        "Confirmed",
+        "s4",
+        "人口学 CSV；26 张体积能唯一匹配，9 份对照 ID 歧义。"
+      ],
+      "brain_mri": [
+        "Uncertain",
+        "s2",
+        "未核实同人影像映射"
+      ],
+      "followup": [
+        "Not available",
+        "s1",
+        "此发布每人一个右眼体积"
+      ]
+    }
+  },
+  {
+    "id": "rose",
+    "name": "ROSE: Retinal OCT-Angiography Vessel Segmentation (ROSE-1 and ROSE-2)",
+    "official_url": "https://zenodo.org/records/12775880",
+    "country": "China / other study sites",
+    "institution": "iMED, Ningbo Institute of Materials Technology and Engineering and collaborators",
+    "year": "2021",
+    "doi": "10.1109/TMI.2020.3042802",
+    "citation": "Ma Y et al. ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model. IEEE TMI 2021. Zenodo 10.5281/zenodo.12775880.",
+    "modalities": "OCTA",
+    "family": "ROSE",
+    "relation": "ROSE-1 and ROSE-2 scanner-specific subsets; ROSE-O annotation product described on current landing page, not additional people by default.",
+    "images": "117 ROSE-1 + 112 ROSE-2 = 229 en face images in original segmentation data; not 229 participants.",
+    "participants": "39 ROSE-1; ROSE-2 112 eyes, number of independent people unverified.",
+    "device": "Optovue RTVue XR Avanti (ROSE-1); Heidelberg OCT2 (ROSE-2).",
+    "resolution": "304×304 vs 840×840, 3×3 mm.",
+    "quality": "Centerline/pixel vessel masks; expert consensus.",
+    "access": "Controlled access",
+    "access_url": "https://zenodo.org/records/12775880",
+    "image_access": "Zenodo metadata public, files restricted with request-access form; override v0.7.0 automated/open assumption.",
+    "label_access": "Vessel annotations documented. ROSE-1 contains AD/controls in paper; no confirmed per-image diagnostic crosswalk supplied by official accession.",
+    "license": "EyeDataHub records CC BY 4.0 for mirror; iMED states academic research only. Confirm exact use with custodian.",
+    "research_terms": "Origin site specifies academic research; official Zenodo files require permission.",
+    "commercial_terms": "Origin site limits academic use; verify terms directly before any other use.",
+    "pairing": "Three slabs per ROSE-1 subject; deposit describes 26 diseased vs 13 controls; obtain subject groups from custodian before disease prediction.",
+    "strengths": "不同设备 OCTA 分割；可核查跨设备误差。",
+    "limitations": "队列中包含 AD 不证明发布逐图诊断；实际 Zenodo 下载受限；禁止将匿名分割图硬赋 AD 标签。",
+    "experiment": "经申请后以设备/受试者分组评估血管分割；AD 仅在确证映射后探索。",
+    "sources": {
+      "s1": [
+        "https://zenodo.org/records/12775880",
+        "Current Zenodo v2: file access restricted, request form. Modality/device/counts; public description lacks subject-to-diagnosis manifest."
+      ],
+      "s2": [
+        "https://imed.nimte.ac.cn/dataofrose.html",
+        "Dataset Description; academic research only; device/resolution; two distinct study subsets."
+      ],
+      "s3": [
+        "https://arxiv.org/abs/2007.05201",
+        "Original paper, ROSE-1 subjects include AD cases and controls; determine whether diagnosis map is distributed separately."
+      ],
+      "s4": [
+        "https://khosravipooya.com/EyeDataHub/datasets/rose/",
+        "v0.7.0 terms/automatic route conflicts with current restricted provider status."
+      ]
+    },
+    "topics": {
+      "D": [
+        2,
+        "s3",
+        "研究中有 AD 患者；逐图诊断字典与权限待核。"
+      ],
+      "G": [
+        3,
+        "s2",
+        "OCTA 分割、多设备外测。"
+      ]
+    },
+    "phenotypes": {
+      "ad": [
+        "Uncertain",
+        "s3",
+        "病种入组确认，官方目录未给逐图诊断映射"
+      ],
+      "dementia": [
+        "Uncertain",
+        "s3",
+        "只知队列包含 AD，不可生成逐人标签"
+      ]
+    },
+    "dataset_doi": "10.5281/zenodo.12775880"
+  },
+  {
+    "id": "ext-seed-edis",
+    "name": "Singapore Epidemiology of Eye Diseases (SEED), including SCES → EDIS retinal subcohort",
+    "official_url": "https://www.snec.com.sg/research-innovation/key-programmes/singapore-epidemiology-of-eye-diseases",
+    "country": "Singapore",
+    "institution": "Singapore Eye Research Institute / Singapore National Eye Centre / NUS",
+    "year": "2021",
+    "doi": "10.1093/ije/dyaa238",
+    "citation": "Cohort Profile: The Singapore Epidemiology of Eye Diseases study. Int J Epidemiol. 2021; EDIS substudy Hilal et al. 2014, DOI 10.1159/000363286.",
+    "modalities": "Fundus | OCT/OCTA (selected waves) | brain MRI (EDIS)",
+    "family": "Singapore Epidemiology of Eye Diseases (SEED)",
+    "relation": "EDIS 300-person analysis recruited from Singapore Chinese Eye Study (SCES), a SEED constituent; do not count as three independent cohorts.",
+    "participants": ">10,000 SEED baseline, age ≥40; 6,762 at six-year follow-up. EDIS paper: 300 Chinese adults ≥60 with fundus, brain imaging and neuropsychological assessment.",
+    "multivisit": "Yes: six-year revisit in SEED; EDIS cited retinal/MRI analysis cross-sectional.",
+    "multimodal": "Yes",
+    "multicenter": "Multiethnic Singapore cohort; clinic/site/device distributions needed for site-held-out studies.",
+    "access": "Application",
+    "access_url": "https://blog.nus.edu.sg/seed/requestproposal-forms/",
+    "image_access": "SEED has dataset/image proposal forms. Request EDIS ancillary MRI/retinal linkage separately; approval of SEED images alone does not authorize EDIS ancillary data.",
+    "label_access": "SEED phenotypes by proposal; MRI/cognition documented in EDIS participants, separate approval scope unresolved.",
+    "research_terms": "Use the SEED manuscript proposal or research data request form appropriate to proposed work; obtain PI/custodian review.",
+    "pairing": "EDIS study enrolled older SCES participants, examined retina, brain MRI, neuropsychology in same participants. DeepRETStroke used SEED for incident stroke in a different sample. Do not generalize EDIS pairing to the parent.",
+    "strengths": "东南亚多族群随访；脑部微出血和眼底/认知的可验证分析子集。",
+    "limitations": "EDIS 子集更高龄且经过选择；SEED 的眼底授权不自动覆盖脑 MRI。",
+    "experiment": "SEED 先做跨族群年龄和卒中预测；若附加授权覆盖 EDIS，在 300 人分析框架复核微血管/认知，不将全队列视为眼脑配对。",
+    "sources": {
+      "s1": [
+        "https://doi.org/10.1093/ije/dyaa238",
+        "Cohort profile: multiethnic baseline >10,000 and 6,762 six-year follow-up; fundus and wave-dependent OCT/OCTA; OCTA added for Chinese follow-up."
+      ],
+      "s2": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4176466/",
+        "EDIS Study population/Methods: 300 older Chinese from SCES; fundus, brain MRI, neuropsychological battery, radiologist/clinicians assessed stroke and microbleeds."
+      ],
+      "s3": [
+        "https://blog.nus.edu.sg/seed/requestproposal-forms/",
+        "NUS SEED Request/Proposal Forms: administrative route for SEED datasets/images; no blanket authorization for EDIS MRI."
+      ],
+      "s4": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12623247/",
+        "Fig 1 and incident stroke validation cohorts: SEED is one external follow-up sample for retinal stroke-risk model; disjoint aim from EDIS cross-section."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "基线个体年龄与照片。"
+      ],
+      "B": [
+        1,
+        "s4",
+        "独立论文明确在 SEED 眼底样本验证发生卒中。"
+      ],
+      "C": [
+        2,
+        "s2",
+        "EDIS MRI/微出血已配对，附加 MRI 对外申请权限未核实。"
+      ],
+      "D": [
+        2,
+        "s2",
+        "EDIS 明确配对认知，附加标签交付范围未核实。"
+      ],
+      "F": [
+        1,
+        "s1",
+        "队列测量糖尿病、眼底与风险因素。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "多族群及特定波次多模态；站点/设备细分需申请。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "SEED 40+；EDIS 研究 60+"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "研究协变量"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s1",
+        "糖尿病分层"
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s2",
+        "仅 EDIS 子样本"
+      ],
+      "csvd": [
+        "Confirmed",
+        "s2",
+        "MRI 微出血"
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s4",
+        "SEED 有事件随访；具体日期精度未确认"
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s4",
+        "未核实全套临床分型"
+      ],
+      "cognition": [
+        "Confirmed",
+        "s2",
+        "神经心理评估"
+      ],
+      "ad": [
+        "Uncertain",
+        "s2",
+        "不能用 EDIS 认知分级替代临床 AD 诊断"
+      ],
+      "followup": [
+        "Confirmed",
+        "s1",
+        "SEED 六年复查；EDIS 此分析横断面"
+      ]
+    }
+  },
+  {
+    "id": "ext-beijing-eye-study",
+    "name": "Beijing Eye Study 2011 retinal / stroke and cognition substudies",
+    "official_url": "https://bmjopen.bmj.com/content/10/9/e024646.full",
+    "country": "China",
+    "institution": "Beijing Tongren Eye Center / Beijing Institute of Ophthalmology, Capital Medical University",
+    "year": "2020",
+    "doi": "10.1136/bmjopen-2018-024646",
+    "citation": "Wang et al. Prevalence, risk factors and associated ocular diseases of cerebral stroke: the population-based Beijing Eye Study. BMJ Open. 2020.",
+    "modalities": "Fundus | SD-OCT",
+    "family": "Beijing Eye Study",
+    "relation": "2011 study wave; cognitive and stroke papers have partly overlapping participants.",
+    "participants": "3,468 attendees; 3,205 with stroke interview available; separate cognition analysis 3,127. Usable raw-pixel counts by modality unreported.",
+    "device": "Heidelberg Spectralis SD-OCT",
+    "multimodal": "Yes",
+    "access": "Author contact",
+    "access_url": "https://bmjopen.bmj.com/content/10/9/e024646.full",
+    "image_access": "Images were acquired; data available on reasonable request; statement does not specify raw images or matched individual export.",
+    "label_access": "Standardized stroke-history questionnaire and MMSE-derived scores used at participant level; exact permitted fields must be confirmed.",
+    "research_terms": "Reasonable request to corresponding authors; no blanket reuse license for data files.",
+    "pairing": "Same exam links standardized interview history and fundus/OCT; usual time since previous symptomatic stroke interview-reported, not adjudicated surveillance. Cognitive paper has distinct denominator.",
+    "strengths": "中国城乡老年人群；眼底、既往卒中询问、认知评分的来源清晰。",
+    "limitations": "卒中由访谈得出，缺乏 MRI 参照，无可直接下载的像素清单；MMSE 低分不能当 AD 诊断。",
+    "experiment": "探索眼底表型和既往卒中史或 MMSE 分数的横断面关联，按城乡、年龄、教育分层。",
+    "sources": {
+      "s1": [
+        "https://bmjopen.bmj.com/content/10/9/e024646.full",
+        "Methods, results, Data availability: standardized interview on whether/when stroke occurred, retinal photos and Spectralis SD-OCT, 3,205/3,468 interviews; data available upon reasonable request."
+      ],
+      "s2": [
+        "https://www.nature.com/articles/s41598-018-23314-5",
+        "Cognition substudy: 3,127 MMSE-based scores; fundus/Spectralis, ocular findings and systemic covariates. Same 2011 wave."
+      ],
+      "s3": [
+        "https://pubmed.ncbi.nlm.nih.gov/32912970/",
+        "Study methods: Beijing rural/urban, age 50+, previous stroke interview with BP/diabetes/QoL covariates."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "眼底与连续年龄配对，但像素文件交付需单独申请。"
+      ],
+      "B": [
+        2,
+        "s1",
+        "自报卒中史配对；对外交付未明确。"
+      ],
+      "D": [
+        2,
+        "s2",
+        "MMSE 和眼底已分析，外部获取范围待核。"
+      ],
+      "F": [
+        1,
+        "s1",
+        "糖尿病、高血压同人测量。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "50+，连续年龄"
+      ],
+      "sex": [
+        "Confirmed",
+        "s3",
+        "个体协变量"
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s3",
+        "动脉高血压"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s3",
+        "糖尿病"
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s1",
+        "症状史，不是独立判读的卒中亚型"
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s1",
+        "回忆既往卒中发生时间，不是前瞻事件日期"
+      ],
+      "cognition": [
+        "Confirmed",
+        "s2",
+        "MMSE-derived score"
+      ],
+      "health": [
+        "Confirmed",
+        "s3",
+        "生活质量评分"
+      ],
+      "followup": [
+        "Uncertain",
+        "s1",
+        "引用的 2011 卒中分析是横断面"
+      ]
+    }
+  },
+  {
+    "id": "ext-nicola",
+    "name": "Northern Ireland Cohort for the Longitudinal Study of Ageing (NICOLA)",
+    "official_url": "https://nicola.qub.ac.uk/UseOurData/AccessMethods/",
+    "country": "United Kingdom (Northern Ireland)",
+    "institution": "Queen’s University Belfast",
+    "year": "2021",
+    "doi": "10.1186/s12883-021-02137-4",
+    "citation": "Retinal microvascular parameters are not significantly associated with mild cognitive impairment in the Northern Ireland Cohort for the Longitudinal Study of Ageing. BMC Neurol. 2021.",
+    "modalities": "Fundus | OCT (protocol)",
+    "family": "NICOLA",
+    "relation": "Separate NICOLA publications and DeepRETStroke external validation; do not combine denominators.",
+    "participants": "3,741 health assessments in cited analysis; 1,431 with retained retinal/cognitive measures, 156 study-defined MCI.",
+    "device": "Canon CX-1 Digital Fundus Camera; protocol includes Spectralis HRA+OCT.",
+    "quality": "Trained masked grader measured vessel parameters; 1,431 satisfied analytic criteria.",
+    "multimodal": "Yes (protocol; intersections by field unknown)",
+    "access": "Controlled access",
+    "access_url": "https://nicola.qub.ac.uk/UseOurData/AccessMethods/",
+    "image_access": "QUB safe setting / secure remote server by application. Health protocol documents scans; public UKDS documentation is not a raw image release.",
+    "label_access": "MoCA-derived MCI, vascular covariates, incident stroke analysis exist; request fields, linkage and image formats through QUB.",
+    "research_terms": "Research proposal and permitted secure environment; select record-specific route; contact nicola.research@qub.ac.uk.",
+    "pairing": "Fundus photos and MoCA in 1,431 baseline participants; MCI definition also incorporates subjective decline, depression and activities of daily living. Distinct incident-stroke validation via DeepRETStroke.",
+    "strengths": "北爱尔兰老龄队列，对照复核已有零结果；可区分 MoCA 定义和实际临床痴呆。",
+    "limitations": "仅部分健康评估受试者图像与认知均可用；原文未发现血管参数与 MCI 存在显著关联。",
+    "experiment": "在审批环境中以 MoCA/预设 MCI 为终点，先做年龄、性别和教育基线，再评估眼底指标是否增益；如做卒中，另审随访字段。",
+    "sources": {
+      "s1": [
+        "https://pubmed.ncbi.nlm.nih.gov/33706706/",
+        "Methods/results: 1,431 with requisite measures, 156 MCI; no significant adjusted association; age, sex, CVD, HTN, diabetes, criterion MoCA and functional rules."
+      ],
+      "s2": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7948373/",
+        "Study population/acquisition: 3,741 with health assessments, Canon CX-1, VAMPIRE; 1,431 retained after exclusions."
+      ],
+      "s3": [
+        "https://nicola.qub.ac.uk/UseOurData/AccessMethods/",
+        "Access Methods: safe setting at QUB, remote secure server possible, other platforms with distinct scopes."
+      ],
+      "s4": [
+        "https://doc.ukdataservice.ac.uk/doc/8604/mrdoc/pdf/8604_nicola_ha_protocol_v_1_2.pdf",
+        "Health assessment protocol, Retinal Imaging section lists Spectralis acquisition."
+      ],
+      "s5": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12623247/",
+        "Fig 1 and prospective incident stroke external validation cohorts lists NICOLA. Does not promise date release in public UKDS."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "年龄与高质量眼底数据对应。"
+      ],
+      "B": [
+        1,
+        "s5",
+        "外部研究用 NICOLA 眼底和随访卒中。"
+      ],
+      "D": [
+        1,
+        "s1",
+        "MoCA 定义的 MCI 与眼底，同人 1,431。"
+      ],
+      "F": [
+        1,
+        "s1",
+        "糖尿病、高血压和 CVD 个体协变量。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "个体年龄"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "个体协变量"
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s1",
+        "个体协变量"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s1",
+        "个体协变量"
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s1",
+        "CVD 史协变量"
+      ],
+      "cognition": [
+        "Confirmed",
+        "s1",
+        "MoCA ; study-defined MCI"
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s5",
+        "卒中事件随访；可申请的日期格式待核"
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s5",
+        "未核实亚型"
+      ],
+      "ad": [
+        "Uncertain",
+        "s1",
+        "MCI 规则不是 AD 诊断"
+      ],
+      "followup": [
+        "Confirmed",
+        "s5",
+        "独立验证用事件随访"
+      ]
+    }
+  }
+]

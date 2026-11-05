@@ -1,0 +1,809 @@
+[
+  {
+    "id": "china_fundus_cimt",
+    "name": "China-Fundus-CIMT",
+    "country": "China",
+    "institution": "Second Affiliated Hospital of Anhui Medical University",
+    "year": "2025",
+    "doi": "10.1038/s41597-025-04930-z",
+    "citation": "Fu W et al. High-resolution fundus images for ophthalmomics and early cardiovascular disease prediction. Scientific Data (2025).",
+    "official_url": "https://doi.org/10.6084/m9.figshare.27907056.v1",
+    "access": "Open download",
+    "access_url": "https://doi.org/10.6084/m9.figshare.27907056.v1",
+    "license": "CC0 (Figshare v1 API; EyeDataHub logged CC BY 4.0)",
+    "research_terms": "Figshare v1 lists CC0 for the deposit. Cite descriptor and version.",
+    "commercial_terms": "CC0 declaration on the deposit; no separate commercial restriction listed there.",
+    "modalities": "Color fundus photography + carotid ultrasound-derived CIMT",
+    "images": "5,806 PNGs (EyeDataHub v0.7.0 quantity review, ZIP inventory).",
+    "participants": "2,903 paired inpatients",
+    "eyes": "Both eyes, _R and _L filenames",
+    "device": "Canon CR-2 PLUS AF; Siemens ACUSON S2000 (CIMT only)",
+    "resolution": "512 × 512 pixels in release",
+    "quality": "Quality-screened photos; two reviewers verified parsed CIMT values.",
+    "multivisit": "No longitudinal outcomes in released dictionary",
+    "multicenter": "No — single endocrinology inpatient cohort",
+    "multimodal": "Fundus pixels and ultrasound measurements; released file list does not include ultrasound pixels.",
+    "image_access": "Open Figshare Fundus_CIMT_2903.zip",
+    "label_access": "Open data_info.json",
+    "pairing": "Patient ID is the JSON key; True_age in years vs normalized age; right_eye and left_eye identify PNGs; thickness is concurrent CIMT in mm.",
+    "strengths": "双眼、真实年龄、连续 CIMT 及官方患者级划分。",
+    "limitations": "内分泌住院样本，单中心。缺乏详细高血压/糖尿病病史及卒中事件。CIMT 是颈动脉替代指标。",
+    "experiment": "患者级保留原划分，先做年龄回归，再以年龄+性别为对照检验影像对连续 CIMT 的增益。",
+    "sources": {
+      "p": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11968951/",
+        "Methods, Data records/Table 2 and limitations: bilateral images, patient ID, True_age, normalized age, sex, CIMT; no detailed hypertension/diabetes history."
+      ],
+      "d": [
+        "https://api.figshare.com/v2/articles/27907056/versions/1",
+        "Figshare version 1 metadata: data_info.json (754105 B), Fundus_CIMT_2903.zip; license.name=CC0."
+      ],
+      "b": [
+        "https://github.com/pooyakhosravi/EyeDataHub/blob/v0.7.0/hub/audit/resource_quantity_evidence_2026-08-02.csv",
+        "china_fundus_cimt row reports MD5 verification and 5806 PNGs in v1 archive by index authors."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "p",
+        "连续年龄。"
+      ],
+      "B": [
+        1,
+        "p",
+        "仅同期颈动脉 CIMT 风险表型；无脑卒中事件。"
+      ],
+      "F": [
+        1,
+        "p",
+        "同次住院双眼与颈动脉内中膜厚度。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "p",
+        "True_age；age 是标准化数值。"
+      ],
+      "sex": [
+        "Confirmed",
+        "p",
+        "gender"
+      ],
+      "hypertension": [
+        "Not available",
+        "p",
+        "Detailed history unavailable."
+      ],
+      "diabetes": [
+        "Not available",
+        "p",
+        "Detailed history unavailable."
+      ],
+      "stroke_type": [
+        "Not available",
+        "p",
+        "No subtype in published release dictionary."
+      ],
+      "stroke_time": [
+        "Not available",
+        "p",
+        "No incident stroke time field."
+      ],
+      "followup": [
+        "Not available",
+        "p",
+        "Table 2 is cross-sectional."
+      ],
+      "cimt": [
+        "Confirmed",
+        "p",
+        "Individual carotid intima-media thickness by ultrasound (mm)."
+      ],
+      "cardiovascular": [
+        "Uncertain",
+        "p",
+        "CIMT is confirmed; clinical cardiovascular event status is not identified in release dictionary."
+      ]
+    },
+    "dataset_doi": "10.6084/m9.figshare.27907056.v1",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://api.figshare.com/v2/articles/27907056/versions/1"
+  },
+  {
+    "id": "ext-fdr26",
+    "name": "FDR26 (Morocco)",
+    "official_url": "https://zenodo.org/records/23101200",
+    "country": "Morocco",
+    "institution": "Mohammed VI University Hospital, Oujda",
+    "year": "2026",
+    "citation": "Lamti S et al. FDR26: A Fundus Dataset for Diabetic Retinopathy. Data in Brief, online October 26, 2026.",
+    "doi": "10.1016/j.dib.2026.113379",
+    "dataset_doi": "10.5281/zenodo.23101200",
+    "modalities": "Color fundus photography; model-derived vessel masks",
+    "images": "3,000 fundus images",
+    "participants": "1,918 patients",
+    "multicenter": "No — one university hospital",
+    "access": "Open download",
+    "access_url": "https://zenodo.org/records/23101200",
+    "license": "CC BY 4.0, version 23101200",
+    "commercial_terms": "CC BY 4.0 attribution applies.",
+    "research_terms": "Attribute versioned release and paper; masks derived from another source, check their provenance before reuse.",
+    "image_access": "Open file Fundus_FDR26.zip",
+    "label_access": "Open workbook: 3000 rows, 6 columns (image_id, classe, grade_DR, sexe, age, type_diabete); no separate patient_id, visit or eye column.",
+    "pairing": "Image_id identifies each image and its age. First nine characters yield 1918 consistent groups but require a provider crosswalk to certify participant identity. External-only testing still needs group-aware uncertainty.",
+    "strengths": "提供北非门诊人群及逐患者年龄、糖尿病类型，可检验地理外推。",
+    "limitations": "单中心且糖尿病筛查富集，非独立血管人工金标准；无事件随访依据。",
+    "experiment": "锁定训练队列阈值后，按患者评估北非年龄误差、糖尿病分层及校准；先查多图归属。",
+    "sources": {
+      "d": [
+        "https://zenodo.org/records/23101200",
+        "Version-specific deposit, image ZIP, clinical metadata workbook and separate vessel mask archive; descriptions also use FDR25."
+      ],
+      "a": [
+        "https://zenodo.org/api/records/23101200",
+        "Metadata access_right=open, license=cc-by-4.0; three named files."
+      ],
+      "p": [
+        "https://doi.org/10.1016/j.dib.2026.113379",
+        "Abstract: 3000 images, 1918 patients with patient age, gender and diabetes type. Single hospital, four-ophthalmologist consensus DR grading."
+      ],
+      "w": [
+        "https://zenodo.org/records/23101200/files/metadata_classification_DR.xlsx",
+        "Version-specific workbook, MD5 128b725a17177d38e419993c423ad4b9. Unique image IDs: 3000; integer ages 20–85, 65 distinct. First nine ID characters give 1918 groups, internally consistent for sex/age/diabetes type; no certified patient key."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "p",
+        "患者年龄"
+      ],
+      "F": [
+        1,
+        "p",
+        "糖尿病类型；非前瞻结局。"
+      ],
+      "G": [
+        3,
+        "d",
+        "北非独立设备/人群外部域候选。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "w",
+        "Integer years; 20–85 in file."
+      ],
+      "sex": [
+        "Confirmed",
+        "p",
+        "Gender"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "w",
+        "Only codes 1 and 2 in type_diabete; do not infer controls without coding documentation."
+      ]
+    },
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://zenodo.org/records/23101200"
+  },
+  {
+    "id": "octa_500",
+    "official_url": "https://ieee-dataport.org/open-access/octa-500",
+    "country": "China",
+    "institution": "Nanjing University of Science and Technology / Nanjing Medical University",
+    "year": "2024 (descriptor)",
+    "doi": "10.1016/j.media.2024.103092",
+    "citation": "Li M et al. OCTA-500: A retinal dataset for optical coherence tomography angiography study. Medical Image Analysis 93:103092.",
+    "modalities": "OCT + OCTA volumes; 3 and 6 mm fields",
+    "participants": "500 subjects",
+    "images": "361,600 scans (paper; component B-scans, not subjects)",
+    "eyes": "Eye label documented",
+    "multimodal": "Yes — OCT and OCTA",
+    "access": "Author contact",
+    "access_url": "https://ieee-dataport.org/open-access/octa-500",
+    "image_access": "Paper points to IEEE DataPort; upstream access review records password request after login.",
+    "label_access": "Age, gender, eye, disease per data subject; segmentation and projection derivatives.",
+    "pairing": "Subject-indexed OCT/OCTA set with text labels for age, gender, eye, disease.",
+    "strengths": "适合验证 OCT/OCTA 的年龄信息与血管特征。",
+    "limitations": "眼病标签不能替代脑病终点；登记平台与解压条件须复查。",
+    "experiment": "按受试者和视野分层，检验年龄与血管密度的关联，避免同一体扫描切片泄漏。",
+    "sources": {
+      "p": [
+        "https://pubmed.ncbi.nlm.nih.gov/38325155/",
+        "Abstract and data statement: two modalities, four text labels, vessel masks and 500 subjects."
+      ],
+      "r": [
+        "https://khosravipooya.com/EyeDataHub/datasets/octa_500/",
+        "v0.7.0 access audit: IEEE login plus author-provided password; author_contact."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "p",
+        "每位受试者的年龄和眼别标签。"
+      ],
+      "G": [
+        3,
+        "p",
+        "双模态解剖和血管表征。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "p",
+        "text age"
+      ],
+      "sex": [
+        "Confirmed",
+        "p",
+        "gender"
+      ]
+    }
+  },
+  {
+    "id": "ext-eyepacs-eyeage",
+    "name": "EyePACS full research cohort used for eyeAge",
+    "family": "EyePACS program",
+    "relation": "Full research pool; public EyePACS competition images are a subset; overlap not enumerated. UKB validation counted separately.",
+    "official_url": "https://elifesciences.org/articles/82364",
+    "country": "USA (EyePACS program)",
+    "institution": "EyePACS",
+    "year": "2023",
+    "doi": "10.7554/eLife.82364",
+    "citation": "Ahadi S et al. Longitudinal fundus imaging and its genome-wide association analysis provide evidence for a human retinal aging clock. eLife 12:e82364 (2023).",
+    "participants": "100,692 train / 25,238 tune (individuals in paper)",
+    "images": "217,289 train / 54,292 tune photographs",
+    "modalities": "Color fundus photography",
+    "eyes": "Typically bilateral per visit",
+    "quality": "Quality-filtered evaluation; denominator changes after filtering.",
+    "multivisit": "Yes — repeated examinations in subset",
+    "access": "Author contact",
+    "access_url": "https://elifesciences.org/articles/82364#data",
+    "image_access": "Full data requested from EyePACS, separately reviewed.",
+    "label_access": "Full clinical age and revisit data under internal approval; competition subset has a separate scope.",
+    "research_terms": "Internal EyePACS assessment and potential ethics review.",
+    "pairing": "Paper splits by patient, averages eyes within visits and analyses subsequent visits in repeat patients. Death linkage in this paper is UKB, not established for EyePACS training data.",
+    "strengths": "同一人的重复检查可研究年龄预测的重测误差与时间间隔。",
+    "limitations": "糖网筛查人群与健康人群不同；不能把合作样本的年龄列投射到公开竞赛。",
+    "experiment": "用重复人群进行配对差分、采集条件和随访间隔敏感性分析。",
+    "sources": {
+      "p": [
+        "https://elifesciences.org/articles/82364",
+        "Results prediction of age, Table 1, longitudinal analysis and Data availability: EyePACS train/tune, participant splits, full data by custodian request; UKB mortality analysis."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "p",
+        "实足年龄与多次眼底检查。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "p",
+        "Age at imaging."
+      ],
+      "followup": [
+        "Confirmed",
+        "p",
+        "Repeat retinal visits for a subset."
+      ]
+    }
+  },
+  {
+    "id": "retina_age_analysis",
+    "name": "Retina Age Analysis (Hugging Face upload)",
+    "official_url": "https://huggingface.co/datasets/ramankamran/retina-age-analysis",
+    "modalities": "Color fundus photography",
+    "images": "9,857 images (card)",
+    "participants": "5,393 individuals (card)",
+    "eyes": "exam_eye",
+    "device": "camera field; examples list Canon CR",
+    "access": "Open download",
+    "image_access": "Public images directory on uploader repository; rights chain unresolved.",
+    "label_access": "Patient_id, patient_age, patient_sex and image_id in split CSVs/viewer.",
+    "license": "Uploader labels repository MIT; underlying image origin and authorization not established.",
+    "research_terms": "Original source agreement unresolved; hold independent use pending provenance.",
+    "commercial_terms": "Unknown; MIT card insufficient to establish underlying image rights.",
+    "pairing": "Repository CSV has image_id, patient_id, patient_age; card describes patient-level splits. Clinical field structure resembles BRSET; no verified crosswalk or reuse permission.",
+    "strengths": "公开模式可供设计 ID 与数据泄漏检查。",
+    "limitations": "原始图像出处和再分发权未核实，不作为独立外部测试集。",
+    "experiment": "只做来源与跨库重复核验；待许可和患者独立性确认后纳入评测。",
+    "sources": {
+      "d": [
+        "https://huggingface.co/datasets/ramankamran/retina-age-analysis",
+        "Data Fields, Data Splits and viewer: patient/image keys, age and sex; 9857 images/5393 patients; uploader license does not document upstream chain."
+      ],
+      "p": [
+        "https://physionet.org/content/brazilian-ophthalmological/1.0.2/",
+        "BRSET data dictionary uses matching clinical field names; similar schema is a potential overlap signal only."
+      ]
+    },
+    "topics": {
+      "A": [
+        2,
+        "d",
+        "行键明确，原始来源与合法可用范围待核。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "d",
+        "patient_age"
+      ],
+      "sex": [
+        "Confirmed",
+        "d",
+        "patient_sex"
+      ]
+    }
+  },
+  {
+    "id": "ext-joir-japanese-checkup",
+    "name": "JOIR / JSAIO fifth competition health-check subset",
+    "official_url": "https://www.joir.jp/",
+    "country": "Japan",
+    "institution": "Japan Ocular Imaging Registry / Japanese Society of Artificial Intelligence in Ophthalmology",
+    "year": "2025 (descriptor)",
+    "doi": "10.1371/journal.pone.0325337",
+    "citation": "Itoh T et al. Multi-task deep learning for predicting metabolic syndrome from retinal fundus images in a Japanese health checkup dataset. PLOS One 20:e0325337.",
+    "modalities": "Fundus photography",
+    "images": "5,000 photographs",
+    "participants": "Unknown (images do not identify total unique people)",
+    "family": "JOIR",
+    "relation": "Subset used in 5th JSAIO competition. Registry also releases an age model; those weights are not a data release.",
+    "access": "Author contact",
+    "access_url": "https://www.joir.jp/",
+    "image_access": "Research request to corresponding author for consultation with custodian.",
+    "label_access": "Age, metabolic syndrome and measured covariates used in paper; exact licensed delivery requires approval.",
+    "research_terms": "Applicant's own research only; onward redistribution prohibited.",
+    "pairing": "Male health checkup photographs accompanied by age, waist circumference, blood pressure, lipids and fasting glucose for same examinations.",
+    "strengths": "同人眼底、年龄和代谢综合征测量；日本体检人群。",
+    "limitations": "男性子集，不能由 5,000 张照片推断唯一人数；发布模型的许可不覆盖图像。",
+    "experiment": "按人和设备验证年龄估计及代谢综合征表型；报告男性样本的适用范围。",
+    "sources": {
+      "p": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0325337",
+        "Data availability, cohort and methods: male checkup subset, 5000 photos, clinical measurements; request own research use, prohibit redistribution."
+      ],
+      "m": [
+        "https://www.joir.jp/data/",
+        "Registry's age-estimation model distribution page, distinct artifact from underlying clinical data."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "p",
+        "同步年龄。"
+      ],
+      "F": [
+        1,
+        "p",
+        "同期代谢综合征及组分；无已验证死亡结局。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "p",
+        "Age"
+      ],
+      "sex": [
+        "Confirmed",
+        "p",
+        "Male-only subset"
+      ],
+      "metabolic_syndrome": [
+        "Confirmed",
+        "p",
+        "METS label and measured components"
+      ],
+      "hypertension": [
+        "Uncertain",
+        "p",
+        "SBP/DBP measurements not equivalent to diagnosis."
+      ],
+      "diabetes": [
+        "Uncertain",
+        "p",
+        "Fasting glucose; a diabetes diagnosis is not established."
+      ]
+    }
+  },
+  {
+    "id": "ext-bmes",
+    "name": "Blue Mountains Eye Study (BMES)",
+    "official_url": "https://pubmed.ncbi.nlm.nih.gov/16217050/",
+    "country": "Australia",
+    "institution": "University of Sydney, Centre for Vision Research",
+    "year": "2005 (stroke analysis)",
+    "doi": "10.1212/01.wnl.0000179177.15900.ca",
+    "citation": "Mitchell P et al. Retinal microvascular signs and risk of stroke and stroke mortality. Neurology (2005).",
+    "family": "Blue Mountains Cohort Study — Eye Study",
+    "modalities": "Color fundus photography",
+    "participants": "3,654 baseline participants, ages ≥49; 24 nonfatal incident strokes and 11 TIAs observed among survivors in published analysis.",
+    "quality": "Standardized retinal grading",
+    "multivisit": "Yes — baseline and follow-up photo examinations; mortality linkage.",
+    "multicenter": "Population recruited in one geographic region.",
+    "access": "Application",
+    "access_url": "https://www.cherel.org.au/apply",
+    "label_access": "Published linkage; consent, scope, raw photos and exact event times must be confirmed for new projects.",
+    "image_access": "Study acquired serial retinal photographs. No direct public image delivery established.",
+    "pairing": "Baseline photos paired with subsequent examinations and cerebrovascular deaths. Confirm access to original pixels with custodian.",
+    "strengths": "人群抽样、重复眼底、卒中与死亡记录。",
+    "limitations": "历史老年地区队列；论文合并 stroke/TIA/cerebrovascular death，宜拆分。",
+    "experiment": "按基线照片评估卒中结局；预先区分非致死卒中、TIA 与卒中死亡并报告事件数。",
+    "sources": {
+      "p": [
+        "https://pubmed.ncbi.nlm.nih.gov/16217050/",
+        "Abstract, 3654 participants, photographs, incident stroke/TIA and cerebrovascular death during follow-up; age, sex, self-rated health and hypertension considered."
+      ],
+      "v": [
+        "https://pubmed.ncbi.nlm.nih.gov/26383995/",
+        "Methods: repeated color retinal photographs at BMES visits over 15 years."
+      ],
+      "a": [
+        "https://atlaslongitudinaldatasets.ac.uk/datasets/bmcs",
+        "Access: BMES as external dataset via CHeReL with study team contact; pixel transfer unspecified."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "p",
+        "基线年龄和影像。"
+      ],
+      "B": [
+        1,
+        "p",
+        "随访卒中/TIA及脑血管死亡。"
+      ],
+      "F": [
+        1,
+        "p",
+        "死亡与死因随访。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "p",
+        "Baseline age ≥49."
+      ],
+      "sex": [
+        "Confirmed",
+        "p",
+        "Covariate"
+      ],
+      "health": [
+        "Confirmed",
+        "p",
+        "Self-rated health"
+      ],
+      "hypertension": [
+        "Confirmed",
+        "p",
+        "Severe hypertension reported"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "p",
+        "Retinopathy analysis restricted by diabetes status"
+      ],
+      "mortality": [
+        "Confirmed",
+        "p",
+        "Deaths and cerebrovascular causes; study window specified."
+      ],
+      "followup": [
+        "Confirmed",
+        "v",
+        "Serial retinal examinations"
+      ],
+      "stroke_time": [
+        "Uncertain",
+        "p",
+        "Incident events identified at follow-up; exact individual dates for requester not documented."
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "p",
+        "Stroke separated from TIA/death; ischemic vs hemorrhagic not established."
+      ]
+    }
+  },
+  {
+    "id": "ext-singapore-memory-clinics",
+    "name": "Singapore two-site memory clinic retinal vessel cohort",
+    "official_url": "https://doi.org/10.1093/braincomms/fcac212",
+    "country": "Singapore",
+    "institution": "National University Hospital and St Luke's Hospital",
+    "year": "2022 (longitudinal analysis)",
+    "doi": "10.1093/braincomms/fcac212",
+    "citation": "Deep-learning retinal vessel calibre measurements and risk of cognitive decline and dementia. Brain Communications (2022), fcac212.",
+    "modalities": "Fundus photography",
+    "participants": "491 for decline analysis; 212 cognitively impaired without dementia for incident dementia analysis",
+    "multivisit": "Yes — annual clinical/cognitive follow-up up to five years; repeat retinal imaging not established.",
+    "multicenter": "Yes — two recruiting memory clinics",
+    "access": "Author contact",
+    "access_url": "https://doi.org/10.1093/braincomms/fcac212",
+    "image_access": "Raw imaging release is restricted; no downloadable public archive confirmed.",
+    "label_access": "Participant-level retinal exam, clinical and cognitive outcomes used with study permission; external availability must be confirmed.",
+    "pairing": "At baseline, retinal vessel calibre on CFP; serial neuropsychological examinations and consensus outcomes. Do not equate this memory-clinic cohort with the population-based EDIS/SEED cohort.",
+    "strengths": "临床认知评分、基线眼底和后续痴呆区分明确。",
+    "limitations": "记忆门诊富集；逐人像素和诊断表交付待核；痴呆不能自动标为 AD。",
+    "experiment": "仅在基线无痴呆的适格人群建模认知转归，报告患者级随访及校准。",
+    "sources": {
+      "p": [
+        "https://pubmed.ncbi.nlm.nih.gov/36043139/",
+        "Methods: two memory clinics, CFP-derived calibre, annual examinations up to five years; 491 for cognitive decline."
+      ],
+      "a": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9416061/",
+        "Participant flow: 212 CIND for incident dementia; data availability notes permission-dependent restrictions."
+      ]
+    },
+    "topics": {
+      "A": [
+        1,
+        "p",
+        "同人年龄"
+      ],
+      "D": [
+        1,
+        "p",
+        "认知下降与新发痴呆，非 AD 特异。"
+      ],
+      "G": [
+        3,
+        "p",
+        "双门诊招募；需中心键用于中心留出。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "p",
+        "Covariate"
+      ],
+      "sex": [
+        "Confirmed",
+        "p",
+        "Covariate"
+      ],
+      "hypertension": [
+        "Confirmed",
+        "p",
+        "Covariate"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "p",
+        "Covariate"
+      ],
+      "dementia": [
+        "Confirmed",
+        "a",
+        "Incident dementia among baseline CIND"
+      ],
+      "cognition": [
+        "Confirmed",
+        "p",
+        "Annual neuropsychological battery"
+      ],
+      "followup": [
+        "Confirmed",
+        "p",
+        "Up to five years"
+      ]
+    }
+  },
+  {
+    "id": "tsukazaki_uwf",
+    "official_url": "https://www.tsukazaki-hp.jp/diseases/gakujyutu.html",
+    "name": "Tsukazaki Optos Public Project (TOPP)",
+    "country": "Japan",
+    "institution": "Tsukazaki Hospital",
+    "modalities": "Ultra-widefield fundus photography",
+    "access": "Author contact",
+    "access_url": "https://www.tsukazaki-hp.jp/diseases/gakujyutu.html",
+    "image_access": "Hospital lists original project; linked old landing page did not resolve in this audit. New use requires custodian clarification.",
+    "label_access": "Ophthalmic disease labels documented, subject-level continuous age / visit key not verified for an externally obtainable package.",
+    "pairing": "Image-to-clinical age / visit linkage in a licensed release unknown.",
+    "strengths": "日本医院 UWF 域；适用于核验广角域偏移。",
+    "limitations": "原始公开链接本次未取得有效页面；分类器仓库不能证明当前取得数据或患者年龄。",
+    "experiment": "向管理方确认本次可获版本、跨境条件、年龄/日期/眼别清单，再考虑年龄分析。",
+    "sources": {
+      "h": [
+        "https://www.tsukazaki-hp.jp/diseases/gakujyutu.html",
+        "Hospital research achievements records TOPP dataset and old landing page."
+      ],
+      "p": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13522753/",
+        "Data availability of TOPP re-use study: images subject to Japanese restrictions and direct request to Hitoshi Tabuchi and project co-authors."
+      ],
+      "i": [
+        "https://khosravipooya.com/EyeDataHub/datasets/tsukazaki_uwf/",
+        "Snapshot records UWF and eight ocular disease labels; age dictionary not supplied."
+      ]
+    },
+    "topics": {
+      "G": [
+        3,
+        "i",
+        "医院与设备域辅助资源。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Uncertain",
+        "i",
+        "No verified age field in accessible manifest."
+      ]
+    }
+  },
+  {
+    "id": "oculoscope",
+    "official_url": "https://zenodo.org/records/10403889",
+    "country": "China",
+    "modalities": "Ultra-widefield fundus photography",
+    "images": "16,530 UWF images",
+    "participants": ">8,405 per paper (do not treat as paired age count)",
+    "resolution": "512 × 648; original-resolution subset for testing",
+    "access": "Controlled access",
+    "access_url": "https://zenodo.org/records/10403889",
+    "doi": "10.1038/s41467-024-48972-0",
+    "citation": "Fairer AI in ophthalmology via implicit fairness learning for mitigating sexism and ageism. Nature Communications (2024).",
+    "image_access": "Zenodo record visible; files restricted.",
+    "label_access": "Disease and fundus feature annotations documented. Exact ages vs age bands and shared patient key in approved archive require confirmation.",
+    "pairing": "Paper evaluates fairness by age and sex; released continuous age plus patient grouping not established.",
+    "strengths": "广角眼底与年龄分层公平性。",
+    "limitations": "受限文件；不能由论文年龄跨度推定逐人实足年龄可获取。",
+    "experiment": "获得可用字段后比较年龄组的校准，先验证患者分组和年龄粒度。",
+    "sources": {
+      "d": [
+        "https://zenodo.org/records/10403889",
+        "Description and Files > Restricted. 16530 UWF photos; 38 disease and 67 image-feature labels."
+      ],
+      "p": [
+        "https://doi.org/10.1038/s41467-024-48972-0",
+        "OculoScope cohort; age- and sex-stratified fairness analyses; age bands do not imply release of continuous age."
+      ]
+    },
+    "topics": {
+      "A": [
+        2,
+        "p",
+        "年龄分层见论文；逐人年龄与权限待核。"
+      ],
+      "G": [
+        3,
+        "d",
+        "UWF 多标签公平性与迁移。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Uncertain",
+        "p",
+        "Study stratification, external continuous age availability unresolved."
+      ],
+      "sex": [
+        "Uncertain",
+        "p",
+        "Used in study; delivery unknown."
+      ]
+    },
+    "dataset_doi": "10.5281/zenodo.10403889"
+  },
+  {
+    "id": "mendeley_ophthalmic_stroke_biomarkers_south_asia",
+    "name": "Ophthalmic Stroke Biomarkers in south Asia",
+    "country": "India",
+    "institution": "University of Delhi",
+    "official_url": "https://data.mendeley.com/datasets/whpsmdc2gk/1",
+    "year": "2025 deposit",
+    "participants": "100 stroke survivors",
+    "image_access": "No retinal image archive documented in record.",
+    "access": "Open download",
+    "license": "CC BY 4.0",
+    "label_access": "Cross-sectional manual VISA and ophthalmic/systemic examinations.",
+    "limitations": "仅见临床检查记录；无受试者级影像交付依据。",
+    "experiment": "保留排除，避免据题名纳入卒中影像训练。",
+    "sources": {
+      "d": [
+        "https://data.mendeley.com/datasets/whpsmdc2gk/1",
+        "Steps to reproduce and license: 100 stroke survivors, manual ophthalmic/systemic exam and VISA recall; no confirmed retina pixel dataset."
+      ]
+    },
+    "topics": {
+      "B": [
+        0,
+        "d",
+        "入组者有卒中，未见眼底影像文件。"
+      ]
+    },
+    "phenotypes": {
+      "hypertension": [
+        "Confirmed",
+        "d",
+        "Long-standing systemic hypertension reported in this clinical series."
+      ]
+    },
+    "dataset_doi": "10.17632/whpsmdc2gk.1",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://data.mendeley.com/datasets/whpsmdc2gk/1"
+  },
+  {
+    "id": "mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive",
+    "official_url": "https://data.mendeley.com/datasets/npt7rp69gm/1",
+    "year": "2020 deposit",
+    "access": "Open download",
+    "license": "CC0 1.0",
+    "image_access": "Not available in described release: MasterSheet.csv and LongitudinalAnalysis.sas.",
+    "limitations": "化疗相关认知变化与眼科检查并存，但只有测量表与分析程序。",
+    "experiment": "在像素级项目排除清单保留；可另行做表格关联。",
+    "sources": {
+      "d": [
+        "https://data.mendeley.com/datasets/npt7rp69gm/1",
+        "Description and licence: MasterSheet.csv and SAS analysis code contain outcome data; not a retinal image package."
+      ]
+    },
+    "topics": {
+      "D": [
+        0,
+        "d",
+        "无影像文件。"
+      ]
+    },
+    "phenotypes": {},
+    "dataset_doi": "10.17632/npt7rp69gm.1",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://data.mendeley.com/datasets/npt7rp69gm/1"
+  },
+  {
+    "id": "ext-yoga-retinal-cognition",
+    "name": "Retinal neurovascular measures and cognition following yoga in older adults",
+    "official_url": "https://zenodo.org/records/21480568",
+    "year": "2026 deposit",
+    "dataset_doi": "10.5281/zenodo.21480568",
+    "access": "Open download",
+    "image_access": "No raw images in listed release",
+    "label_access": "Open participant-level anonymized measures and cognitive scores.",
+    "pairing": "Within-person retinal imaging-derived measurements and cognitive outcomes in spreadsheet, without imaging pixels.",
+    "strengths": "可以研究数值表型与认知评分。",
+    "limitations": "不能作为 OCTA 像素与认知结局的影像训练集。",
+    "experiment": "仅供表格结果复核。",
+    "sources": {
+      "d": [
+        "https://zenodo.org/records/21480568",
+        "Description, Files: small spreadsheet with participant retinal metrics, hemodynamic and cognitive variables; not raw retinal images."
+      ]
+    },
+    "topics": {
+      "D": [
+        0,
+        "d",
+        "公开包没有眼底像素。"
+      ]
+    },
+    "phenotypes": {
+      "cognition": [
+        "Confirmed",
+        "d",
+        "Cognitive test outcomes in derived-measure workbook."
+      ]
+    }
+  }
+]

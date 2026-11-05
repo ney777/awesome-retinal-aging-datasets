@@ -1,0 +1,23 @@
+{
+  "age_challenge": "Anterior-segment OCT of angle closure and scleral spur. No posterior retinal pixels established. EyeDataHub v0.7.0 description and source_landing_page_url.",
+  "as_oct_keratitis": "Anterior segment OCT of cornea/iris/keratitis, not posterior retina. EyeDataHub v0.7.0 description and source_landing_page_url.",
+  "dryad_cornea_oct_pentacam": "Corneal-layer AS-OCT TIFFs and Pentacam tables are anterior-segment material. https://doi.org/10.5061/dryad.tht76hf0c",
+  "mcoa": "Corneal-opacity AS-OCT and anterior-segment photographs only. https://doi.org/10.6084/m9.figshare.28123088.v1",
+  "aqp4_optic_neuritis_oct_layers": "Optic-neuritis RNFL and segmented macular layer measurements are potentially useful clinically; the source documents measures and one data RAR, not an identified pixel archive. https://api.figshare.com/v2/articles/3209908",
+  "dryad_bariatric_ophthalmology": "Deposit version lists only Completedataset.xlsx. Longitudinal clinical/OCT measurements can support secondary analyses, not independent image inputs. https://datadryad.org/api/v2/versions/26369/files",
+  "dryad_diabetes_retinal_capillary": "Version file list contains PlosOne_beb.sav, a study data table. Raw retinal imaging is not listed. https://datadryad.org/api/v2/versions/13516/files",
+  "dryad_huntingtons_retinal_oct": "OCT biomarker/disease table data.csv and README per upstream named file listing. Not a raw OCT release; keep the derived clinical resource as a distinct adjunct. https://doi.org/10.5061/dryad.ncjsxksxr",
+  "dryad_namd_oct_longitudinal": "Named longitudinal OCT measure table AMD_longitudinal_MEH_v4.csv and README. The scan acquisition in the parent study does not provide scans in this release. https://doi.org/10.5061/dryad.8cz8w9h0v",
+  "dryad_namd_visual_prediction": "Release lists dataframe.csv, R_code_for_analysis.R and README.rtf, for quantitative OCT biomarkers and changes in visual acuity; no scan file listed. https://datadryad.org/api/v2/versions/103316/files",
+  "dryad_preeclampsia_ocular_octa": "Ocular ultrasound/OCTA study publishes the SPSS file PE_ran.sav and README; no retinal pixel object identified. https://doi.org/10.5061/dryad.j0zpc86kg",
+  "dryad_pvd_diagnostic_oct": "Clinical complete-PVD diagnostic workbook plus README; tests used OCT/ultrasound but the release is not a scan dataset. https://doi.org/10.5061/dryad.h44j0zpnp",
+  "mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora": "The source archive contains an XLS workbook of conjunctival swab measurements, not retinal image observations. https://data.mendeley.com/datasets/53nxz6xr5j",
+  "parkinsons_directional_oct": "Figshare file manifest contains only 'Processed thickness and reflectance data.xlsx'. PD vs controls can be studied at the feature level, not from released OCT pixels. https://api.figshare.com/v2/articles/30750011",
+  "parkinsons_outer_retinal_structure": "Two XLSX workbook revisions of the PD structural/electrophysiology/vision study are listed; raw OCT images not listed. https://api.figshare.com/v2/articles/24138420",
+  "mendeley_utilizing_responsive_web_portal_studying_disc": "Include: Auxiliary annotation for G only; obtain legitimate parent images separately. Disc tracings in two ZIPs (original and ellipse-fit), not identified source photos. Retain as an annotation adjunct requiring separately sourced parent images. https://data.mendeley.com/datasets/7xv5rzxgrh",
+  "aptos_arcade_onh_masks": "Include: Auxiliary annotation for G only; obtain legitimate parent images separately. APTOS annotation layer; public files list masks, mask visualizations, COCO annotations and tables. Obtain the parent APTOS images separately for image-level use; these are not new cohort observations. https://zenodo.org/records/20711325",
+  "eyeq": "Include: Auxiliary annotation for G only; obtain legitimate parent images separately. Image quality annotation layer keyed to EyePACS. Upstream notes expressly state the source images must be obtained separately. Retain as an annotation adjunct, not a standalone raw-pixel dataset.",
+  "dryad_namd_oct_quant": "Release contains AMD_baseline.csv + readme.txt. The *_volume_voxels columns are scalar segment volumes, not spatial segmentations or original OCT. See v0.7.0 Dryad structural inventory, dryad_namd_oct_quant, and https://doi.org/10.5061/dryad.2rbnzs7m4",
+  "erdes": "Include: 5,381 posterior-segment ocular B-scan ultrasound video clips with retinal detachment and macula-on/off targets. Use only as G/other modality, not as colour fundus/OCT. https://arxiv.org/abs/2503.04525",
+  "tear_meniscus": "Corneal/ocular surface color and IR imagery for tear-meniscus segmentation; no human posterior-eye images established in v0.7.0 description."
+}

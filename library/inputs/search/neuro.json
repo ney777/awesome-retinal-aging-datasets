@@ -1,0 +1,146 @@
+[
+  {
+    "source": "Zenodo / Dryad / PubMed",
+    "query": "Alzheimer retinal OCTA dataset Alzheimer disease Jichi Dryad retinal fundus data MCI OCTA public Zenodo paired participants images data dementia retina dataset",
+    "result": "TREND2 与 Bissig 原始发布已找到；Jichi 的糖网目录不能充作神经标签。",
+    "url": "https://datadryad.org/dataset/doi:10.5061/dryad.msbcc2ftc"
+  },
+  {
+    "source": "Zenodo / PubMed",
+    "query": "Parkinson retinal OCT public dataset raw images Parkinson's OCT retina Zenodo Dryad Figshare retinal images PD optical coherence tomography data",
+    "result": "AIM-PD deliverable reports cohorts, but only project report is deposited; excluded as separate openly downloadable imaging cohort.",
+    "url": "https://zenodo.org/records/15847669"
+  },
+  {
+    "source": "PubMed / university sites",
+    "query": "Maastricht Study retinal microvascular dysfunction brain MRI white matter hyperintensities static fundus Maastricht access data retina MRI paired",
+    "result": "Located actual fundus/OCT MRI paired analyses and project request portal.",
+    "url": "https://www.demaastrichtstudie.nl/research/data-guidelines"
+  },
+  {
+    "source": "PubMed",
+    "query": "retinal vascular caliber cerebral small vessel disease Rotterdam Scan Study focal white matter lesions retinal venular diameters brain infarcts fundus MRI Ikram 2006 Rotterdam Study data access",
+    "result": "490 subjects, original study, temporally separated assessments.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16317022/"
+  },
+  {
+    "source": "PubMed",
+    "query": "Retinal vessel diameters risk stroke Rotterdam Study 5540 2006 follow-up de Jong dementia retinal vascular caliber 5395 follow-up events Rotterdam PubMed",
+    "result": "Retained stroke and classified dementia studies as two analyses of one cohort.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16682664/"
+  },
+  {
+    "source": "Web / cohort policies",
+    "query": "Rhineland Study retina OCT brain MRI retinal layers cohort access data OCT brain imaging paired",
+    "result": "Verified individual pairing counts against methods; DUAC controls image database requests.",
+    "url": "https://www.rheinland-studie.de/en/participation/rules-of-use/"
+  },
+  {
+    "source": "INSIGHT / BMJ Open",
+    "query": "AlzEye dataset access Moorfields Parkinson data linkage raw OCT fundus institutional access AlzEye INSIGHT data access",
+    "result": "Cohort-specific team-only restriction overrides generic INSIGHT access process; updated linkage agreement does not publish the data.",
+    "url": "https://www.insight.hdrhub.org/alzeye"
+  },
+  {
+    "source": "Brain-CODE / CONP",
+    "query": "Ontario Neurodegenerative Disease Research Initiative optical coherence tomography retinal imaging  optical retinal images OCT ONDRI data core  numbers SD-OCT examined retinal ganglion cognition MRI ONDRI",
+    "result": "Release confirms tabular retina and raw brain MRI; raw OCT pixels not confirmed.",
+    "url": "https://portal.conp.ca/dataset?id=projects%2Fbraincode_ONDRI_Foundation_Study_Baseline_Data_Release"
+  },
+  {
+    "source": "Dryad / EyeDataHub",
+    "query": "A practical approach functional optical coherence tomography abnormal retinal responses Alzheimer Bissig data Oregon study conducted Wayne State Michigan Michigan participants Michigan OHSU",
+    "result": "AD n=14+14 and age ranges; 40 distinct profile-table IDs over all experiments. Zenodo is a mirror.",
+    "url": "https://datadryad.org/dataset/doi:10.5061/dryad.msbcc2ftc"
+  },
+  {
+    "source": "Zenodo + source XLSX/ZIP central directory",
+    "query": "TREND2 database ocular Alzheimer's disease old 28 elderly Montenegro portable cameras 7 28 participants 28 subjects TREND 2 Topological characterization retinal microvascular network effects chronic disease Popovic subject images",
+    "result": "Compared 28 TIFF stems and 28 ID#s, zero discrepancies; workbook has seven AD flags and no exact age. Workbook SHA256 577f6c4917a655dffcf8571e4a28e4a150eecfbf0aa65d4026bdc59be4dd7969.",
+    "url": "https://zenodo.org/records/7678656"
+  },
+  {
+    "source": "PubMed and Figshare version API + deposit file",
+    "query": "site:pubmed.ncbi.nlm.nih.gov Altered outer retinal structure electrophysiology visual perception Parkinson Tran DOI Detailed outer retinal assessment Parkinson directional OCT Lin Parkinson DOI",
+    "result": "30750011 v1 sheets contain only position-specific PD and control group mean/SEM/CI, no images/individual data. Workbook SHA256 b066eda656c813d1f48f237e8c141067fd1da41d97635c52567054de92b7ad1b.",
+    "url": "https://api.figshare.com/v2/articles/30750011/versions/1"
+  },
+  {
+    "source": "Figshare version API + deposit file",
+    "query": "EyeDataHub parkinsons_outer_retinal_structure → Figshare 24138420 v2, revised workbook worksheet-header and object audit",
+    "result": "Individual age, sex, group, eye, layer thickness, before/after drug available but no image files. SHA256 a2505269f8f57f5752e854d60dfe295feb2e993e913df4b582200899e196e530.",
+    "url": "https://api.figshare.com/v2/articles/24138420/versions/2"
+  },
+  {
+    "source": "Dryad data dictionary",
+    "query": "EyeDataHub dryad_huntingtons_retinal_oct → Dryad current Files and variables",
+    "result": "CSV/README only; age bands, group, eye, visit, UHDRS under subject ID; exclude from pixel datasets.",
+    "url": "https://datadryad.org/dataset/doi:10.5061/dryad.ncjsxksxr"
+  },
+  {
+    "source": "PubMed/JHU",
+    "query": "\"Retinal layer parcellation\" \"35\" Johns Hopkins multiple sclerosis data MMSE age available 35 volumes gender Spectralis 1,024 age participant supplied 21 multiple sclerosis healthy controls",
+    "result": "JHU provides MS vs controls right-eye structural OCT; article demographic table only aggregate; brain challenge separate.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6327073/"
+  },
+  {
+    "source": "Zenodo / iMED",
+    "query": "ROSE A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model DOI 10.1109 authors Ma Alzheimer's 26 AD and 13 healthy controls",
+    "result": "Segmentation reference labels confirmed; no verified subject→AD mapping; Zenodo authority marks files restricted.",
+    "url": "https://zenodo.org/records/12775880"
+  },
+  {
+    "source": "Chinese/English cross-search",
+    "query": "眼底 图像 脑卒中 脑小血管病 公共 数据集 脑MRI 眼底 脑卒中 配对 retinal stroke retinal imaging open fundus dataset stroke China paired diagnosis fundus CSVD eyes MRI data public Zenodo",
+    "result": "Recovered SDPP original article. Mendeley retinal artery occlusion dataset is an ocular lesion resource and does not establish cerebral stroke pairing.",
+    "url": "https://data.mendeley.com/datasets/5428684j44/1"
+  },
+  {
+    "source": "PubMed / Nature Biomedical Engineering",
+    "query": "A deep learning system detecting silent brain infarction SDPP available request source data approval individual image Third Party Shanghai SDPP SBI Shanghai SDPP MRI fundus numbers development cohort",
+    "result": "Verified SDPP MRI and future-stroke disjoint analysis populations plus non-profit DTA. Public figure tables not individual images.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12623247/"
+  },
+  {
+    "source": "University cohort portals / PubMed",
+    "query": "Singapore EDIS retinal vascular fractals cognitive impairment DOI data availability retinal fundus cognitive Singapore participants 300 Chinese SEED EDIS Singapore Chinese Eye Study subset epidemiology dementia Singapore investigators retinal data requests",
+    "result": "EDIS selected from SCES; grade 300-person paired study separately from SEED formal data route.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4176466/"
+  },
+  {
+    "source": "QUB / PubMed / UK Data Service",
+    "query": "NICOLA retinal biomarkers cognitive function retina MoCA retinal OCT cognitive function Northern Ireland cohort retinal fundus age healthy ageing NICOLA eye study cognitive function retinal thickness participants ophthalmic",
+    "result": "1,431 participant MCI analysis and secure environment; protocols confirm additional ocular acquisition, not public raw release.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33706706/"
+  },
+  {
+    "source": "PubMed/BMJ",
+    "query": "Beijing Eye Study e024646 \"Data availability\" additional data available on request",
+    "result": "Reasonable request; stroke assessed by standardized symptom/history interview; no provider promise of raw retinal MRI pairing.",
+    "url": "https://bmjopen.bmj.com/content/10/9/e024646.full"
+  },
+  {
+    "source": "PubMed / general biomedicine",
+    "query": "EPAD retinal OCT EPAD LCS retinal imaging data PREVENT Dementia PREVENT retina MRI AddNeuroMed ophthalmology raw retinal image ADNI eye OCT retinal imaging ADNI4 LONI OCT data approved",
+    "result": "EPAD published imaging release describes MRI. No confirmed retinal release/overlap on this page; excluded from positive shortlist, not a claim retina never collected.",
+    "url": "https://ep-ad.org/index.php/open-source-data/"
+  },
+  {
+    "source": "LONI / NIH",
+    "query": "EPAD retinal OCT EPAD LCS retinal imaging data PREVENT Dementia PREVENT retina MRI AddNeuroMed ophthalmology raw retinal image ADNI eye OCT retinal imaging ADNI4 LONI OCT data approved",
+    "result": "ADNI central overview lists brain imaging, cognition, genetics, biofluid. No verified matching retinal pixel package; do not infer all ADNI has retinal imaging.",
+    "url": "https://adni.loni.usc.edu/data-samples/adni-data/"
+  },
+  {
+    "source": "MJFF / PPMI",
+    "query": "OCT Parkinson's Progression Markers Initiative PPMI retinal optical coherence tomography PPMI dataset ophthalmic imaging baseline downloadable raw retina Parkinson UKBB AlzEye retinal OCT personalised Parkinson project retinal imaging data sharing",
+    "result": "PPMI repository confirms imaging/clinical in general but did not identify specific retinal collection with pairable participant files. Do not classify as a confirmed retinal dataset.",
+    "url": "https://www.michaeljfox.org/parkinsons-precision-medicine-initiative-ppmi-data-repository"
+  },
+  {
+    "source": "PubMed / IHA",
+    "query": "AGES Reykjavik retinal photography cerebral microbleeds retinal microvascular signs MRI stroke AGES-Reykjavik Study NIH dbGaP access retinal fundus photographs Iceland aging MRI retinal vascular study",
+    "result": "Two same-cohort analyses show directly paired neuroimaging, retina and cognition; merged by project-level cohort key.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21172845/"
+  }
+]

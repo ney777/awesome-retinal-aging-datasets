@@ -1,0 +1,1124 @@
+[
+  {
+    "access": "Controlled access",
+    "research_terms": "个人完成资质认证、CITI 培训并签署 DUA；仅限合法科研，禁止与未获批者共享。PhysioNet 对部分数据有地区/机构限制，巴西数据两项的项目级适用情况未核准。",
+    "commercial_terms": "DUA 限科研目的；无一般商业再利用授权。",
+    "license": "PhysioNet Credentialed Health Data License 1.5.0 + DUA",
+    "image_access": "凭项目资质可获取眼底照片；未登录下载。",
+    "label_access": "凭项目资质可获取逐图/患者级 CSV；未取得个人数据。",
+    "id": "brset",
+    "name": "Brazilian Multilabel Ophthalmological Dataset (BRSET)",
+    "country": "Brazil",
+    "institution": "São Paulo 三家眼科门诊；BRSET 研究组",
+    "year": "2024 (descriptor); 2023 first deposit; v1.0.2 2026",
+    "doi": "10.1371/journal.pdig.0000454",
+    "citation": "Nakayama LF et al. BRSET: A Brazilian Multilabel Ophthalmological Dataset of Retina Fundus Photos. PLOS Digital Health 3:e0000454 (2024).",
+    "official_url": "https://physionet.org/content/brazilian-ophthalmological/1.0.2/",
+    "access_url": "https://physionet.org/content/brazilian-ophthalmological/1.0.2/",
+    "modalities": "Color fundus photography",
+    "images": "16,266 CFP",
+    "participants": "8,524 patients",
+    "eyes": "exam_eye 字段标明左右；不可将照片数当人数。",
+    "device": "Canon CR 系列，Nikon NF5050",
+    "quality": "focus、illumination、image_field、artifacts",
+    "multicenter": "Yes — 3 São Paulo outpatient centers; center ID not established",
+    "multivisit": "Unknown — no visit time in published label schema",
+    "multimodal": "No additional image modality documented in this release",
+    "family": "brset",
+    "relation": "PhysioNet v1.0.2 将 mBRSET 列为 Parent Project；两者的采集地点/设备和目标人群不同。无跨库患者键，不能假定独立；embedding 记录是衍生物。",
+    "pairing": "labels.csv: image_id → patient_id, patient_age (years), patient_sex, exam_eye, camera, diabetes。配对年龄完整人数需在获批后复核。",
+    "strengths": "多设备、多中心；逐图质量和患者键。",
+    "limitations": "年龄有缺失；横断面门诊选择偏倚。高血压视网膜病变是眼科标签；自由文本不能直接作为卒中/全身高血压结局。",
+    "experiment": "患者划分、按相机和图像质量分层验证实足年龄 MAE；按患者重采样置信区间。",
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "逐图年龄与 patient_id 可配对。"
+      ],
+      "F": [
+        1,
+        "s1",
+        "糖尿病诊断/用药，限同期；无事件时间。"
+      ],
+      "G": [
+        3,
+        "s2",
+        "跨门诊/相机辅助评测；逐图中心键未知。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "patient_age；存在缺失。"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "patient_sex"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s1",
+        "diabetes，另有 diabetes_time 与 insulin_use。"
+      ],
+      "hypertension": [
+        "Uncertain",
+        "s1",
+        "只有自报共病自由文本及眼底高血压病变，结构化全身高血压病史未证实。"
+      ],
+      "cardiovascular": [
+        "Uncertain",
+        "s1",
+        "comorbidities 为自报自由文本。"
+      ],
+      "followup": [
+        "Not available",
+        "s1",
+        "发布字段表不含随访时间或事件表。"
+      ],
+      "mortality": [
+        "Not available",
+        "s1",
+        "已列发布表无死亡字段。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://physionet.org/content/brazilian-ophthalmological/1.0.2/",
+        "Data Description / Access / Releases：v1.0.2；fundus_photos 和 labels.csv 的 ID、年龄、性别、眼别、糖尿病、质量字段和控制访问条件。"
+      ],
+      "s2": [
+        "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000454",
+        "Methods / Data Quality Assessment：São Paulo 三家门诊及两种相机；年龄列有缺失。"
+      ],
+      "s3": [
+        "https://physionet.org/content/embedding-brset-mbrset/1.0.0/",
+        "Methods：BRSET 与 mBRSET 不同采集方案以及按来源影像 ID 的衍生向量。"
+      ],
+      "s4": [
+        "https://github.com/MIT-LCP/license-and-dua/blob/main/DataUseAgreement-v1.5.0.md",
+        "DUA v1.5 §3, §6：不得共享访问，仅限合法科学研究。"
+      ],
+      "s5": [
+        "https://physionet.org/news/post/data-security-program-1/",
+        "Access Restrictions：针对某些受控数据集的地区/机构/IP 限制，项目适用性未列清。"
+      ]
+    },
+    "dataset_doi": "10.13026/mysn-8b26",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://physionet.org/content/brazilian-ophthalmological/1.0.2/"
+  },
+  {
+    "access": "Controlled access",
+    "research_terms": "个人完成资质认证、CITI 培训并签署 DUA；仅限合法科研，禁止与未获批者共享。PhysioNet 对部分数据有地区/机构限制，巴西数据两项的项目级适用情况未核准。",
+    "commercial_terms": "DUA 限科研目的；无一般商业再利用授权。",
+    "license": "PhysioNet Credentialed Health Data License 1.5.0 + DUA",
+    "image_access": "凭项目资质可获取眼底照片；未登录下载。",
+    "label_access": "凭项目资质可获取逐图/患者级 CSV；未取得个人数据。",
+    "id": "mbrset",
+    "name": "Mobile Brazilian Retinal Dataset (mBRSET)",
+    "official_url": "https://physionet.org/content/mbrset/1.0/",
+    "access_url": "https://physionet.org/content/mbrset/1.0/",
+    "country": "Brazil",
+    "institution": "Itabuna Diabetes Campaign, Bahia; mBRSET investigators",
+    "year": "2025 (descriptor); 2024 PhysioNet v1.0",
+    "doi": "10.1038/s41597-025-04627-3",
+    "citation": "Wu C et al. A portable retina fundus photos dataset for clinical, demographic, and diabetic retinopathy prediction. Scientific Data 12:323 (2025).",
+    "modalities": "Color fundus photography (handheld)",
+    "images": "5,164 CFP",
+    "participants": "1,291 patients with diabetes",
+    "eyes": "laterality；右/左视盘或黄斑视野。",
+    "device": "Phelcom Eyer, Samsung Galaxy S10, 45°",
+    "resolution": "1600 × 1600",
+    "quality": "final_artifacts / final_quality，部分图像无 ICDR 标签。",
+    "multicenter": "Single campaign in Itabuna (November 2022)",
+    "multivisit": "No — one cross-sectional campaign",
+    "multimodal": "No additional image modality in this release",
+    "family": "mbrset",
+    "relation": "Itabuna 糖尿病筛查活动与 BRSET 的 São Paulo 门诊来源不同；两库生成人工智能 embeddings，衍生向量不增加患者。 PhysioNet 项目页还反向引用 BRSET v1.0.0 为父项目；项目衍生关系不等于患者重叠证明。",
+    "pairing": "labels_mbrset.csv 中 file→patient；含年龄、眼别、同期问卷及质量。标签公开描述中自报既往 MI 阳性 98、神经病变 55、系统性高血压 914；分母随缺失变。",
+    "strengths": "手机相机；有同期临床问卷，也标注图像质量。",
+    "limitations": "入组人群均有糖尿病，不能以此评估区分有无糖尿病的判别力；并发症多为既往自报，不能作新发卒中/AD结局。",
+    "experiment": "作为便携设备域验证实足年龄回归；自报高血压或既往 MI 仅做横断面表型试验。",
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "患者年龄可关联。"
+      ],
+      "E": [
+        1,
+        "s1",
+        "自报糖尿病相关周围神经病变；无 AD/PD 的确认。"
+      ],
+      "F": [
+        1,
+        "s1",
+        "既往 MI、高血压及糖尿病血管并发症均有患者字段。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "手机相机的外部域。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "age，1291 人年龄无缺失（汇总表）。"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "sex，0 女，1 男。"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s1",
+        "所有入组者患糖尿病；有病程和用药。"
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s1",
+        "systemic_hypertension 既往自报。"
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s1",
+        "自报既往急性心梗/糖尿病相关血管病。"
+      ],
+      "followup": [
+        "Not available",
+        "s1",
+        "2022年11月筛查，问卷既往史。"
+      ],
+      "mortality": [
+        "Not available",
+        "s1",
+        "已公布字典无死亡终点。"
+      ],
+      "stroke_type": [
+        "Not available",
+        "s1",
+        "发布字段无卒中亚型。"
+      ],
+      "stroke_time": [
+        "Not available",
+        "s1",
+        "发布字段无卒中日期。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://physionet.org/content/mbrset/1.0/",
+        "Methods / Data Description / Tables 1–3 / Access：采集活动、患者与眼别键、自报系统并发症、设备、质量、样本量。"
+      ],
+      "s2": [
+        "https://www.nature.com/articles/s41597-025-04627-3",
+        "Methods/Data Records，便携相机 1600×1600，结构化人口学和自报临床资料。"
+      ],
+      "s3": [
+        "https://physionet.org/content/embedding-brset-mbrset/1.0.0/",
+        "Methods：两队列产生相应的二次 embedding。"
+      ],
+      "s4": [
+        "https://github.com/MIT-LCP/license-and-dua/blob/main/DataUseAgreement-v1.5.0.md",
+        "DUA v1.5 科研使用及禁止共享条款。"
+      ],
+      "s5": [
+        "https://physionet.org/news/post/data-security-program-1/",
+        "平台仅称某些数据集受国别限制，本文未代表项目判定适用性。"
+      ]
+    },
+    "dataset_doi": "10.13026/qxpd-1y65",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://physionet.org/content/mbrset/1.0/"
+  },
+  {
+    "id": "odir2019",
+    "name": "Ocular Disease Intelligent Recognition (ODIR-5K / ODIR-2019)",
+    "country": "China",
+    "institution": "Peking University; Shanggong Medical Technology Co., Ltd.",
+    "year": "2019",
+    "citation": "Peking University International Competition on Ocular Disease Intelligent Recognition (ODIR-2019), official dataset/task documentation.",
+    "official_url": "https://odir2019.grand-challenge.org/dataset/",
+    "access_url": "https://odir2019.grand-challenge.org/dataset/",
+    "modalities": "Color fundus photography",
+    "images": "双眼 × 5,000 患者，设计量 10,000 眼照（非已下载计数）",
+    "participants": "5,000 patients (organizer), not 8,000",
+    "eyes": "Paired left/right images",
+    "device": "Canon, Zeiss, Kowa and others",
+    "resolution": "Varies by camera",
+    "quality": "Trained readers and annotation QC；像素质量字段未核实。",
+    "multicenter": "Yes — different Chinese hospitals/medical centers",
+    "multivisit": "Unknown — challenge pairs left/right eyes, no visit series confirmed",
+    "multimodal": "No additional image modality documented",
+    "family": "odir2019",
+    "relation": "AOD 增强版和 Kaggle 等重打包应聚为同源，不可充当独立外测。原始主办方数量优先于 v0.7.0 的 8,000 患者描述。",
+    "pairing": "每个患者一个 ID、年龄、性别、两眼图像，训练集有两眼医生关键词和患者级标签；测试阶段不提供关键词。",
+    "access": "Open download",
+    "image_access": "主办方列出下载入口；重发布研究仓库列百度/Google Drive；未下载原始分卷。",
+    "label_access": "患者年龄、性别和眼别连同训练标签；测试标签可用程度按分卷核查。",
+    "license": "Unknown — official challenge reuse license not located",
+    "research_terms": "原始目的为挑战赛；超出竞赛用途以主办方条款为准。Kaggle 页说明原来源没有明确许可。",
+    "commercial_terms": "Unknown",
+    "strengths": "双眼共享患者键、多厂家、多中心。",
+    "limitations": "D/H 是阅片者利用双眼照片及年龄作出的分类，缺乏独立全身疾病确诊/发生时间；未核实中心 ID。",
+    "experiment": "双眼按患者分组，以年龄作连续标签；保留患者级划分，核对具体获准分卷及许可后做跨域外测。",
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "年龄和双眼照片记录在同一受试者行。"
+      ],
+      "F": [
+        2,
+        "s1",
+        "患者级 D/H 标记由阅片与年龄产生；临床确诊标签获取未证实。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "多设备多中心异质性；不能仅据机构数设计真实中心划分。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "患者年龄"
+      ],
+      "sex": [
+        "Confirmed",
+        "s2",
+        "官赛介绍的结构化条目"
+      ],
+      "diabetes": [
+        "Uncertain",
+        "s1",
+        "类别 D 来源于人工双眼照片判读+年龄，不是独立系统诊断。"
+      ],
+      "hypertension": [
+        "Uncertain",
+        "s1",
+        "类别 H 为挑战标签，独立全身高血压未知。"
+      ],
+      "stroke_type": [
+        "Not available",
+        "s1",
+        "官赛八类标签不包括卒中类型。"
+      ],
+      "stroke_time": [
+        "Not available",
+        "s1",
+        "官赛表没有卒中事件时间。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://odir2019.grand-challenge.org/dataset/",
+        "Dataset / Table 1 / test keyword note：5,000名患者、两眼、年龄、相机、分卷与 D/H 评分类别。"
+      ],
+      "s2": [
+        "https://odir2019.grand-challenge.org/",
+        "Introduction / 竞赛简介：年龄、性别、双目 CFP、医生关键词。"
+      ],
+      "s3": [
+        "https://github.com/nkicsl/OIA-ODIR",
+        "Download：OIA-ODIR 分卷通过百度网盘及 Google Drive 发布。"
+      ],
+      "s4": [
+        "https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k",
+        "镜像卡注明原来源未指定许可证；不用于推定原始图像的开放许可。"
+      ]
+    },
+    "terms_scope": "Unknown",
+    "terms_evidence_url": "Unknown"
+  },
+  {
+    "country": "United States",
+    "institution": "National Eye Institute / US multicenter AREDS Research Group",
+    "access": "Controlled access",
+    "access_url": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?login=&page=login",
+    "license": "dbGaP Data Use Certification; applicable consent group and approved data use",
+    "research_terms": "合格机构 PI 经 dbGaP DAR/IRB、数据使用审查。NOT-OD-25-083 自 2025-04-04 起禁止位于中国（含香港/澳门）等所列地区的机构访问 NIH 受控库及相关数据。",
+    "commercial_terms": "Unknown — specific consent group, Data Use Certification and approved use govern",
+    "family": "AREDS program (partly overlapping cohorts)",
+    "id": "ext-areds",
+    "name": "Age-Related Eye Disease Study (AREDS)",
+    "official_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000001.v3.p1",
+    "year": "1999 (design); 2026 (dbGaP datasheet)",
+    "doi": "10.1016/s0197-2456(99)00031-8",
+    "citation": "AREDS Research Group. Design Implications: AREDS Report No. 1. Control Clin Trials (1999). Prasad et al. Ophthalmol Sci (2026), 10.1016/j.xops.2026.101115 (release datasheet).",
+    "modalities": "Color stereoscopic fundus photography; lens/anterior-segment photography separately",
+    "images": "2014 batch >134,500 macular field F2 CFP (4,613 people); older >72,000 mixed lens/fundus images (595); do not sum individuals or count all as CFP",
+    "participants": "4,757 enrolled; 4,613 F2 batch; endpoint-specific overlap unknown",
+    "eyes": "Bilateral, field and stereopair identifiers",
+    "device": "Standardized 30° stereoscopic retinal photography",
+    "quality": "Reading center grading; high-quality F2 images in 2014 batch",
+    "multicenter": "Yes — multi-center US trial",
+    "multivisit": "Yes — baseline, years 2,4,6,8,10 and selected event/last photos; visit-dependent missingness",
+    "multimodal": "Fundus and lens photos; no brain imaging confirmed",
+    "relation": "独立试验编号 phs000001；AREDS2 的 WGS 子集有 488 名旧受试者。旧基因样本照片、2014 F2 批次、眼科数据衍生作品不可相加。",
+    "pairing": "v3 使用 ID2。旧照片文件编码 ID2、VISNO、眼别、拍摄视野；2014 图像目录由授权的 AREDS_Image_Mapping_ImageDir_ID2.txt 将 RC_ID 映射至 ID2。按 ID2 + VISNO 连接 followup；死亡表为患者行。",
+    "image_access": "受控申请可得原始眼底、晶状体等影像及 2014 ID 映射；不能加入 fundus reflex 前节照片作视网膜输入。",
+    "label_access": "患者级人口学、基线史、随访新发卒中/心脏病记录和死亡表可申请；认知子研究原始测试数据申请路径未证实。",
+    "strengths": "有明确映射文件、双眼历次影像、随访卒中记录和死亡时间/病因。",
+    "limitations": "高龄眼病试验，非一般人口；卒中由访视记录，精确发生日和亚型需额外确认；试验内 AMD 与视力损失可影响测试。",
+    "experiment": "基线 F2 照片与后续死亡做生存预测，时间零设为首张合格图；卒中只研究既往排除后的首次访视报告，按区间删失建模。",
+    "topics": {
+      "A": [
+        1,
+        "s2",
+        "ID2 影像可连至基线人口学和历次访视。"
+      ],
+      "B": [
+        1,
+        "s3",
+        "followup 含新发卒中询问，属访视级记录。"
+      ],
+      "D": [
+        2,
+        "s5",
+        "2,946 人认知子研究已发表；当前 13 张发布表未定位认知测试原始表。"
+      ],
+      "F": [
+        1,
+        "s4",
+        "死亡表的随访时长、ICD 死因、死因质量及心血管/糖尿病史。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "多中心有统一拍摄流程；站点划分需核对可获得的字段。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s6",
+        "人口学登记；影像年龄需纳入到相应访视之间的间隔。"
+      ],
+      "sex": [
+        "Confirmed",
+        "s6",
+        "基线人口学表。"
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s3",
+        "基线高血压存在与否。"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s3",
+        "基线及随访糖尿病状态。"
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s3",
+        "心绞痛病史/新发心脏病/外周血管病等。"
+      ],
+      "stroke_type": [
+        "Uncertain",
+        "s3",
+        "随访表询问新诊卒中，已查文档未证实统一缺血/出血亚型。"
+      ],
+      "stroke_time": [
+        "Uncertain",
+        "s4",
+        "访视和区间可获得；精确卒中发生日未核验。"
+      ],
+      "cognition": [
+        "Uncertain",
+        "s5",
+        "报告16有2,946人横断面认知电池；个人原始分数在v3的可得性未证实。"
+      ],
+      "health": [
+        "Confirmed",
+        "s4",
+        "随访问卷与就医/健康状态变量；不等于虚弱指数。"
+      ],
+      "mortality": [
+        "Confirmed",
+        "s4",
+        "追踪至死亡的时间、ICD 死因、NDI 匹配可靠性。"
+      ],
+      "followup": [
+        "Confirmed",
+        "s2",
+        "不同拍摄时间和末次照片；定期随访。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000001.v3.p1",
+        "Study Description: 2014 F2 影像数（>134,500，4,613 人）与较早含晶状体批次（>72,000，595 人）。"
+      ],
+      "s2": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?phd=3307&study_id=phs000001.v3.p1",
+        "Image File Naming Convention and 2014 addendum: ID2, VISNO，左右眼及 RC_ID 与 ID2 的授权映射表。"
+      ],
+      "s3": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetListOfAllObjects.cgi?object_type=dataset&study_id=phs000001.v3.p1",
+        "enrollment_randomization (pht000373), followup (pht000374), mortality；v3 使用 ID2；列出卒中等疾病新诊与病史。"
+      ],
+      "s4": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?id=phd001552.2",
+        "User’s Guide pp. 5–6: 死亡追踪、ICD/NDI、访视时间单位及日期抑制。ID 部分以 v3 更新为准。"
+      ],
+      "s5": [
+        "https://pubmed.ncbi.nlm.nih.gov/16606880/",
+        "AREDS Report 16，2,946 人认知测试与 AMD/视力的横断关联；未提供受控表入口。"
+      ],
+      "s6": [
+        "https://pubmed.ncbi.nlm.nih.gov/41858680/",
+        "2026 release datasheet：4,757 人、年龄性别、图像和疾病/死亡等随访数据。"
+      ],
+      "s7": [
+        "https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-25-083.html",
+        "NIH NOT-OD-25-083 的机构地域限制。"
+      ],
+      "s8": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1473211/",
+        "原始设计报告（1999）及拍摄计划。"
+      ],
+      "s9": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002015.v3.p1",
+        "4,203 名 AREDS2 受试者；1,363 人 WGS 子集内有 488 人参加原 AREDS。"
+      ]
+    }
+  },
+  {
+    "country": "United States",
+    "institution": "National Eye Institute / US multicenter AREDS Research Group",
+    "access": "Controlled access",
+    "access_url": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?login=&page=login",
+    "license": "dbGaP Data Use Certification; applicable consent group and approved data use",
+    "research_terms": "合格机构 PI 经 dbGaP DAR/IRB、数据使用审查。NOT-OD-25-083 自 2025-04-04 起禁止位于中国（含香港/澳门）等所列地区的机构访问 NIH 受控库及相关数据。",
+    "commercial_terms": "Unknown — specific consent group, Data Use Certification and approved use govern",
+    "family": "AREDS program (partly overlapping cohorts)",
+    "id": "ext-areds2",
+    "name": "Age-Related Eye Disease Study 2 (AREDS2)",
+    "official_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002015.v3.p1",
+    "year": "2025 (datasheet); v3 release 2026",
+    "doi": "10.1016/j.xops.2025.100953",
+    "citation": "Mukherjee S et al. A Datasheet for Age-Related Eye Disease Study 2 on the Database of Genotypes and Phenotypes. Ophthalmol Sci 6:100953 (online 2025). v3 release 9 Oct 2026.",
+    "modalities": "Color fundus photographs; FAF and SD-OCT in research subsets; lens reflex; raw OCT package coverage unknown",
+    "images": "512,713 unique ocular DICOM filenames in v3; includes annotated/migrated files; number of unique raw fundus views Unknown",
+    "participants": "4,203 trial participants; 4,201 with v3 mapped ocular DICOM (1,814 male + 2,387 female); compliant image × endpoint overlap Unknown",
+    "eyes": "RCA/RCF gradings split by eye, participant, visit; DICOM mapping table has no eye field",
+    "quality": "Reading center judged study eyes; longitudinal gradings with retake flag; DICOM header/visit field audit required",
+    "multicenter": "Yes — 82 US sites",
+    "multivisit": "Yes — annual visits for ~5 y; calls, yearly grading and cognitive protocol",
+    "multimodal": "Yes — CFP, subset FAF/OCT (cohort); v3 modality-specific raw volume availability not determined",
+    "relation": "phs002015；1,363 名 WGS 参与者之中 488 人也在 AREDS。病例跨代去重须经批准，不能以两库为默认独立外测。",
+    "pairing": "v3 pht016356 通过 SUBJECT_ID+FILENAME 映射眼部 DICOM；DEM、SAD、CTS 同为 SUBJECT_ID。用 RCA/RCF 的眼别、访视与成像日期配准。映射中包含 Unknown_Migrated / Annotated；已知汇总表不提供原始 CFP×认知/卒中交集人数。 CTI和CTS分别3,260与1,510人，不可相加（s12–s13）。",
+    "image_access": "v3 发布说明明确受控眼部 DICOM 可取。受控申请核对不同视野、原图与注释/迁移重复、FAF/OCT 子集。",
+    "label_access": "v3 人口学、卒中裁定和认知测试字典已核实。c1 4,163 人 GRU-IRB-PUB，c2 40 人眼病用途 DS-ED-IRB-PUB；按具体用途判断可申请子集。",
+    "strengths": "受控原始眼影像、裁定卒中资料、认知电访、以随机化为原点的事件日数。",
+    "limitations": "研究对象为进展晚期 AMD 的高危患者；脑 MRI 仅查到卒中裁定中的结构化检查所见；认知测验不能替代 AD/痴呆诊断。两个人群同意范围不同。 卒中裁定137人175行，仅87行明确缺血、9行明确出血（s11）。",
+    "experiment": "先制备患者、眼别、访视、影像类型与终点相交矩阵。卒中以 CASEDATE 时间轴设计预测，认知以 TICS 纵向分数为终点，检查视力与听力/未完成状态。",
+    "topics": {
+      "A": [
+        1,
+        "s4",
+        "DEM 的年龄与已发布的眼部 DICOM 同键。"
+      ],
+      "B": [
+        1,
+        "s5",
+        "SAD 有患者级卒中裁定及相对随机化时间。"
+      ],
+      "C": [
+        1,
+        "s5",
+        "只支持卒中病例的 MRI 获取/梗死/出血结构化所见；不能作脑 MRI 像素或人群 CSVD 训练集。"
+      ],
+      "D": [
+        1,
+        "s6",
+        "TICS 等电话认知测试按患者和访视记录；AD 病理诊断未证实。"
+      ],
+      "F": [
+        1,
+        "s7",
+        "有心血管及死亡/不良事件的患者表。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "82 个中心；FAF/OCT 仅子集。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s4",
+        "AGE at randomization, years"
+      ],
+      "sex": [
+        "Confirmed",
+        "s4",
+        "GENDER"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s7",
+        "VIS 患者糖尿病史及新诊指标。"
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s7",
+        "心血管附属研究事件，包括 MI/卒中/死亡等。"
+      ],
+      "stroke_type": [
+        "Confirmed",
+        "s5",
+        "SADFINAD 最终裁定区分明确缺血性、出血性、蛛网膜下腔出血、TIA、未定型、非卒中等；TOASTCLA 为病因类别，含小血管闭塞。"
+      ],
+      "stroke_time": [
+        "Confirmed",
+        "s5",
+        "CASEDATE：距随机化天数；SADFINDT 是最终裁定日，不能替代发生日。"
+      ],
+      "brain_mri": [
+        "Confirmed",
+        "s5",
+        "SADMRI、MRIINFAR 等为卒中病例 MRI 检查状态/影像所见；原始脑 MRI 未证实。"
+      ],
+      "csvd": [
+        "Uncertain",
+        "s5",
+        "TOAST 小血管分类不能代替人群 WMH、腔隙、微出血等系统标注。"
+      ],
+      "cognition": [
+        "Confirmed",
+        "s6",
+        "CTS 缩短版电访 TICS；Participant/segment/visit/date 与实施状态。"
+      ],
+      "ad": [
+        "Uncertain",
+        "s7",
+        "认知评分不证明 AD 确诊。"
+      ],
+      "dementia": [
+        "Uncertain",
+        "s7",
+        "未定位独立痴呆诊断字段。"
+      ],
+      "health": [
+        "Confirmed",
+        "s7",
+        "VIS/ADV 一般健康、住院和不良事件。"
+      ],
+      "mortality": [
+        "Confirmed",
+        "s7",
+        "ADV 死亡状态及心血管死亡裁定；全因死亡录入完整性待核。"
+      ],
+      "followup": [
+        "Confirmed",
+        "s1",
+        "年度影像检查，电话随访；平均约5年。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002015.v3.p1",
+        "Study Description：82 站点，4,203 人，50–85 岁；两次试验在 WGS 子集重叠 488 人。"
+      ],
+      "s2": [
+        "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/release_notes",
+        "Release notes pp. 1–2：2026-10-09 v3 首次列明新影像与 AREDS2_Subject_Image；两个 consent group 及 DAR。"
+      ],
+      "s3": [
+        "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht016356.v1.p1.AREDS2_Subject_Image.var_report.xml",
+        "FILENAME 全组 distinct_vals=512713，FILE_TYPE=.dcm；SUBJECT_ID 概要 1814 男 + 2387 女。例示 annotated、migrated、访问年未知；计数不可等同 CFP 数。"
+      ],
+      "s4": [
+        "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht010376.v1.AREDS2_DEM.data_dict.xml",
+        "DEM：SUBJECT_ID, AGE (随机化时年龄), GENDER。"
+      ],
+      "s5": [
+        "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht010393.v2.AREDS2_SAD.data_dict.xml",
+        "SAD: SUBJECT_ID、CASEDATE、SADFINDT、SADFINAD（缺血/出血/TIA/非卒中等），TOASTCLA（含小血管闭塞）和 MRI/CT 结构化所见；时间为随机化后天数。"
+      ],
+      "s6": [
+        "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht010373.v1.AREDS2_CTS.data_dict.xml",
+        "CTS: SUBJECT_ID，PROTSEG，VISNO，CFMDATE，TICS、听力/CES-D 与是否实施。"
+      ],
+      "s7": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12731274/",
+        "Table 2、Imaging、Cognitive Function：眼别和访视分级、摄影/FAF/OCT 范围、VIS 与 ADV 等；2025 版关于正在上传的描述被 v3 发布说明更新。"
+      ],
+      "s8": [
+        "https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-25-083.html",
+        "NIH NOT-OD-25-083 的机构地域限制。"
+      ],
+      "s9": [
+        "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht016356.v1.AREDS2_Subject_Image.data_dict.xml",
+        "v3 data dictionary: SUBJECT_ID + FILENAME 复合键映射到 DICOM 眼影像。"
+      ],
+      "s10": [
+        "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?id=phd008132.1",
+        "AREDS2 MOP 裁定章节：病例定义含 TIA、缺血性/出血性卒中，主终点含心血管死亡与卒中。"
+      ],
+      "s11": [
+        "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht010393.v2.p1.AREDS2_SAD.var_report.xml",
+        "137人、175条裁定；缺血87行、明确出血9行、SAH 3行、非卒中31行。MRI Yes 98行，TOAST小血管闭塞12行；非独立患者数。"
+      ],
+      "s12": [
+        "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht010373.v1.p1.AREDS2_CTS.var_report.xml",
+        "CTS短访谈1,510人、2,849行，实际实施2,678行。"
+      ],
+      "s13": [
+        "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs002015/phs002015.v3.p1/pheno_variable_summaries/phs002015.v3.pht010372.v1.p1.AREDS2_CTI.var_report.xml",
+        "CTI完整访谈3,260人、7,491行；与CTS的交集未知。"
+      ]
+    }
+  },
+  {
+    "id": "papila",
+    "name": "PAPILA",
+    "official_url": "https://figshare.com/articles/dataset/PAPILA/14798004/2",
+    "access_url": "https://figshare.com/articles/dataset/PAPILA/14798004/2",
+    "country": "Spain",
+    "institution": "Hospital General Universitario Reina Sofía (Murcia); Universidad Politécnica de Cartagena",
+    "year": "2022",
+    "doi": "10.1038/s41597-022-01388-1",
+    "citation": "Kovalyk O et al. PAPILA: Dataset with fundus images and clinical data of both eyes of the same patient for glaucoma assessment. Scientific Data (2022).",
+    "modalities": "Color fundus photography",
+    "images": "488 original CFP (segmentation overlays not new images)",
+    "participants": "244 patients",
+    "eyes": "Each patient both eyes, OD and OS",
+    "device": "Topcon TRC-NW400, 30° optic disc centered",
+    "resolution": "2576 × 1934 JPEG",
+    "quality": "Two expert disc/cup segmentations; no independent image-quality scale verified",
+    "multivisit": "No — one image per eye in the release",
+    "multimodal": "No other raw imaging; ocular clinical measurements plus segmentations",
+    "multicenter": "Single acquisition hospital, Murcia",
+    "family": "papila",
+    "relation": "版本1/2、剪裁、叠加轮廓或镜像不是新增队列。原作者 Figshare v2 条款与索引 Zenodo/论文条款分开。",
+    "pairing": "ClinicalData/OD、OS 两张表的患者号和年龄与 FundusImages/RETnnnOD/OS.jpg 一一关联。 导入时识别双表头并排除非患者行；以 #nnn（不是工作簿行号）连 RETnnnOD/OS.jpg。",
+    "access": "Open download",
+    "image_access": "作者 Figshare v2 列出 PAPILA.zip",
+    "label_access": "同一包内左右眼各一个临床工作簿，有 ID 年龄性别等。",
+    "license": "GPL 3.0+ (author Figshare v2 record for PAPILA.zip)",
+    "research_terms": "作者要求引用数据描述论文；遵从该数据版本的 GPL 3.0+ 声明。",
+    "commercial_terms": "未见单独非商业条款；具体再分发遵从 Figshare 所列 GPL 3.0+。",
+    "strengths": "公开文件、患者键、双眼完整配对，便于低成本检查年龄建模流程。",
+    "limitations": "单中心、小规模、青光眼/可疑/健康样本，视盘中心构图；仅宜作小型独立域检查。",
+    "experiment": "冻结编码器，按患者预测年龄并报告 244 位患者的 bootstrap CI；比较单眼与双眼平均，不用于结局预测。",
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "每个患者年龄键配两张 CFP。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "视盘中心/单中心与其他数据集的独立域比较。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s4",
+        "在 OD 和 OS 表实检，244位ID年龄齐全、两表一致，15–90岁。"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "性别代码 0 男 1 女。"
+      ],
+      "followup": [
+        "Not available",
+        "s1",
+        "每眼一张 CFP；该包无纵向访视设计。"
+      ],
+      "mortality": [
+        "Not available",
+        "s1",
+        "该发布列出完整临床列，不含死亡。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://www.nature.com/articles/s41597-022-01388-1",
+        "Data Records / Composition: 244 名患者双眼、每眼年龄/性别及临床表、图像尺寸与文件命名。"
+      ],
+      "s2": [
+        "https://api.figshare.com/v2/articles/14798004",
+        "Figshare v2 file/rights API: PAPILA.zip，590857635 bytes；license.name=GPL 3.0+。"
+      ],
+      "s3": [
+        "https://portalinvestigacion.upct.es/documentos/668fc47cb9e7c03b01bdee3a",
+        "作者机构馆藏：两版 DOI，v2 GPL 3.0+，要求优先引用数据描述论文。"
+      ],
+      "s4": [
+        "https://ndownloader.figshare.com/files/35013982",
+        "Figshare v2 ZIP 中央目录 + ClinicalData/patient_data_od.xlsx, patient_data_os.xlsx：每表244个唯一#nnn，实足年龄15–90，两眼年龄逐人一致；两表共488个键全可对应 FundusImages/RETnnnOD/OS.jpg。"
+      ]
+    },
+    "dataset_doi": "10.6084/m9.figshare.14798004.v2",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://api.figshare.com/v2/articles/14798004/versions/2"
+  },
+  {
+    "id": "grape",
+    "name": "Glaucoma Real-world Appraisal Progression Ensemble (GRAPE)",
+    "official_url": "https://doi.org/10.6084/m9.figshare.c.6406319",
+    "access_url": "https://doi.org/10.6084/m9.figshare.c.6406319",
+    "country": "China",
+    "institution": "Eye Center, Second Affiliated Hospital of Zhejiang University, Hangzhou",
+    "year": "2023",
+    "doi": "10.1038/s41597-023-02424-4",
+    "citation": "Huang X, Kong X, Shen Z, et al. GRAPE: A multi-modal dataset of longitudinal follow-up visual field and fundus images for glaucoma management. Scientific Data 10:520 (2023).",
+    "modalities": "Color fundus photography; visual fields; OCT-derived RNFL thickness (no raw OCT payload listed)",
+    "images": "631 original CFP; 1,115 eye visits; additional 631 ROIs + 631 overlays are derivatives",
+    "participants": "144 glaucoma patients (263 eyes); complete serial-CFP subset Unknown",
+    "eyes": "Both eye lateralities; not all subjects have two eligible eyes",
+    "device": "Topcon TRC-NW8, Canon CR-2 PLUS AF and CR-2 AF; Cirrus HD-OCT 5000 for RNFL",
+    "resolution": "CFP by camera 1556², 2136², 1611²",
+    "quality": "Poor quality excluded; one best photo per eye/visit retained",
+    "multivisit": "Yes — 3–9 visits per eye; adjacent visits >5 months, not all with CFP",
+    "multimodal": "Yes as CFP + VF + baseline OCT thickness; raw OCT not listed",
+    "multicenter": "One Zhejiang University clinical collection; three CFP cameras",
+    "family": "grape",
+    "relation": "每张原图对应 ROI、标注图及 JSON；这些衍生文件勿重复入组。",
+    "pairing": "原始 CFP 名=Subject Number_Laterality_Visit Number；Baseline 有年龄/性别，Follow-up 有 Interval Years；标记 / 表示该次缺 CFP/OCT。后续年龄应注明为基线年龄加访视间隔。",
+    "access": "Open download",
+    "image_access": "Figshare CFP component (CFPs.rar); public file listed",
+    "label_access": "Figshare VF and clinical information.xlsx (public component)",
+    "license": "CC0 1.0 on original CFP and clinical spreadsheet components (each independently verified)",
+    "research_terms": "Figshare 将原始 CFP 和临床工作簿分别标为 CC0。按论文及组件 DOI 引用，其他组件单独核对。",
+    "commercial_terms": "这两种组件以 CC0 发布，未另列 NC 限制。",
+    "strengths": "影像、眼别、访视与年龄及随访间隔具备明确关联键；三种相机。",
+    "limitations": "基线均为青光眼，且原图只覆盖部分访视；1115 不能用作图像数或可做纵向比较的受试者数。",
+    "experiment": "核算同眼两次及以上 CFP 的患者数和时间间隔，先验证年龄残差受青光眼进展/相机切换影响程度。",
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "基线年龄+眼别和访视时间间隔能够关联部分原始图。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "单中心多设备及视野/基线 RNFL，适合表征和设备域试验。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "基线实际年龄；后续访视记相对年数。"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "Baseline.Gender"
+      ],
+      "followup": [
+        "Confirmed",
+        "s1",
+        "Follow-up.Interval Years，CFP 仅部分访视可得。"
+      ],
+      "mortality": [
+        "Not available",
+        "s1",
+        "公开临床工作簿字段列表不含死亡。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://www.nature.com/articles/s41597-023-02424-4",
+        "Methods / CFP / Data Records / Table 2: 631 CFP、144人263眼1115访视，CFP和临床表键、缺失标记、各相机分辨率。"
+      ],
+      "s2": [
+        "https://api.figshare.com/v2/articles/23575926",
+        "原图独立组件 metadata: CFPs.rar，许可 CC0。"
+      ],
+      "s3": [
+        "https://api.figshare.com/v2/articles/23674350",
+        "患者访视组件 metadata: VF and clinical information.xlsx，许可 CC0。"
+      ]
+    },
+    "dataset_doi": "10.6084/m9.figshare.c.6406319",
+    "terms_scope": "component-specific",
+    "terms_evidence_url": "https://api.figshare.com/v2/articles/23575926"
+  },
+  {
+    "country": "United States",
+    "institution": "Department of Ophthalmology, Harvard Medical School / Massachusetts Eye and Ear",
+    "access": "Open download",
+    "license": "CC BY-NC-ND 4.0 (dataset files)",
+    "research_terms": "仅非商业科研；禁止临床决策与患者诊疗用途。",
+    "commercial_terms": "禁止商业使用。",
+    "id": "fairvlmed",
+    "name": "Harvard-FairVLMed",
+    "official_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
+    "access_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
+    "year": "2024",
+    "doi": "10.1109/CVPR52733.2024.01168",
+    "citation": "Luo Y et al. FairCLIP: Harnessing Fairness in Vision-Language Learning. Proceedings of CVPR (2024), 12289–12301.",
+    "modalities": "Scanning laser ophthalmoscopy (SLO fundus) + notes + visual fields",
+    "images": "10,000 SLO fundus images",
+    "participants": "10,000 subjects, one sample each",
+    "eyes": "One SLO per participant; bilateral pairing not available",
+    "multimodal": "Yes — SLO + notes + visual field indices",
+    "multivisit": "No — one released sample per subject",
+    "family": "fairvlmed",
+    "relation": "Harvard Ophthalmology AI 系列；与 Harvard-FairVision 等的患者重叠未经核准，不能自动作跨库独立测试。",
+    "pairing": "每名患者一个 data_xxxxx.npz；slo_fundus、age、gender、MD/TD、glaucoma、note 按同一文件键关联；原始文书或 note_extra 可直接泄漏年龄。",
+    "image_access": "作者 Hugging Face/项目说明提供 NPZ 图像。",
+    "label_access": "相同 NPZ 和作者元数据字段有年龄/性别、青光眼，原始文本非独立系统疾病诊断。",
+    "strengths": "一人一例、作者划分，足以比较不同人口学组的年龄误差，且允许图像-文本公平性研究。",
+    "limitations": "若预测年龄需屏蔽文本和人口学输入；临床笔记中偶发神经疾病提及无系统结局判定。",
+    "experiment": "严格纯影像冻结年龄头，按患者预置 7000/1000/2000 分割报告分组校准；分别评估 SLO 相对 CFP 迁移。",
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "每名患者 SLO 样本内附年龄。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "SLO/视觉语言多模态与公平性基准。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "每 NPZ 的 age。"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "作者列为 gender 字段，非独立核实的生理性别。"
+      ],
+      "followup": [
+        "Not available",
+        "s1",
+        "每人一个样本。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
+        "Dataset Details / Data Fields / Uses: 每人1个NPZ、年龄/性别/文本等键，许可；数据浏览可见年龄区间约8.95–99.8。"
+      ],
+      "s2": [
+        "https://github.com/Harvard-Ophthalmology-AI-Lab/FairCLIP",
+        "Dataset: 10,000 独立受试者、7k/1k/2k 划分，CC BY-NC-ND；原始临床笔记与总结。"
+      ],
+      "s3": [
+        "https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_FairCLIP_Harnessing_Fairness_in_Vision-Language_Learning_CVPR_2024_paper.pdf",
+        "Original paper Table 1 / methodology：SLO 与临床笔记、VF及公平性。"
+      ]
+    },
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed"
+  },
+  {
+    "country": "United States",
+    "institution": "Department of Ophthalmology, Harvard Medical School / Massachusetts Eye and Ear",
+    "access": "Open download",
+    "license": "CC BY-NC-ND 4.0 (dataset files)",
+    "research_terms": "仅非商业科研；禁止临床决策与患者诊疗用途。",
+    "commercial_terms": "禁止商业使用。",
+    "id": "harvard_fairvision",
+    "name": "Harvard-FairVision (30K)",
+    "official_url": "https://huggingface.co/datasets/harvardairobotics/FairVision",
+    "access_url": "https://huggingface.co/datasets/harvardairobotics/FairVision",
+    "year": "2024 (author citation/preprint version)",
+    "citation": "Luo Y et al. FairVision: Equitable Deep Learning for Eye Disease Screening via Fair Identity Scaling. arXiv:2310.02492 (author-cited 2024 version).",
+    "doi": "10.48550/arXiv.2310.02492",
+    "modalities": "SLO fundus + paired volumetric OCT",
+    "images": "30,000 SLO and 30,000 paired OCT samples (one pair per source-reported subject); B-scans within volumes not new subjects",
+    "participants": "30,000 source-reported subjects; 10,000 per AMD/DR/glaucoma subset",
+    "eyes": "One paired SLO/OCT sample per subject; DR study explicitly same eye/visit",
+    "resolution": "SLO 512×664 or 200×200 NPZ; OCT volume 200×200×200 glaucoma, 128×200×200 AMD/DR",
+    "multivisit": "No — one paired sample per subject",
+    "multimodal": "Yes — paired SLO + volumetric OCT",
+    "multicenter": "MEE clinical resource; no independent center split demonstrated",
+    "family": "harvard_fairvision",
+    "relation": "Harvard 3 个疾病子集；与 FairVLMed/其他 Harvard 版本的患者独立性未知；保留发布内官方划分。",
+    "pairing": "按疾病目录和文件 ID 连接各 data_summary_*.csv 的年龄与 NPZ 里的 slo_fundus 和 oct_bscans；同一编号在不同疾病目录不能当作同一患者键。",
+    "image_access": "作者发布提供 SLO 与 OCT B-scan NPZ；体积大，可先核对单组件可行性。",
+    "label_access": "作者数据卡逐疾病元数据含年龄等人口学，NPZ 含眼病分级；未证实系统疾病结局。",
+    "strengths": "实配的 SLO、OCT 与逐人年龄，支持相同人的跨模态年龄回归；作者允许非商业科研。",
+    "limitations": "AMD/糖网病/青光眼子集反映临床就诊选择；同源人群泄漏须在外部验证前审计；DR 标签不可替代糖尿病病史。",
+    "experiment": "比较同一患者 SLO、OCT 和融合的年龄 MAE；按疾病子集和年龄层汇报校准；跨域测试采用外机构队列。",
+    "topics": {
+      "A": [
+        1,
+        "s1",
+        "每人年龄 + SLO/OCT 对。"
+      ],
+      "G": [
+        3,
+        "s2",
+        "多模态/公平性辅助训练和验证；不能冒称真实多中心。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s1",
+        "每疾病 data_summary 文件均载年龄。"
+      ],
+      "sex": [
+        "Confirmed",
+        "s1",
+        "个体 gender/male 字段。"
+      ],
+      "diabetes": [
+        "Uncertain",
+        "s1",
+        "发布的是 DR 眼病分级；所有子集的系统糖尿病状态未核实。"
+      ],
+      "followup": [
+        "Not available",
+        "s2",
+        "作者声明每人一个 SLO 与一个 OCT 样本。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://huggingface.co/datasets/harvardairobotics/FairVision",
+        "Dataset Structure / Data Fields：三个疾病子集、按文件元数据年龄、SLO+OCT尺寸、许可及限制。"
+      ],
+      "s2": [
+        "https://github.com/Harvard-Ophthalmology-AI-Lab/FairVision",
+        "Dataset: one SLO + one OCT sample per person; 30K subjects, three disease subsets; non-commercial research only."
+      ],
+      "s3": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12227025/",
+        "Harvard-FairVision30k subsection：DR analysis 的 MEE 子集 10,000 人，SLO 与 OCT 同一眼/访视。"
+      ],
+      "s4": [
+        "https://arxiv.org/abs/2310.02492",
+        "原始预印本，FairVision 队列和融合数据来源。"
+      ]
+    },
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://huggingface.co/datasets/harvardairobotics/FairVision"
+  },
+  {
+    "id": "ext-mcfi",
+    "name": "MCFI: A Multi-Session Colored Fundus Image Dataset",
+    "country": "Bangladesh",
+    "institution": "University of Rajshahi",
+    "year": "2026 (Mendeley Data v1, 24 September)",
+    "doi": "Unknown",
+    "citation": "Biswas S, Khan MIA, Choudhury ZZ, et al. MCFI: A Multi-Session Colored Fundus Image Dataset (v1). Mendeley Data, 2026. DOI is for the deposit; associated journal paper Unknown.",
+    "official_url": "https://data.mendeley.com/datasets/stskv6zjt9/1",
+    "access_url": "https://data.mendeley.com/datasets/stskv6zjt9/1",
+    "modalities": "Color fundus photography",
+    "images": "442 color distinct JPEG filenames across 84 participant-dates; OD 214, OS 228",
+    "participants": "37 participants; 37 have repeat images from the same eye at ≥2 dates; 11 participants have any-eye first-to-last span ≥180 days, 7 ≥365 days",
+    "eyes": "OD and OS in archive; not every subject has both eyes",
+    "device": "NFC-700 Automatic Non-Mydriatic Retinal Camera, 45°",
+    "resolution": "3072 × 3072 JPEG (depositor)",
+    "quality": "Camera-operator notes in participant file; no complete per-image quality grade verified",
+    "multivisit": "Yes — 33 participants with 2 dates, 2 with 3, 1 with 5 and 1 with 7; observed spans min/median/max 1/35/1229 days",
+    "multimodal": "No additional imaging modality identified",
+    "multicenter": "Single source — University of Rajshahi",
+    "family": "MCFI (Rajshahi)",
+    "relation": "Version v1 primary deposit; no match to superordinate EyeDataHub v0.7.0 family located.",
+    "pairing": "MCFI_Dataset/metadata.xlsx（仓储文字写作 metadata.csv）中 ID 保留前导零，与 JPEG 的 participant ID 一致。实际37/37人的首末日期、日期数、图片数均与文件名重算匹配。年龄表为首次会话整岁10–69，若需访视年龄可用出生日期和成像日期计算；逐访视年龄需标明派生定义。影像获取期2022-09-18 至2026-04-20。",
+    "access": "Open download",
+    "image_access": "作者公开 ZIP。核验了 目录结构、工作簿和 JPEG 文件名；未检查每张图的像素或全包哈希。",
+    "label_access": "同包内 metadata.xlsx。有患者键、首次年龄、出生日期、首次/末次会话和自报健康；仅汇总字段信息编入资源库。",
+    "license": "CC BY 4.0",
+    "research_terms": "按 Mendeley Data v1 记录署名。",
+    "commercial_terms": "CC BY 4.0 无 NC 条款；具体使用遵循许可。",
+    "strengths": "在小样本内，明确区分同日多张照片与不同日期随访；每位患者至少同眼跨日成像。",
+    "limitations": "样本 37 人，33 人仅2次，随访跨度中位 35 天；单中心单设备。自报慢病字段稀疏，空白不能作阴性。",
+    "experiment": "按同一眼同日重复 vs 同眼跨日图像分组，估计特征稳定性与年龄误差；患者级 bootstrap；不以短期年龄差解释生理衰老速度。",
+    "topics": {
+      "A": [
+        1,
+        "s3",
+        "37个 ID 可连接年龄与有日历日期的实际 JPEG。"
+      ],
+      "F": [
+        1,
+        "s3",
+        "同一个体有自报的糖尿病/心脏病/高血压病程列，但仅3/3/4个非空值，限描述。"
+      ],
+      "G": [
+        3,
+        "s1",
+        "单设备，适合独立小样本或跨会话稳定性检查。"
+      ]
+    },
+    "phenotypes": {
+      "age": [
+        "Confirmed",
+        "s3",
+        "Age at First Session 为首次整数岁，37/37可用（10–69）；可按日期派生后续实足年龄。"
+      ],
+      "sex": [
+        "Confirmed",
+        "s3",
+        "Gender，37/37非空。"
+      ],
+      "diabetes": [
+        "Confirmed",
+        "s3",
+        "Diabetes (years)，自报，3/37非空；空白意义未知。"
+      ],
+      "hypertension": [
+        "Confirmed",
+        "s3",
+        "Hypertension (years)，自报，4/37非空。"
+      ],
+      "cardiovascular": [
+        "Confirmed",
+        "s3",
+        "Heart Disease (years)，自报，3/37非空，不适合监督验证。"
+      ],
+      "health": [
+        "Confirmed",
+        "s3",
+        "治疗、症状及部分自报健康项目，缺失较多。"
+      ],
+      "mortality": [
+        "Not available",
+        "s3",
+        "工作簿不含死亡终点。"
+      ],
+      "followup": [
+        "Confirmed",
+        "s3",
+        "84 个患者-拍摄日期；文件名和工作簿首末日期/访视数相符。"
+      ]
+    },
+    "sources": {
+      "s1": [
+        "https://data.mendeley.com/datasets/stskv6zjt9/1",
+        "Description/Licence：37人、84次、442图，采集设备、日期命名、单中心、CC BY 4.0。"
+      ],
+      "s2": [
+        "https://data.mendeley.com/public-api/datasets/stskv6zjt9/files?folder_id=root&version=1",
+        "Mendeley v1 files API lists MCFI_Dataset.zip，584213028 bytes, reported SHA256 ed51d6ea8a2f13c2c0fe359eb0c579ab3d34fe59b88cbffb3852edc86fc8214c。"
+      ],
+      "s3": [
+        "https://data.mendeley.com/public-files/datasets/stskv6zjt9/files/50d1ef9d-ffe7-475d-b9eb-285565fc141d/file_downloaded",
+        "v1 ZIP central directory + metadata.xlsx sheet 'metadata'（仅读公开目录与表，不分发受试者行）：按(ID,YYYYMMDD)而非图片计访视；37个表 ID 与文件 ID 全匹配。年龄10–69、84会话、37人全部同眼跨日至少两次。首末拍摄跨度1/35/1229天(min/median/max)。"
+      ]
+    },
+    "dataset_doi": "10.17632/stskv6zjt9.1",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://data.mendeley.com/datasets/stskv6zjt9/1"
+  }
+]

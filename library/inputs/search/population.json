@@ -1,0 +1,272 @@
+[
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "UK Biobank retinal fundus photographs OCT brain MRI stroke dementia mortality retinal age gap data access UK biobank category field ID",
+    "result": "Showcase category 725 exposes separate CFP/OCT bulk field IDs; not overlap counts.",
+    "url": "https://biobank.ndph.ox.ac.uk/ukb/label.cgi?id=725"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "retinal photographs UK Biobank total participants 68 000 images retinal fundus eye images field 21015 21016 participant counts repeated instance 2025",
+    "result": "Eye-specific Aug 2025 item counts and acquisition instances; 2009–2010 baseline gradeable participants verified from separate published retinal grading analysis.",
+    "url": "https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=21015"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "UK Biobank retinal age gap incident stroke risk retinal age gap mortality dementia retinal thickness brain MRI white matter hyperintensity UK Biobank paired participants",
+    "result": "Published eye–stroke and mortality analyses; sample sizes refer to QC-selected individuals.",
+    "url": "https://www.ukbiobank.ac.uk/publications/retinal-age-gap-as-a-predictive-biomarker-of-stroke-risk/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "UK Biobank eye imaging retinal structures cognitive function brain MRI cross-sectional repeat imaging thickness UK Biobank n brain early dementia cohort profile BMJ 2023 ocular MRI WMH",
+    "result": "Direct published OCT/brain MRI overlap found. Future invite numbers in cohort profile do not measure actual paired overlap.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33369822/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "site:pubmed.ncbi.nlm.nih.gov UK Biobank retinal layer Alzheimer disease specific dementia UK Biobank OCT retinal incident Alzheimer's disease UK Biobank dementia cohort incident AD individual",
+    "result": "Direct OCT–AD/FTD evidence. Excluded a prediction-of-AD-risk-factors paper as proof of AD diagnosis labels.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39868381/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "UK Biobank frailty retinal age fundus photographs frailty retinal age gap UK Biobank cohort retinal age frailty PubMed",
+    "result": "UKB retinal study used a study-constructed frailty index; it cannot provide gold-standard biological age.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42837054/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "UK Biobank access apply data researcher research analysis platform data only MTA international fee researcher UK Biobank official",
+    "result": "New application intake explicitly paused; late-2026 target not evidence that access reopened.",
+    "url": "https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "UK Biobank eligibility temporarily restrictions China mainland applications data research platform China 2026 ukbiobank public November 2026",
+    "result": "26 October 2026 parliamentary response addresses phased reopening; use live UKB site for new applications.",
+    "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-20/hl4353"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "NHANES 2005 2008 retinal photographs raw images download RDC ophthalmology digital images available ophthalmology DICOM SEQN mortality files stroke",
+    "result": "Official OPXRET_D/E data tables and image protocol. No confirmed raw-pixel access route.",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/OPXRET_D.htm"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "NHANES retinal images TIFF available purchase DVD NHANES fundus photographs download raw retinal images CDC NHANES OPXRET images researcher request",
+    "result": "CCD/TIFF generation & shipment to reading centre is not evidence of publicly distributed research images. XPT grading tables found.",
+    "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2007/manuals/manual_op.pdf"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "NHANES original ophthalmology retinal images photographs tiff download ftp CDC original image files 2005 2008 public retinal images available request hard drive",
+    "result": "CDC FTP X-ray TIFFs are not retina; excluded from imaging access claims.",
+    "url": "https://ftp.cdc.gov/pub/NHANES/XRays/Nhanes2/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "NHANES 2005 2006 MCQ160F MCQ180F stroke asked how old first told stroke survey medical conditions CDC",
+    "result": "Self-reported any stroke and age first told; no subtype or exact event date in these items.",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/MCQ_D.htm"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "NHANES NCHS public use linked mortality files 2019 2005-06 SEQN public 2022 linked mortality files NHANES NCHS official stroke MCQ160f age first stroke MCQ180F",
+    "result": "Official cycle-specific public LMF identified; limited cause variables and protected dates.",
+    "url": "https://ftp.cdc.gov/pub/health_statistics/nchs/datalinkage/linked_mortality/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "美国 NHANES III 眼底照片 认知 脑卒中 第三次全国健康营养调查 National Health and Nutrition Examination Survey III retinopathy cognitive function data fundus cognitive dementia",
+    "result": "CDC lists standard cognitive battery cycles outside OPXRET_D/E years. Vision-loss NHANES 1999–2002 and NHATS visual acuity are not proof of a matched fundus/cognitive dataset.",
+    "url": "https://www.cdc.gov/healthy-aging-data/nhanes/index.html"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "NHANES III retinopathy cognitive impairment 1988 1994 retinal photos cognitive brain outcomes aged US fundus mortality linked stroke NHANES III PubMed",
+    "result": "Distinct NHANES III one-eye protocol. 7,640 adults in retinopathy/mortality study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24656452/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "ARIC retinal microvascular abnormalities incident lacunar stroke white matter lesions dementia 20 years photos brain MRI ARIC PubMed",
+    "result": "Paired retina/MRI, MRI infarcts and prospective stroke; the 1,684 paired participants are not parent cohort size.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12090864/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "ARIC study retinopathy risk dementia 20-year cognitive decline retinal signs ARIC visit3 dementia PubMed retinopathy clinical stroke subtypes ARIC retinal",
+    "result": "ARIC visit 5 included retinal + cognitive clinical classification. Separate longitudinal cognitive battery.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30706941/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "ARIC BioLINCC eye retinal photographs derived data coordinating center ancillary procedures raw image request ARIC",
+    "result": "Visit 7 ancillary dictionary identifies scrambled visit IDs and eye/image quality flags; does not verify raw pixels in standard release.",
+    "url": "https://biolincc.nhlbi.nih.gov/studies/aric/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "MESA eye fundus images data access raw image files retinal photographs MESA data use ancillary images request MESA coordinating data",
+    "result": "Official policies distinguish routine data release from new image-derived data and ancillary study request.",
+    "url": "https://mesa-nhlbi.org/researchers/ancillary"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "Retinopathy risk stroke Multi-Ethnic Study of Atherosclerosis MESA stroke retinal photographic visit 2 retinopathy incident stroke risk PubMed",
+    "result": "4,849 documented CFP participants, 62 subsequent strokes over 6 years.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23111439/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "Multi ethnic study retinal fundus brain MRI cerebral microbleeds retinal vessel fundus MESA paired retinal images brain MRI WMH MESA ocular arteriolar white matter brain MRI",
+    "result": "Direct MESA NC eye/MRI overlap; MRI biomarker study does not turn every person into an AD-labelled case.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37828734/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "眼底 视网膜 微血管 脑卒中 脑白质高信号 认知衰退 ARIC MESA Rotterdam AGES 队列 data",
+    "result": "MESA repeat retinal vessel caliber + exam-5 cognition in primary article; independent of NC MRI variable coverage.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38374377/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "Cardiovascular Health Study retinal photographs incident stroke white matter MRI retina cognition data access BioLINCC ancillary retinal photography",
+    "result": "1,717 individuals with retina and MRI, BioLINCC request route; raw pixels unverified.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17041135/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "Cardiovascular Health Study retinal microvascular signs incident stroke coronary heart disease elderly retinopathy dementia cognitive impairment CHS retinal photography PMID",
+    "result": "Cognitive tests and adjudicated dementia; retina linked to CHD/stroke in companion paper.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17525385/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "Framingham Offspring study retinal photography retinal vessel brain MRI white matter fundus Framingham Heart Study eye retinal images OPtical coherence access dbGaP stroke Framingham eye study cohort photography",
+    "result": "Offspring exam-7 brain MRI found. Excluded as proof of pairing to the ORIGINAL FES fundus sample because the arm differs.",
+    "url": "https://dbgap.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000056.v2.p1"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "Framingham cohort eye study fundus retinal photographs macular photographs Framingham stroke dementia FES macular photos 1986 1989 participant age data dictionary dbgap",
+    "result": "Original FES II retinal photography, graded forms and link to prior eye exam. No raw digitized image manifest identified.",
+    "url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?phd=952&study_id=phs000007.v20.p8"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "AGES Reykjavik Study retinal photographs brain MRI cerebral microbleeds white matter hyperintensities dementia diagnosis fundus images cohort AGES data access Reykjavik BioLINCC NHLBI",
+    "result": "3,906 in cross-sectional retina/microbleeds/dementia analysis; separate study confirms 2,502 with baseline CFP and two MRIs.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21172845/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "AGES Reykjavik retinal photographs stroke Iceland incident stroke mortality cerebral microbleeds dementia retinal age distribution fundus data access Icelandic Heart Association AGES apply",
+    "result": "Retinal phenotype–mortality analysis with prior stroke. No incident clinical stroke type/date established.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27067925/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "AGES Reykjavik Icelandic Heart Association study data access collaboration AGES cohort official hjarta.is Iceland National Institute on Aging study repository AGES Reykjavik data request NHLBI dbgap",
+    "result": "Recent paper gives AGES IHA collaboration/DUA contact; file-specific pixel access unverified.",
+    "url": "https://www.nature.com/articles/s41467-026-72957-w"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "BioLINCC access countries of concern China abroad data access BioLINCC NHLBI de-identified data Foreign Adversary Countries of Concern restricted mainland China MESA ARIC CHS data access international researchers mainland",
+    "result": "Official BioLINCC international requester FAQ explicitly applies prohibition for countries of concern.",
+    "url": "https://biolincc.nhlbi.nih.gov/faq/"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "中国 国外 队列 NHLBI BioLINCC 中国 数据 access China countries of concern BioLINCC clinical data China researcher approved licensed",
+    "result": "NIH controlled-access policy lists China including Hong Kong/Macau, others; not a public-file restriction. Formal route and applicant eligibility must be distinguished.",
+    "url": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-083.html"
+  },
+  {
+    "source": "Web search (PubMed, official repository, or primary publication screening)",
+    "query": "\"PMC10916935\" \"white matter hyperintensity\" retinal WMH MRI MESA Ong table",
+    "result": "Further high-priority leads: 3C-Dijon directly reports earlier MRI and later fundus with reverse temporal ordering for prediction. EDIS, LBC1936, SABRE, WIHS mentioned; individual custodian/permissions not audited in this search. Do not pool with ALIENOR/Bordeaux.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12539934/"
+  },
+  {
+    "source": "Europe PMC REST",
+    "query": "(EXT_ID:37828734 OR EXT_ID:20519327 OR EXT_ID:30706941 OR EXT_ID:33369822 OR EXT_ID:35042683 OR EXT_ID:23111439 OR EXT_ID:17041135 OR EXT_ID:141882) AND SRC:MED",
+    "result": "Europe PMC REST returned service-level errCode 503. Used PubMed, primary journal and study/NIH pages. No records inferred from that failed query.",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  },
+  {
+    "source": "Web search, primary study and official repository",
+    "query": "raw fundus retinal photographs cerebral small vessel disease public dataset retina brain MRI Lothian Birth cohort SOINN Grand Challenge WMH fundus images public download retinal stroke dataset UK MIRAGE 3C Dijon EDIS dementia public fundus imaging",
+    "result": "Potential lead SCONe located, not curated here. Edinburgh cerebrovascular brain-only bank is not proof of a retinal overlap.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12083377/"
+  },
+  {
+    "source": "Web search, primary repository",
+    "query": "stroke retinal fundus cerebral MRI public dataset fundus photography paired MRI retina stroke Zenodo figshare Dryad ischemic stroke retinal images open database vessel MUMaD",
+    "result": "iCDKP primarily documents MRI/CT, not matched retina; excluded as direct eye–brain source on this evidence.",
+    "url": "https://strokeimaging.wustl.edu/"
+  },
+  {
+    "source": "Web search, Mendeley Data",
+    "query": "'Deep Learning for the Prediction of Uncorrected Refractive Error using OCT' retina anterior segment OCT Mendeley data OCT images refractive error",
+    "result": "Probable exclusion ruled out: actual posterior macula/optic-nerve-head OCT is used despite refractive-error endpoint.",
+    "url": "https://data.mendeley.com/datasets/89z7h5gnpw/2"
+  },
+  {
+    "source": "Figshare API",
+    "query": "GET /v2/articles/{3209908,27907056,30750011,24138420,21197173}; metadata and file inventory only",
+    "result": "CIMT source has fundus ZIP + metadata; two Parkinson releases are workbook-only; AQP4 record only names derived measurements; retinal photoplethysmography includes spatial maps, so not excluded.",
+    "url": "https://api.figshare.com/v2/articles/27907056"
+  },
+  {
+    "source": "Dryad API",
+    "query": "Look up DOI metadata/versions then GET /api/v2/versions/{13516,26369,56701,103316,2585}/files",
+    "result": "Verified SPSS/XLSX-only records, CSV-only nAMD predictor release; separately found electrophysiology/fluorescein/OCT archives or functional OCT archive. No participant files transferred.",
+    "url": "https://datadryad.org/api/v2/versions/103316/files"
+  },
+  {
+    "source": "Zenodo API",
+    "query": "GET /api/records/{20711325,6784358,7777849}",
+    "result": "APTOS release lists masks, COCO, metadata, visualizations; VQA ZIP contents not independently claimed.",
+    "url": "https://zenodo.org/records/20711325"
+  },
+  {
+    "source": "Web search (custodian/primary publication)",
+    "query": "SCONe Scottish community optometry retinal images repository 2025 data access request trustee NHS Scotland safe haven approved datasets eye cardiovascular dementia prospective SCONe existing linked data patient age stroke outcomes what can access research",
+    "result": "Official SCONe/academic clinical office confirm approved team within Safe Haven; no public pixel export.",
+    "url": "https://clinical-sciences.ed.ac.uk/ophthalmology/scone/about-scone"
+  },
+  {
+    "source": "Web search (custodian/primary publication)",
+    "query": "Scottish Collaborative Optometry Ophthalmology Network e-research SCONe fundus images Data Access safe haven eDRIS contact 1 million images dementia link stroke sample eyes repeated devices Scotland cohort governance 2025",
+    "result": "Phase-2 report supersedes acquisition totals but distinguishes ~800,000 linked images from 1,499,677 delivered.",
+    "url": "https://clinical-sciences.ed.ac.uk/scone/news-and-updates"
+  },
+  {
+    "source": "Web search (custodian/primary publication)",
+    "query": "SCONe community acquired retinal image repository cohort stroke history dementia mortality linked health data diagnosis follow-up precise number of codes dementia stroke clinical events baseline DOI Tochel age repeat optometry Scottish 2025",
+    "result": "Table 2 confirms person-level retinal images associated with first dated stroke, AD, dementia, Parkinson and cardiometabolic codes; diagnosed date is a proxy.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12083377/"
+  },
+  {
+    "source": "Web search (custodian/primary publication)",
+    "query": "Lothian Birth Cohort 1936 retinal vascular network cerebral small vessel disease brain MRI retinal images participants LBC1936 hippocampus MRI fundus optic retinal access official data access Lothian Birth Cohorts data request images data sharing",
+    "result": "Custodian data dictionary and proposal/application route confirmed; no standalone raw CFP manifest verified.",
+    "url": "https://lothian-birth-cohorts.ed.ac.uk/data-access-collaboration"
+  },
+  {
+    "source": "Web search (custodian/primary publication)",
+    "query": "\"Retinal microvasculature and cerebral small vessel disease\" Lothian birth cohort mild stroke study participants n LBC1936 2020 DOI retinal photos dementia cognition camera",
+    "result": "Study actually published 2019. n=603 LBC bilateral analyses; 155 recent mild ischemic stroke patients are a different cohort.",
+    "url": "https://www.nature.com/articles/s41598-019-42534-x"
+  },
+  {
+    "source": "Web search (custodian/primary publication)",
+    "query": "Lothian Birth Cohort 1936 retinal vascular parameters cognitive ability childhood age 73 retinal vessel retinal fundus cognitive change LBC1936 retina childhood cognition p Fundus photographs center CR-DGi Canon 73 years",
+    "result": "Published direct retina–cognition analyses of the narrow-age cohort; confirmed repeated cognitive testing without interpreting it as diagnosis of dementia.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31338413/"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "ext-mcfi": {
+    "Age": [
+      "diabetes",
+      "hypertension",
+      "cardiovascular",
+      "health"
+    ]
+  },
+  "ext-chs": {
+    "Neuro": [
+      "followup"
+    ]
+  },
+  "ext-ages-reykjavik": {
+    "Neuro": [
+      "followup"
+    ]
+  }
+}

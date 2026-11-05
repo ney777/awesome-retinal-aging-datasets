@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-11-06",
+  "scope": "Four title-level follow-ups to Kaggle HEAD 404 responses; not full-page or download verification.",
+  "observations": [
+    {
+      "url": "https://www.kaggle.com/c/aptos2019-blindness-detection",
+      "retrieved_page_title": "APTOS 2019 Blindness Detection",
+      "observation": "Web retrieval returned dataset/competition-specific title but no readable page body. HEAD 404 alone is insufficient to classify this dataset as removed.",
+      "download_verified": false
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/paultimothymooney/kermany2018",
+      "retrieved_page_title": "Retinal OCT Images (optical coherence tomography)",
+      "observation": "Web retrieval returned dataset/competition-specific title but no readable page body. HEAD 404 alone is insufficient to classify this dataset as removed.",
+      "download_verified": false
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification",
+      "retrieved_page_title": "Retinal Disease Classification",
+      "observation": "Web retrieval returned dataset/competition-specific title but no readable page body. HEAD 404 alone is insufficient to classify this dataset as removed.",
+      "download_verified": false
+    },
+    {
+      "url": "https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection",
+      "retrieved_page_title": "Generated Eye Dataset for Glaucoma Detection",
+      "observation": "Web retrieval returned dataset/competition-specific title but no readable page body. HEAD 404 alone is insufficient to classify this dataset as removed.",
+      "download_verified": false
+    }
+  ]
+}

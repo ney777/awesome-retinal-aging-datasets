@@ -1,0 +1,297 @@
+{
+  "as_of": "2026-11-06",
+  "repo": ".",
+  "audited_commit": "6451e1aa75bfa9013592a4b9e3056bd1d507ca7c",
+  "read_only": true,
+  "visibility_changed": false,
+  "conclusion": "No confirmed owner credential leak or identifiable patient records found. Publication should first remove the full upstream archive/cache payload from reachable Git history or establish its independent redistribution scope. Source contacts, public study titles and pseudonymous sample filenames are not classified as private patient identifiers.",
+  "scope": {
+    "tracked_files": 597,
+    "git_blobs": 597,
+    "git_blob_bytes": 69168743,
+    "files_scanned": 1349,
+    "uncompressed_bytes_scanned": 185939835,
+    "commits": [
+      {
+        "sha": "6451e1aa75bfa9013592a4b9e3056bd1d507ca7c",
+        "lines": 5
+      }
+    ],
+    "changed_tracked_files": []
+  },
+  "methods": [
+    "Enumerated every reachable Git object across all refs; scanned all 597 unique blobs and compared all tracked worktree files to HEAD.",
+    "Read all 760 regular tar members in memory without extracting into the repository; scanned 185,939,835 uncompressed bytes overall.",
+    "Pattern scans for private keys, AWS/GitHub/model tokens, JWTs, authenticated/signed URLs, credential assignments, user paths, RFC1918 IPs, emails, and direct patient-identifier field names; values not included in this report.",
+    "Additional generic credential-assignment pass found 136 code/template/fixture references; reviewed all 46 non-placeholder heuristic hits. Two Figshare share keys, one duplicated publisher casa_token URL and one source-published Baidu extraction password are separately flagged; no owner account secret confirmed.",
+    "Examined archive schemas, cache descriptions/license fields, sample image metadata, all five local gallery images visually, README claims, and all resource-page overview/sample headings."
+  ],
+  "archive": {
+    "compressed_bytes": 44717463,
+    "files": 760,
+    "uncompressed_bytes": 164507880,
+    "hub_audit_bytes": 152072605,
+    "extension_counts": {
+      ".yml": 8,
+      ".md": 512,
+      "": 3,
+      ".example": 1,
+      ".cff": 1,
+      ".py": 121,
+      ".csv": 35,
+      ".json": 65,
+      ".txt": 2,
+      ".toml": 1,
+      ".ps1": 1,
+      ".js": 3,
+      ".html": 2,
+      ".css": 2,
+      ".jsx": 1,
+      ".png": 1,
+      ".jsonld": 1
+    },
+    "largest_members": [
+      {
+        "path": "EyeDataHub-0.7.0/hub/audit/repository_candidate_details_2026-08-02.json",
+        "bytes": 64731457
+      },
+      {
+        "path": "EyeDataHub-0.7.0/hub/audit/repository_search_candidates_2026-08-02.json",
+        "bytes": 34540369
+      },
+      {
+        "path": "EyeDataHub-0.7.0/hub/audit/repository_search_candidates_2026-08-02.csv",
+        "bytes": 26233065
+      },
+      {
+        "path": "EyeDataHub-0.7.0/hub/audit/repository_screening_ledger_2026-08-02.csv",
+        "bytes": 7493845
+      },
+      {
+        "path": "EyeDataHub-0.7.0/hub/audit/dryad_search_candidates_2026-08-01.json",
+        "bytes": 7032684
+      },
+      {
+        "path": "EyeDataHub-0.7.0/hub/catalog.json",
+        "bytes": 2145613
+      },
+      {
+        "path": "EyeDataHub-0.7.0/website/static/img/eyedatahub-github-banner.png",
+        "bytes": 1676341
+      },
+      {
+        "path": "EyeDataHub-0.7.0/hub/audit/dryad_search_candidates_2026-08-01.csv",
+        "bytes": 1325277
+      },
+      {
+        "path": "EyeDataHub-0.7.0/hub/audit/dryad_model_use_inventory_2026-08-02.json",
+        "bytes": 1246699
+      },
+      {
+        "path": "EyeDataHub-0.7.0/website/static/datasets.json",
+        "bytes": 1136642
+      }
+    ]
+  },
+  "scanner_counts": {
+    "archive": {
+      "private_key": 0,
+      "cloud_key": 0,
+      "github_token": 0,
+      "model_token": 0,
+      "jwt": 0,
+      "credential_assignment": 0,
+      "authenticated_url": 0,
+      "signed_url": 0,
+      "private_path": 4,
+      "private_ip": 14,
+      "email": 537,
+      "direct_identity_key": 30
+    },
+    "git_blob": {
+      "private_key": 0,
+      "cloud_key": 0,
+      "github_token": 0,
+      "model_token": 0,
+      "jwt": 0,
+      "credential_assignment": 0,
+      "authenticated_url": 0,
+      "signed_url": 0,
+      "private_path": 0,
+      "private_ip": 0,
+      "email": 36,
+      "direct_identity_key": 0
+    },
+    "commit_metadata": {
+      "private_key": 0,
+      "cloud_key": 0,
+      "github_token": 0,
+      "model_token": 0,
+      "jwt": 0,
+      "credential_assignment": 0,
+      "authenticated_url": 0,
+      "signed_url": 0,
+      "private_path": 0,
+      "private_ip": 0,
+      "email": 2,
+      "direct_identity_key": 0
+    },
+    "worktree_changed": {
+      "private_key": 0,
+      "cloud_key": 0,
+      "github_token": 0,
+      "model_token": 0,
+      "jwt": 0,
+      "credential_assignment": 0,
+      "authenticated_url": 0,
+      "signed_url": 0,
+      "private_path": 0,
+      "private_ip": 0,
+      "email": 0,
+      "direct_identity_key": 0
+    }
+  },
+  "findings": [
+    {
+      "id": "CONTENT-01",
+      "severity": "High",
+      "file": "library/inputs/EyeDataHub-v0.7.0.tar.gz",
+      "line": null,
+      "related_files": [
+        {
+          "file": "EyeDataHub-0.7.0/hub/audit/repository_candidate_details_2026-08-02.json",
+          "line": 1432292
+        },
+        {
+          "file": "EyeDataHub-0.7.0/hub/audit/repository_candidate_details_2026-08-02.json",
+          "line": 1456390
+        },
+        {
+          "file": "EyeDataHub-0.7.0/LICENSE",
+          "line": 26
+        },
+        {
+          "file": "README.md",
+          "line": 124
+        }
+      ],
+      "evidence": "Archive expands to 164,507,880 bytes; hub/audit occupies 152,072,605 bytes. Candidate details contain 2,755 records (2,155 Kaggle / 319 Figshare / 281 Hugging Face), including unrelated commercial ISO-certification text, self-driving, wind-energy, and lengthy copied descriptions. The file-list field alone serializes about 45.7 MB and descriptions about 3.23 MB, with further duplicates in search JSON/CSV. Source terms include unknown=900, missing=326, other=136 and copyright-authors=27. Upstream LICENSE expressly limits its MIT grant to library code, so that notice alone does not resolve all cached third-party description/file-list permissions. This is an unresolved redistribution/scope issue, not proof of infringement.",
+      "fix": "Before public release, remove the full archive from every reachable public Git commit and remove its build dependency; preserve the pinned upstream URL, commit/tag and SHA256, plus the minimal required reviewed metadata and suitable attribution. A normal deletion in a new commit will not remove the original blob from public history. Alternatively establish separate permission/terms for the entire cache. Update README/archive instructions to the resulting packaging."
+    },
+    {
+      "id": "CONTENT-02",
+      "severity": "Medium",
+      "file": "library/inputs/EyeDataHub-v0.7.0.tar.gz!EyeDataHub-0.7.0/eyedatahub/datasets/fundus_glaucoma.py",
+      "line": 926,
+      "related_files": [
+        {
+          "file": "EyeDataHub-0.7.0/eyedatahub/datasets/uwf_datasets.py",
+          "line": 366
+        }
+      ],
+      "evidence": "Two literal 20-character Figshare share keys occur in upstream dataset helper constants and adjacent /s/ URLs, explicitly described there as private shares for ACRIMA and OculoScope. These appear to be pre-existing resource locators rather than this owner’s API credentials; no token values are reproduced. The audit did not verify whether each share URL is intentionally public or still authorizes a restricted preview.",
+      "fix": "Removing the upstream executable/cache archive removes this redundant exposure. Retain canonical publisher/record URLs in curated entries and verify any remaining share-link publication basis; do not rotate someone else’s keys or label them a confirmed account leak."
+    },
+    {
+      "id": "CONTENT-08",
+      "severity": "Medium",
+      "file": "library/inputs/EyeDataHub-v0.7.0.tar.gz!EyeDataHub-0.7.0/hub/audit/repository_search_candidates_2026-08-02.json",
+      "line": 279664,
+      "related_files": [
+        {
+          "file": "EyeDataHub-0.7.0/hub/audit/repository_search_candidates_2026-08-02.csv",
+          "line": 53873
+        },
+        {
+          "file": "EyeDataHub-0.7.0/hub/audit/repository_candidate_details_2026-08-02.json",
+          "line": 1433658
+        }
+      ],
+      "evidence": "The broader assignment pass found an opaque casa_token query value on a Taylor & Francis article URL copied into metadata (duplicated in JSON/CSV), plus a Baidu NetDisk extraction password inside a public-source description. Values are not reproduced or tested. These may be public sharing/access affordances or expired publisher tokens; ownership and validity are not established. They are not confirmed credentials belonging to this repository owner.",
+      "fix": "Remove the archive from reachable history, or strip these query credentials/access codes from any retained source snapshot and keep canonical DOI/landing links. Do not test the opaque token to establish access."
+    },
+    {
+      "id": "CONTENT-03",
+      "severity": "Low",
+      "file": "commit:6451e1aa75bfa9013592a4b9e3056bd1d507ca7c",
+      "line": 2,
+      "related_files": [
+        {
+          "file": "commit:6451e1aa75bfa9013592a4b9e3056bd1d507ca7c",
+          "line": 3
+        }
+      ],
+      "evidence": "Author and committer metadata contain the owner’s institutional email address (not a GitHub noreply address). This is normal Git attribution and not a secret, but a public repository will expose it regardless of file-level email cleanup. Address omitted from this report.",
+      "fix": "No change required if public institutional attribution is intended. If email exposure is unwanted, rewrite author/committer metadata before publication using the owner’s chosen public/noreply identity."
+    },
+    {
+      "id": "CONTENT-04",
+      "severity": "Info",
+      "file": "library/inputs/EyeDataHub-v0.7.0.tar.gz!EyeDataHub-0.7.0/hub/audit/repository_candidate_details_2026-08-02.json",
+      "line": 1430176,
+      "evidence": "One /home-style path occurs inside a publicly copied self-driving tutorial; the other three apparent home paths are normal GTEx/ArcGIS URL paths. Fourteen RFC1918 IP matches belong to described cybersecurity lab/emulation networks, duplicated in cache JSON/CSV. None identified the owner’s workstation, internal server or study infrastructure.",
+      "fix": "No privacy-driven redaction of study metadata is required for these false positives; the archive-removal recommendation independently removes this irrelevant material."
+    },
+    {
+      "id": "CONTENT-05",
+      "severity": "Info",
+      "file": "assets/examples/manifest.json",
+      "line": 1,
+      "evidence": "All five local sample assets visually contain eye images/figure panels without visible patient names, faces or text identifiers. No PNG text/EXIF metadata in gallery PNGs and no JPEG XMP found. OCTDL has an EXIF IFD containing only orientation tag 0x0112; no name, date, GPS or author field found. Filename/subject/laterality identifiers are provenance/pseudonymous keys rather than demonstrated real-person identity. Existing public sample labels alone are not a new clinical spreadsheet.",
+      "fix": "Retain hashes and attribution; no image transformation or privacy redaction indicated by this inspection. Do not extrapolate this result to the source datasets."
+    },
+    {
+      "id": "CONTENT-06",
+      "severity": "Info",
+      "file": "README.md",
+      "line": 47,
+      "related_files": [
+        {
+          "file": "README.zh-CN.md",
+          "line": 5
+        },
+        {
+          "file": "datasets/parkinsons_directional_oct.md",
+          "line": 139
+        }
+      ],
+      "evidence": "All 479 cards have nonempty Overview and Examples and previews sections; official_url and access_url are populated for all 479. Twenty-eight extension records have frozen description=Unknown, but their current reviewed overview is present. Cards without local examples explicitly state availability is Unknown and link an official source. The English example/source-entry promise is supported as a link promise, not a guarantee of downloadable image previews. The 244 excluded names were screened; disease, childhood and ethnicity terms are ordinary public scientific descriptions, not grounds for suppression and not patient identities.",
+      "fix": "No blocking wording defect found. Keep the existing Unknown/local-example limitations and avoid upgrading official source links into verified image-preview claims."
+    },
+    {
+      "id": "CONTENT-07",
+      "severity": "Info",
+      "file": "library/inputs/v0.7.0/CITATION.cff",
+      "line": 17,
+      "related_files": [
+        {
+          "file": "datasets/ext-rotterdam-study.md",
+          "line": 71
+        },
+        {
+          "file": "datasets/ext-nicola.md",
+          "line": 71
+        }
+      ],
+      "evidence": "Non-archive email matches are academic authors, upstream project attribution and official study/application contacts, repeated in CSV/SQLite/HTML outputs. The archive has additional author/contact and commercial-cache addresses. These were not classified as patient emails or owner credentials.",
+      "fix": "Retain source-backed academic/contact details where necessary; avoid republishing unrelated commercial-cache contacts by removing the archive."
+    }
+  ],
+  "negative_checks": {
+    "confirmed_private_keys": 0,
+    "confirmed_account_api_secrets": 0,
+    "confirmed_owner_private_paths_or_hosts": 0,
+    "confirmed_patient_names_dob_or_contact_records": 0,
+    "archive_standalone_media_files": [
+      "EyeDataHub-0.7.0/website/static/img/eyedatahub-github-banner.png"
+    ],
+    "archive_inline_data_image_result": "One data:image base64 occurrence is a code-format placeholder {mask_base64}, not embedded image bytes; 118 descriptions include remote image markup, which is not local media payload."
+  },
+  "limits": [
+    "No credential-validation attempts, account access, actual image downloads or visibility changes were performed.",
+    "Pattern-based secret and identifier scans plus contextual review do not prove absence of arbitrary unknown-format secrets or all possible privacy risk.",
+    "A source being public does not itself resolve third-party licensing or patient consent; no legal conclusion is asserted.",
+    "The audit covers the named commit and identical tracked worktree at time of inspection, not future edits.",
+    "Initial known-token regex counters do not include the separately reviewed opaque share/CASA/extraction-code findings; zero pattern hits must not be interpreted as zero access-bearing strings."
+  ]
+}
