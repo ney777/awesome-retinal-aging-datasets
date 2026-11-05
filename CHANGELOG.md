@@ -4,7 +4,7 @@
 
 - Minimized sample provenance metadata: omitted source member names containing study/patient codes or precise acquisition timestamps while retaining provider releases, licenses and image SHA-256 hashes. No image pixels were modified.
 - Added a publication guard against tracked credentials, local backups, full upstream archives and high-confidence secret patterns. Pattern checks do not certify clinical anonymization.
-- Prepared a clean root for the existing repository, retaining the original history only in a local private backup. Remote execution and server-retention checks are recorded in [publication safety](audit/2026-11-06/PUBLICATION_SAFETY.md); this entry does not claim that all GitHub caches have been purged.
+- Replaced main in the existing repository with a clean root and retained an intentional local private backup. A subsequent authenticated probe showed that GitHub still serves the old commit and sample manifest. Remote execution and server-retention checks are recorded in [publication safety](audit/2026-11-06/PUBLICATION_SAFETY.md); this entry does not claim that all GitHub caches have been purged.
 
 ## 0.1.1 — 2026-11-06 (public-release review)
 
